@@ -1,0 +1,12 @@
+{
+  "task_id": "T8",
+  "task_sha256": "10727e0e6382172898d4aceec124a3734e41b18cf230d952dc95ef7f539828bd",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": null,
+  "effort": "max",
+  "status": "error",
+  "started_utc": "2026-07-13T12:46:27.737032+00:00",
+  "elapsed_seconds": 902.1506536509842,
+  "output_text": "",
+  "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+}

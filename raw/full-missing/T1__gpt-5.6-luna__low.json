@@ -1,0 +1,115 @@
+{
+  "task_id": "T1",
+  "task_sha256": "14ec8cce77bdd196f6520f95e2a9ac7d973f99fd5cd5358151d4d1b4242b0a7f",
+  "model_requested": "gpt-5.6-luna",
+  "model_returned": "gpt-5.6-luna",
+  "effort": "low",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:24.686741+00:00",
+  "elapsed_seconds": 38.26765904703643,
+  "time_to_first_visible_text_seconds": 11.343682807055302,
+  "usage": {
+    "input_tokens": 892,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 2011,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 2903
+  },
+  "input_tokens": 892,
+  "output_tokens": 2011,
+  "reasoning_tokens": 516,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.012958,
+  "output_text": "## 1. Lesson-by-lesson sequence\n\n| Lesson | Scheduled day/period | Content statement addressed | Lesson type | Brief activity |\n|---|---|---|---|---|\n| 1 | Monday P2 | C1 | Theory | Students analyse simple system representations and define a model as a simplified representation used to explain or predict behaviour. |\n| 2 | Tuesday P4 | C2 | Theory | Students classify examples of energy transfer as heat, light, motion or electric current. |\n| 3 | Wednesday P1 | C3 | Theory | Students use circuit diagrams and physical examples to identify a continuous path, source and load. |\n| 4 | Thursday P3 | C3, C4 | Practical | In groups, students construct and test simple circuits, identify complete paths and record current measurements in amperes. |\n| 5 | Friday P5 | C3, C4 | Formative | Students complete a 15-minute circuit checkpoint involving diagram interpretation, identifying circuit requirements and interpreting current readings. |\n| 6 | Monday P2 | C5 | Theory | Students model voltage as energy transferred per unit charge and practise using the unit volts. |\n| 7 | Tuesday P4 | C6 | Theory | Students compare materials and circuit conditions to explain how resistance depends on material, length, thickness and temperature. |\n| 8 | Wednesday P1 | C6, C7 | Formative/theory | Students complete a 15-minute resistance checkpoint, receive feedback, then compare one-path series and multiple-path parallel circuits. |\n| 9 | Thursday P3 | C7, C8 | Practical | Groups construct series and parallel circuits, measure voltage/current, and use suitable data to apply \\(V = IR\\) to simple resistive circuits. |\n| 10 | Friday P5 | C9, with C7 and C8 | Summative | Students complete a task within 30 minutes that compares series and parallel circuits, applies \\(V = IR\\), and explains limits when model assumptions break down. |\n\nAll practical lessons are on Thursday P3, so there are no more than two practical lessons in the week and neither is on Friday P5.\n\n## 2. Prerequisite chain\n\n```text\nC1 → C2 → C3 → C4 → C5 → C6 → C7 → C8 → C9\n```\n\n## 3. Practical placement justification\n\n### Practical 1 — Lesson 4, Thursday P3\n\nThis follows the teaching of C3 and directly supports C3 and C4 by allowing students to establish a continuous path, source and load and observe current measurements. It is placed before the first formative checkpoint so students can use practical evidence when completing it.\n\nThe class uses six bench groups of up to five students. Six power supplies are sufficient for one per group. Four digital multimeters are managed through a rotation: four groups take measurements while two groups complete circuit-diagram and observation tasks, then groups rotate. The class set of 30 safety goggles supports all students. Any glassware or hand lenses are not required, remaining within the stated limits.\n\nThe lesson is scheduled in a 50-minute period with equipment set out before students enter. Approximately five minutes are allocated for instructions and setup, 40 minutes for bench work, and five minutes for pack-up, meeting the minimum 40 minutes of usable bench time.\n\n### Practical 2 — Lesson 9, Thursday P3\n\nThis follows C6 and the formative checkpoint, allowing students to investigate C7 and apply C8 using series and parallel circuits. It is placed immediately before the summative task so students can generate and interpret data needed for the combined assessment.\n\nAgain, six groups use the six power supplies. Four multimeters rotate between groups, with non-measuring groups completing circuit comparisons and recording predictions while waiting. Safety goggles are available for all 28 students. The activity does not require more than the available equipment limits.\n\nAs with Practical 1, setup is completed before or at the beginning of the period, leaving five minutes for instructions, at least 40 minutes for bench work, and five minutes for pack-up.\n\n## 4. Formative cadence\n\n- **Checkpoint 1 — Lesson 5:** Checks C3 and C4 through circuit diagrams, identification of source/path/load, and interpretation of current in amperes. It is completed in 15 minutes. The teacher marks or annotates responses during the remainder of the lesson and returns immediate verbal or written feedback before students leave.\n- **Checkpoint 2 — Lesson 8:** Checks C6 through short explanations and comparisons involving resistance, material, length, thickness and temperature. It is completed in 15 minutes before the C7 teaching component. The teacher gives same-lesson feedback using projected answers, brief individual corrections and a whole-class clarification of common errors.\n\n## 5. Deferrals and risks\n\n### Deferrals\n\n- If Practical 1 is unavailable, the practical evidence for C3 and C4 must be deferred; the teacher should use diagrams and demonstrations only, and postpone the related practical interpretation until equipment is available.\n- If Practical 2 is unavailable, practical treatment of C7 and C8 must be deferred. The summative task should be postponed or restricted to a later session because it must assess C7, C8 and C9 together.\n- C7 must not be taught before the C6 checkpoint has occurred, and C8 must not be assessed before it is taught in Practical 2.\n\n### Risks and mitigations\n\n1. **Only four multimeters are available for six groups.**  \n   Mitigation: use timed rotations, assign recording/prediction tasks to waiting groups, and provide a visible rotation schedule.\n\n2. **Setup or pack-up reduces usable bench time below 40 minutes.**  \n   Mitigation: prepare labelled equipment trays beforehand, project instructions immediately, use assigned group roles, and stop practical work five minutes before the end.\n\n3. **Early dismissal risk on Friday P5 affects assessment completion.**  \n   Mitigation: schedule the summative for a maximum of 30 minutes, distribute materials at the start, display a time plan, and retain completed responses as students finish.\n\n4. **Students may connect circuits incorrectly.**  \n   Mitigation: require a teacher diagram check before power is switched on and use a designated equipment manager in each group.\n\n5. **Mixed ability may produce uneven participation.**  \n   Mitigation: assign rotating roles—builder, safety checker, meter operator, recorder and reporter—and provide scaffolded recording tables.\n\n## 6. Adjustments\n\nFor both students requiring adjustments, every practical includes printed, step-by-step instructions with diagrams, a printed equipment checklist and clearly assigned roles. Instructions are provided before the lesson where possible to support extra processing time. They may complete the recording and explanation components using the scaffolded sheet, receive teacher check-ins before switching on equipment, and use the rotation schedule flexibly if additional processing time is needed.\n\nFor both formative checkpoints, students receive printed questions and instructions rather than relying only on projected text. The checkpoint includes clearly separated steps, enlarged or uncluttered circuit diagrams where needed, and additional processing time within the lesson through early distribution of materials and reduced transition time. Feedback is provided individually in written form and verbally, ensuring the same-lesson return requirement is met.",
+  "word_count": 1131,
+  "deterministic_checks": [
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Lesson count is between 8 and 10 inclusive."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Every lesson row has non-empty day/period, content code from C1–C9, type, and activity."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "All day/period values are within {Mon P2, Tue P4, Wed P1, Thu P3, Fri P5}."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "No practical lesson is scheduled on Friday Period 5."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least one practical lesson references C3 or C4 and occurs at lesson number ≤4."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least one practical lesson references C7 or C8 and occurs at lesson number ≥6."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Number of practical lessons per week does not exceed 2 across the whole sequence."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least two formative checkpoints exist; one references C3, one references C6."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Each formative checkpoint states a duration of 15 minutes or less."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "A summative task references C7, C8, and C9 and states in-class time ≤30 minutes."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Prerequisite chain text contains arrows or explicit dependencies from C1 through C9 in order."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least three distinct named risks are present, each with a mitigation."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Response mentions deferral of C8 if the second practical is unavailable."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Response mentions printed instructions and extra processing time for the two documented students in practical and formative contexts."
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.output_item.done": 2,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1489,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

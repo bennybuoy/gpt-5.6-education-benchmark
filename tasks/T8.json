@@ -1,0 +1,73 @@
+{
+  "task_id": "T8",
+  "title": "Three Distinct Lesson Mechanisms for Forces and Motion",
+  "candidate_prompt": "You are designing creative lesson concepts for a NSW Year 7 Science class. You must propose three genuinely different central mechanisms for teaching the same science concept within fixed constraints.\n\n## Frozen Science Brief\n\n**Concept:** Forces and Newton's First Law (inertia). Students should understand that:\n- An object at rest stays at rest and an object in motion stays in motion at constant velocity unless acted on by an unbalanced force.\n- Mass is a measure of inertia — the greater the mass, the greater the resistance to changes in motion.\n- When forces are balanced, there is no change in motion. When forces are unbalanced, motion changes (speed up, slow down, or change direction).\n\nThis is the FIRST lesson on forces in the Year 7 unit. Students have no prior formal instruction on Newton's laws. They have encountered the word 'force' in everyday language but not as a scientific term.\n\n## Fixed Constraints (do not propose anything that violates these)\n\n- **Class:** 28 Year 7 students, mixed ability, working in groups of 3–4.\n- **Room:** Standard science laboratory with fixed benches, stools, sinks, and a teacher demonstration bench at the front. No outdoor access. No specialised equipment beyond what is listed.\n- **Time:** A single 50-minute lesson. No double periods available.\n- **Staff:** One teacher. No lab technician present during the lesson. The teacher must be able to set up and manage all activities alone.\n- **Equipment budget:** Common classroom items only — string, tape, rulers, stopwatches, masses (100 g, 200 g, 500 g), spring scales (5 N, 10 N), toy cars, marbles, cardboard, books, plastic cups, balloons. No data loggers, no motion sensors, no video analysis software.\n- **Sequence constraint:** This lesson must include a brief introduction (5 min), a main investigation or activity (35 min), and a synthesis discussion (10 min). The central mechanism occupies the 35-minute main block.\n\n## Your Task\n\nPropose THREE genuinely different central mechanisms for the 35-minute main block. A central mechanism is the core physical activity or strategy that makes the science concept click for students. The three mechanisms must be fundamentally different in their approach — not three variations of the same activity.\n\nFor EACH mechanism, you must state:\n\n1. **Mechanism name** (a short descriptive label, not a marketing slogan).\n2. **Physical student action:** What exactly do students do with their hands and bodies during the 35 minutes? Be specific about the sequence of actions, the materials used, and how groups interact.\n3. **Science payoff:** What specific conceptual understanding about forces and inertia does this mechanism produce? State the exact scientific idea students should arrive at. Avoid vague claims like 'students learn about forces' — name the specific principle.\n4. **Evidence:** What observable, recordable evidence will students collect that supports the scientific principle? This must be something a student can write down, measure, or sketch — not just 'they will understand'.\n5. **Feasibility:** How does this fit within the 50-minute constraint, the room, the equipment list, and one teacher managing 28 students? Address setup time, group management, and cleanup.\n6. **Failure risk:** What is the most likely way this mechanism fails to produce the intended learning? Identify the specific failure mode and what you would do to mitigate it.\n\n## Rules\n\n- The three mechanisms must be genuinely different in their core approach. If two mechanisms are essentially the same activity with different materials, the second one scores zero. Examples of genuinely different approaches include: direct physical manipulation, observational measurement, body-based simulation, comparative testing, model-building, and predictive-reasoning tasks. You are not limited to these categories.\n- Each mechanism must have a real scientific mechanism at its core — a physical phenomenon that demonstrates the principle. Mechanisms that are entertaining but do not produce a scientific insight (e.g., a game with no measurable phenomenon) will score zero.\n- Do not propose mechanisms requiring equipment not on the list, additional staff, outdoor space, or more than 50 minutes.\n- Write clearly and specifically. Avoid generic educational language. Do not use phrases like 'engaging', 'fun', 'hands-on', or '21st-century skills'.",
+  "hidden_key": "Scoring rewards genuine mechanistic diversity (three fundamentally different approaches, not variations), specificity of the physical phenomenon each mechanism exploits, and the quality of the evidence chain (observable data leading to scientific principle). Gimmickry — activities that are entertaining but lack a demonstrable physical phenomenon or measurable evidence — scores zero on that mechanism. The failure-risk analysis is weighted heavily because it reveals whether the designer understands the mechanism's scientific limitations.",
+  "rubric": [
+    {
+      "criterion": "Mechanism 1: scientific mechanism and evidence quality",
+      "marks": 15,
+      "type": "critical",
+      "cap": 15,
+      "description": "Mechanism has a genuine physical phenomenon at its core, produces a specific conceptual insight about forces/inertia, and yields recordable evidence. 15 = clear phenomenon, specific principle, measurable evidence; 8 = phenomenon present but evidence vague; 0 = no demonstrable phenomenon or gimmickry."
+    },
+    {
+      "criterion": "Mechanism 2: scientific mechanism and evidence quality",
+      "marks": 15,
+      "type": "critical",
+      "cap": 15,
+      "description": "Same criteria as Mechanism 1. Scores 0 if Mechanism 2 is essentially a variation of Mechanism 1."
+    },
+    {
+      "criterion": "Mechanism 3: scientific mechanism and evidence quality",
+      "marks": 15,
+      "type": "critical",
+      "cap": 15,
+      "description": "Same criteria as Mechanism 1. Scores 0 if Mechanism 3 is essentially a variation of Mechanism 1 or 2."
+    },
+    {
+      "criterion": "Genuine diversity across the three mechanisms",
+      "marks": 20,
+      "type": "critical",
+      "cap": 20,
+      "description": "The three mechanisms use fundamentally different approaches (e.g., direct manipulation vs. measurement vs. simulation). 20 = three clearly distinct approach types; 10 = two distinct types with one repeat; 0 = all essentially the same approach."
+    },
+    {
+      "criterion": "Physical student action specificity",
+      "marks": 10,
+      "type": "major",
+      "cap": 10,
+      "description": "Each mechanism describes concrete, sequenced physical actions with named materials. 10 = all three specific and sequenced; 5 = some vague; 0 = generic or no physical actions described."
+    },
+    {
+      "criterion": "Feasibility within constraints",
+      "marks": 10,
+      "type": "major",
+      "cap": 10,
+      "description": "Each mechanism fits 50 minutes, the room, the equipment list, and one-teacher management. 10 = all three feasible with setup and management addressed; 5 = one or more borderline; 0 = one or more infeasible."
+    },
+    {
+      "criterion": "Failure risk analysis quality",
+      "marks": 10,
+      "type": "major",
+      "cap": 10,
+      "description": "Each mechanism identifies a specific, realistic failure mode and a concrete mitigation. 10 = all three with specific failure modes and mitigations; 5 = generic risks only; 0 = no meaningful failure analysis."
+    },
+    {
+      "criterion": "Absence of gimmickry and generic language",
+      "marks": 5,
+      "type": "major",
+      "cap": 5,
+      "description": "No mechanism relies on entertainment value without scientific substance. No use of empty buzzwords. 5 = all scientifically grounded; 0 = one or more mechanisms are gimmicks."
+    }
+  ],
+  "deterministic_checks": [
+    "Verify that exactly three mechanisms are described, each with a distinct name or label.",
+    "Verify that each mechanism contains the required five elements by checking for keywords: 'physical student action' or equivalent, 'science payoff' or equivalent, 'evidence' or equivalent, 'feasibility' or equivalent, 'failure risk' or equivalent.",
+    "Check that no mechanism references equipment outside the approved list (search for: 'data logger', 'motion sensor', 'video', 'computer', 'tablet', 'app', 'outdoor', 'playground', 'hall', 'gym').",
+    "Check that each mechanism mentions at least one item from the equipment list (string, tape, rulers, stopwatches, masses, spring scales, toy cars, marbles, cardboard, books, plastic cups, balloons).",
+    "Check that the forbidden buzzwords 'engaging', 'fun', 'hands-on', '21st-century' do not appear (case-insensitive).",
+    "Verify that the three mechanism names are not near-duplicates (check that no two names share more than 50% of their words)."
+  ],
+  "source_notes": "NSW Science 7-10 Syllabus (2018) outcomes SC4-10PW (forces) and SC4-7WS (working scientifically). Newton's First Law is introduced in Year 7 as part of the Physical World strand. Constraints reflect typical NSW public school resourcing."
+}

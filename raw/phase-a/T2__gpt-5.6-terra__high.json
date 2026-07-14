@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": "gpt-5.6-terra",
+  "effort": "high",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T10:39:11.703127+00:00",
+  "elapsed_seconds": 67.46914754796308,
+  "time_to_first_visible_text_seconds": 45.51273479301017,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 3684,
+    "output_tokens_details": {
+      "reasoning_tokens": 2422
+    },
+    "total_tokens": 4275
+  },
+  "input_tokens": 591,
+  "output_tokens": 3684,
+  "reasoning_tokens": 2422,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.0567375,
+  "output_text": "## 1. Central decision\n\n**When is there enough evidence to classify a change as physical or chemical, and when must we say that the evidence is limited?**\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Construct and use an evidence-based method for distinguishing physical and chemical changes.\n\nBy the end, students can:\n\n1. Separate an **observation** from an **inference** about what happened.\n2. Classify a described change as physical, chemical, or requiring more evidence, using the idea of whether new substances formed.\n3. Explain why an indicator such as bubbles, colour change or temperature change supports a claim but is not automatic proof.\n\n## 3. Lesson sequence\n\n**0–4 min — Fast individual sort**  \nOn desks are three short evidence records: “a lump was flattened,” “a solid dissolved in water,” and “bubbles and a colour change were reported.” Students place each under provisional labels: *physical*, *chemical*, or *not enough evidence*. They must be ready to defend one choice.\n\n**4–12 min — Teacher model: observation versus inference**  \nDisplay a record: “Bubbles were seen; a thermometer reading fell from 22°C to 17°C; the mixture changed colour.” Model a two-column comparison:  \n- Observations: bubbles seen, temperature reading fell, colour changed.  \n- Inference: a gas/new substance formed; therefore this may be a chemical change.  \nModel the cautious conclusion: several observations support a chemical-change claim, but they do not directly show a new substance. Contrast with “a solid was pressed into a sheet”: changed shape is an observation consistent with a physical change.\n\n**12–20 min — Build version 1 of the reasoning tool**  \nGroups of four construct an A3 “Change Claim Board” from heading cards, arrows and evidence cards. It must include:  \n1. What was observed?  \n2. What do we infer?  \n3. Did a new substance form, or is that only suspected?  \n4. Classification: physical / chemical / evidence limited.  \n5. What is the limitation or alternative explanation?\n\n**20–35 min — Test the tool on evidence cases**  \nAt desks, groups rotate card packs every five minutes. Cases include changes in shape or size, freezing, dissolving, and records containing only one or several possible chemical-change indicators. Groups place evidence cards on their board and make a provisional claim. One student is the evidence reader, one the card placer, one the sceptic who asks “What proves that?”, and one the reporter.\n\n**35–44 min — Evidence challenge and revision**  \nPairs exchange boards. The visiting pair may challenge one inference or limitation only. Groups revise their tool where it failed—for example, adding “dissolving can be physical” or “colour change alone is insufficient.”\n\n**44–50 min — A16 rehearsal**  \nGroups use their final tool to plan how they will record observations in the next lesson: exact visible changes, thermometer readings if used, solids formed, light, odour or bubbles. They identify that the tool will prevent them from writing “chemical” merely because one sign appeared.\n\n**50–58 min — Individual written check**  \nStudents complete the exam-style response below silently.\n\n**58–60 min — Retrieval close**  \nStudents photograph or store their group board. Teacher names the three claims available in A16: physical, chemical, or “evidence currently limited.”\n\n## 4. Student-built artifact\n\nEach group produces a reusable **Change Claim Board**, not a completed worksheet. It is a movable reasoning model: evidence cards are placed under *observation*, linked by arrows to *inference*, then to a classification and a stated limitation. Revision is visible through moved cards, crossed-out claims or added caution cards. The board is retained for A16.\n\n## 5. Teacher explanation\n\nA physical change involves no new substance; state, shape, size or arrangement may change. A chemical change involves one or more new substances forming. Students cannot directly observe “new substance formed”; that is an inference from evidence. Bubbles, temperature change, colour change, precipitate, light or odour can support a chemical-change inference, but none is automatic proof in every context. Reversibility alone is also unreliable. Dissolving should not automatically be labelled chemical.\n\n## 6. Individual exam-style check and marking points\n\n**Question:**  \nA student combines two materials. They record that bubbles were seen, the thermometer reading fell by 5°C, and the mixture changed colour. The products were not identified. Classify the change and justify your answer using observations, an inference and a limitation.\n\n**Marking points:**  \n- Identifies observations: bubbles, 5°C temperature fall, colour change.  \n- States that “new substances formed” is an inference, not an observation.  \n- Classifies it as a **provisional/best-supported chemical change** because several observations are consistent with chemical change.  \n- States a limit: the indicators do not directly prove new substances formed; further evidence would strengthen the claim.\n\n## 7. ADHD-supportive access and deep extension\n\nVisible six- to fifteen-minute time blocks, rotating physical roles and card placement externalise attention demands: students have a concrete next action rather than waiting through extended talk. The sceptic role channels impulsive challenge into the scientific question, “What evidence supports that?” Desk-based card exchanges avoid uncontrolled movement.\n\nDepth is preserved because every group must address uncertainty. Early finishers create an ambiguous evidence card, propose an alternative inference, and test whether another group’s board prevents an overconfident conclusion.\n\n## 8. Forward link and operational risks\n\nIn A16, students will take their Change Claim Board to the practical and use its columns to record actual observations before classifying and justifying each change. They will explicitly distinguish what they saw from their conclusion about new substances.\n\nAH17 uses only printed cards, boards and markers: no wet chemistry, heating, flames, tasting or substances. Pre-sort complete card packs, display the timer, and stop exchanges on a single signal to protect the individual-check time.",
+  "word_count": 920,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 920,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 6,
+    "response.output_item.done": 6,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1256,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

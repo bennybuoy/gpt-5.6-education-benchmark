@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": "gpt-5.6-terra",
+  "effort": "max",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:32.320323+00:00",
+  "elapsed_seconds": 783.4495207740692,
+  "time_to_first_visible_text_seconds": 762.5217470950447,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 43454,
+    "output_tokens_details": {
+      "reasoning_tokens": 42299
+    },
+    "total_tokens": 44045
+  },
+  "input_tokens": 591,
+  "output_tokens": 43454,
+  "reasoning_tokens": 42299,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.6532875,
+  "output_text": "## 1. Central decision\nStudents build, test and revise an “Evidence-to-verdict protocol,” not a list of signs. It forces an observation–inference–limit distinction before a physical, chemical or “insufficient evidence to classify” verdict.\n\n## 2. Learning intention and three success criteria\nLearning intention: Use evidence and its limits to make and justify physical or chemical claims.\n\n1. Separate direct observations from inferences/claims.  \n2. Classify physical where evidence justifies no new substance, and chemical where it justifies one or more new substances; do not decide from dissolving, reversibility or irreversibility alone.  \n3. State a verdict with linked evidence and a limitation or needed further evidence.\n\n## 3. Lesson sequence\n- **0–5 (5 min):** Silent sort: label “colour changed” and “it is chemical” as observation or inference; reveal together.  \n- **5–13 (8 min):** Teacher models an Observation–Inference–Verdict table: state/colour changes are observations; new-substance and physical/chemical conclusions are inferences. P: state changed; file establishes no new substance formed; physical. Q: colour change observed; further evidence establishes one or more new substances; chemical. Remove Q’s final evidence: colour alone is consistent with chemical change, not proof, so more evidence is needed.  \n- **13–20 (7 min):** Six teams of five create protocol version 1 on blank A3, using arrows and their own wording.  \n- **20–34 (14 min):** Test paper files: a no-new-substance state/shape/size/arrangement case; a new-substances-established case; dissolving alone; reversibility/irreversibility alone; and single- or mixed-sign cases using colour, gas production, temperature, precipitate, light or odour. Add a claim–evidence–limit tag to each.  \n- **34–44 (10 min):** Swap two files. A challenger rejects a verdict only by locating an unsupported rule; teams revise one rule.  \n- **44–52 (8 min):** Gallery calibration: individual response-card vote, team explanation of disputed cases, teacher confirms non-negotiables; label tool for A16.  \n- **52–60 (8 min):** Independently complete the case verdict in section 6.  \n\nTotal: **60 minutes**.\n\n## 4. Student-built artifact\nEach blank A3 has four linked panels: Observation (seen/measured); possible inference; “Does available evidence justify no new substance, one or more new substances, or not enough?”; and Verdict—because evidence—however limit/next evidence. Its branches are: justified no-new-substance conclusion → physical; justified one-or-more-new-substances conclusion → chemical; neither → insufficient evidence to classify. Red flags state: “Dissolving can be physical”; “reversibility/irreversibility alone and one sign do not decide.”\n\n## 5. Teacher explanation\nSay: “An observation is what was seen or measured. ‘A new substance formed’ and ‘chemical change’ are inferences unless a file explicitly establishes them. A physical change forms no new substance, though state, shape, size or arrangement may change; a chemical change forms one or more new substances. Colour, gas production, temperature change, precipitate, light and odour are consistent clues; no single one is automatic proof in every context. Dissolving can be physical. Neither reversibility nor irreversibility alone is a definition. ‘Insufficient evidence’ is a rigorous limit, not a third change type.”\n\n## 6. Individual exam-style check and marking points\nIndividually, with protocols face down (6 marks):\n\nFile A: A sample is reshaped. The investigation establishes no new substance formed.  \nFile B: Gas production is observed. Further evidence establishes one or more new substances formed.\n\nClassify A and B. For B, identify the direct observation and classification inference. State what can be concluded if B’s second sentence is removed.\n\nMarking: A physical (1); reshaping plus no new substance (1); B chemical (1); further evidence of one or more new substances (1); gas production observation versus chemical/new-substance inference (1); without further evidence, gas is consistent with chemical change but one sign cannot prove it, so evidence is insufficient to classify (1).\n\n## 7. ADHD-supportive access and deep extension\nVisible countdowns, one displayed next action and one file at a time externalise sequencing and shorten waiting. Rotating reader, evidence-checker, challenger, recorder and card-runner roles channel talk, card handling and movement into an evidence function. Individual response cards precede debate, requiring a personal claim. Four visual labels and oral rehearsal lower language/working-memory demand without an answer key. Deep extension: design a challenge file from the listed evidence types that breaks “one sign proves chemical” or a two-outcome tool, then defend the strongest warranted claim and needed evidence.\n\n## 8. Forward link and operational risks\nSame practical groups take labelled A3 tools to A16. For each wet-lab change, they record observations before making a new-substance inference and physical/chemical claim with a limit; revise if evidence changes. AH17 uses printed files, A3 and stationery only: no wet chemistry, substances, heating, flames or tasting. Pre-check wording so a single sign is never presented as proof; use one authorised card swap, a timer and a return-to-seat signal; store tools in named folders.",
+  "word_count": 761,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 761,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 83,
+    "response.output_item.done": 83,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1149,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

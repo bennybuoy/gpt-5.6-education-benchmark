@@ -1,0 +1,66 @@
+{
+  "task_id": "T7",
+  "title": "Student-Resource Transformation: Heat Transfer Investigation",
+  "candidate_prompt": "You are designing a student-facing investigation resource and a separate teacher key for a NSW Year 7 Science lesson on heat transfer and insulation design.\n\n## Approved Lesson-Plan Extract (do not modify the lesson structure)\n\n**Lesson:** Heat Transfer and Insulation Design  \n**Duration:** 60 minutes  \n**Class:** Year 7 Science, 28 students  \n**Learning intention:** Students investigate how different materials affect heat transfer rate and apply this to design an insulating container.  \n**Syllabus outcomes:** SC4-7WS, SC4-13ES  \n\n**Lesson sequence:**  \n1. (10 min) Teacher demonstration: three beakers of hot water — one wrapped in aluminium foil, one in cotton wool, one bare. Students predict which cools slowest and record their prediction.  \n2. (35 min) Students build an insulating jacket for a 250 mL beaker using provided materials, test it with a probe thermometer (recording temperature every 2 minutes for 10 minutes), then revise their design and retest.  \n3. (15 min) Students write a short explanation linking their results to conduction, convection, and radiation.  \n\n**Materials available:** bubble wrap, cotton wool, aluminium foil, cardboard, foam pieces, masking tape, 250 mL beakers, probe thermometers, kettles (teacher-operated), stopwatches, graph paper.\n\n## Exact Science Propositions (these are the authoritative statements — the teacher key must use them; the student artifact must NOT reveal them as answers)\n\nP1. Conduction is the transfer of thermal energy through a material by direct contact between particles, without the material itself moving.\nP2. Metals are good thermal conductors because they contain free electrons that transfer energy rapidly.\nP3. Insulators are poor conductors because they trap pockets of still air, and still air is a poor conductor.\nP4. Convection is the transfer of thermal energy by the movement of a fluid (liquid or gas) due to density differences caused by heating.\nP5. Radiation is the transfer of thermal energy by electromagnetic waves and does not require a medium.\nP6. Reducing heat loss from a container can involve minimising conduction (using insulating materials), minimising convection (trapping still air), and minimising radiation (using reflective surfaces).\n\n## Your Task\n\nProduce TWO documents:\n\n### Document A: Student Investigation Resource (compact, maximum 2 pages equivalent)\nThis is what Year 7 students receive during the lesson. It must:\n- Guide students through the build-test-revise cycle in the 35-minute practical block. Students must build an initial insulating jacket, test it, analyse their data, revise their design, and retest. The resource must make the revise-and-retest step explicit and structured — not optional.\n- Require each student to record their own individual data (temperature readings, observations, design sketches, revised design rationale). Group-shared data sheets are not acceptable. Each student must produce their own evidence of participation.\n- Prompt students to connect their observations to the three heat-transfer modes (conduction, convection, radiation) through guided questions — but must NOT state the propositions P1–P6 as answers or definitions. Students should be asked to reason toward these ideas, not fill them in from a provided answer.\n- NOT be a \"graveyard\" fill-in sheet. A graveyard sheet is one that consists mostly of blank labelled boxes with minimal guidance, where students simply write a word or phrase in each gap. Your resource must include scaffolding, prompts, decision points, and structured reasoning tasks — not just empty boxes with labels.\n- Fit within the lesson sequence above. Do not add or remove lesson phases.\n\n### Document B: Teacher Key (separate document)\nThis is what the teacher uses. It must:\n- State the expected observations for each material and link each to the relevant propositions P1–P6.\n- Provide the correct scientific explanations using the exact wording of P1–P6 where applicable.\n- Identify common student misconceptions and how to address them.\n- Include a checklist for verifying that each student has produced individual evidence.\n\n## Formatting\n\nLabel the two documents clearly: \"STUDENT RESOURCE\" and \"TEACHER KEY\". Keep the student resource compact. Do not include the propositions P1–P6 anywhere in the student resource.",
+  "hidden_key": "Scoring centres on whether the student artifact genuinely transforms the lesson into an inquiry without leaking the six propositions, whether the build-test-revise cycle is structurally enforced (not just build-test), whether individual evidence is required per student, and whether the teacher key correctly applies P1–P6. Graveyard sheets (predominantly blank labelled boxes with no scaffolding) score 0 on the artifact-quality dimension. Answer leakage (any of P1–P6 appearing in the student resource) caps the total at 40.",
+  "rubric": [
+    {
+      "criterion": "Student artifact: build-test-revise structure",
+      "marks": 20,
+      "type": "critical",
+      "cap": 20,
+      "description": "Artifact explicitly structures build, test, analyse, revise, and retest phases. Revise-and-retest must be a required step with its own dedicated section, not optional or implied. 20 = full cycle with dedicated revise-retest section; 10 = build-test only or revise mentioned but not structured; 0 = no practical cycle."
+    },
+    {
+      "criterion": "Student artifact: individual evidence requirement",
+      "marks": 15,
+      "type": "critical",
+      "cap": 15,
+      "description": "Each student must record their own data table, observations, design sketches, and revised design rationale. 15 = explicit individual recording requirements with per-student fields; 8 = some individual elements but group data accepted; 0 = group-shared sheet only."
+    },
+    {
+      "criterion": "Student artifact: no answer leakage",
+      "marks": 15,
+      "type": "critical",
+      "cap": 40,
+      "description": "None of P1–P6 appear in the student resource, whether as definitions, answers, or paraphrases that reveal the proposition. 15 = clean; 0 = any proposition leaked. If any proposition is leaked, total score is capped at 40."
+    },
+    {
+      "criterion": "Student artifact: not a graveyard fill-in sheet",
+      "marks": 15,
+      "type": "major",
+      "cap": 15,
+      "description": "Resource includes scaffolding, guided prompts, decision points, and structured reasoning — not predominantly blank labelled boxes. 15 = rich scaffolding with reasoning tasks; 8 = moderate scaffolding; 0 = predominantly blank boxes with labels."
+    },
+    {
+      "criterion": "Student artifact: guided reasoning toward heat-transfer concepts",
+      "marks": 15,
+      "type": "major",
+      "cap": 15,
+      "description": "Questions and prompts guide students to reason about conduction, convection, and radiation from their observations without stating the propositions. 15 = well-designed inquiry prompts; 8 = some guiding questions but superficial; 0 = no guided reasoning."
+    },
+    {
+      "criterion": "Teacher key: correct application of P1–P6",
+      "marks": 10,
+      "type": "critical",
+      "cap": 10,
+      "description": "Teacher key correctly links expected observations to the exact propositions. 10 = all six propositions correctly applied; 5 = 3–5 correct; 0 = fewer than 3 correct or key absent."
+    },
+    {
+      "criterion": "Teacher key: misconceptions and individual-evidence checklist",
+      "marks": 10,
+      "type": "major",
+      "cap": 10,
+      "description": "Key identifies at least two common misconceptions with corrective strategies and includes a usable checklist for verifying individual student evidence. 10 = both present; 5 = one present; 0 = neither."
+    }
+  ],
+  "deterministic_checks": [
+    "Verify that the student resource section does not contain any of the exact strings from P1–P6 or close paraphrases (check for key phrases: 'direct contact between particles', 'free electrons', 'trap pockets of still air', 'movement of a fluid', 'density differences', 'electromagnetic waves', 'does not require a medium', 'minimising conduction', 'minimising convection', 'minimising radiation').",
+    "Verify that the student resource contains the words 'revise' or 'redesign' AND 'retest' or 'test again' (case-insensitive).",
+    "Verify that the student resource contains language requiring individual recording (check for 'your own', 'each student', 'individual', 'your data' — at least one must appear).",
+    "Verify that the teacher key section contains all six proposition identifiers (P1 through P6) or their exact wording.",
+    "Verify that two distinct document sections are labelled (check for 'STUDENT RESOURCE' and 'TEACHER KEY' or equivalent).",
+    "Count blank fill-in spaces (lines or boxes with only a label and no prompt text). If more than 60% of the student resource consists of such spaces, flag as potential graveyard sheet."
+  ],
+  "source_notes": "NSW Science 7-10 Syllabus (2018) outcomes SC4-7WS (processing and analysing data) and SC4-13ES (energy transfer). Build-test-revise cycle aligns with working scientifically skills. Individual evidence requirement aligns with assessment-for-learning principles."
+}

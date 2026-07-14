@@ -1,0 +1,138 @@
+All three options use the same overall lesson timing: 0–5 min introduction, 5–40 min main block, 40–50 min synthesis. The main block below is therefore exactly 35 minutes.
+
+## 1. Calibrated cart pulls
+
+### 1. Physical student action
+Each group uses a toy car, a string tied to a tape loop on the car, one 5 N spring scale, a cardboard lane marked at 0, 20, 40 and 60 cm, rulers, a stopwatch, tape, and 100 g/200 g masses.
+
+- **0–4 min:** Students set the car on the lane and assign roles: puller, scale reader, timer and recorder.
+- **4–11 min:** They first leave the car untouched at the start line and record that it remains at rest. Then the puller draws the car through the lane while trying to keep it moving steadily. The scale reader calls out the spring-scale reading and the timer records the three 20 cm interval times.
+- **11–20 min:** The group repeats with a noticeably larger spring-scale reading. The puller maintains that reading as closely as possible while the timer again records the three interval times.
+- **20–29 min:** Students tape either a 100 g or 200 g mass low on the car. For each load, they first find the approximate scale reading that gives steady motion. They then add the same extra 1 N pull above that steady-motion reading and record interval times again.
+- **29–32 min:** Groups complete a short force-state table: “at rest,” “steady motion,” “speeding up,” and “slowing down after release.”
+- **32–35 min:** Students remove masses and string and return equipment.
+
+### 2. Science payoff
+Students arrive at these specific claims:
+
+- A car can move at constant velocity while a spring scale is pulling it because the forward pull is balanced by backward rolling resistance; a force is not needed to keep an object moving at constant speed.
+- When the forward pull is greater than the backward resistance, the forces are unbalanced and the car speeds up.
+- When the pull is removed, rolling resistance is an unbalanced backward force, so the car slows down.
+- With the same estimated extra unbalanced force, the more heavily loaded car changes speed less. Greater mass means greater inertia.
+
+### 3. Evidence
+Students record a table such as:
+
+| Condition | Scale reading | Time 0–20 cm | Time 20–40 cm | Time 40–60 cm | Motion change |
+|---|---:|---:|---:|---:|---|
+| Steady pull | ___ N | ___ s | ___ s | ___ s | approximately constant speed |
+| Stronger pull | ___ N | ___ s | ___ s | ___ s | speeds up if times shorten |
+| 100 g load | ___ N | ___ s | ___ s | ___ s | ___ |
+| 200 g load | ___ N | ___ s | ___ s | ___ s | ___ |
+
+They also draw force arrows for the car: forward pull, backward rolling resistance, upward bench support and downward weight.
+
+### 4. Feasibility
+The teacher can prepare seven cardboard lanes with tape marks before class. Each group needs only one car, one spring scale, string, tape, rulers, a stopwatch and small masses from the listed equipment.
+
+If there are fewer than seven spring scales, two groups can share one lane: one group operates the car and scale while the other times and records; they swap jobs for the next condition. All movement stays on bench tops, and the last three minutes are sufficient for pack-up.
+
+### 5. Failure risk
+**Likely failure:** Students may think a non-zero spring-scale reading automatically means the car must speed up.
+
+**Mitigation:** Require them to compare the three interval times before interpreting the force. If the times are similar, the teacher asks, “What backward force must be cancelling the pull?” The teacher names rolling resistance as a force before groups write their conclusion. This prevents the common claim that “motion needs a force to continue.”
+
+---
+
+## 2. Support-strip inertia trials
+
+### 1. Physical student action
+Each group receives a plastic cup, several pre-cut cardboard strips about 5 cm wide and 30 cm long, tape, a ruler and a cardboard recording area marked with a start line.
+
+- **0–4 min:** Students place an upright plastic cup over a cardboard strip. They mark the cup’s starting position with tape.
+- **4–7 min:** Each student predicts what will happen if the strip is pulled out slowly versus pulled sharply.
+- **7–17 min:** Students carry out three slow-pull trials. They pull the cardboard strip flat and steadily from under the cup, then measure how far the cup moved from its start mark.
+- **17–24 min:** They carry out three sharp-pull trials. They keep the strip flat against the bench and pull it rapidly sideways. They measure the cup’s displacement each time.
+- **24–28 min:** Groups sketch the position of the cup and strip before and after both types of pull. They add simple arrows: friction acts on the cup in the direction the strip is pulled.
+- **28–32 min:** At the front bench, the teacher gives two preassembled loaded toy cars the same indicated spring-scale pull for the same short count: one has a light load and one has a heavier load. Students record which car shows the larger change in position.
+- **32–35 min:** Students pack away cups and strips.
+
+In the 10-minute synthesis, the teacher performs the reverse version once: a cup and cardboard strip are moving together, then the cardboard is stopped against a book. Students predict and observe that the cup continues forward until another force stops it.
+
+### 2. Science payoff
+Students arrive at these specific ideas:
+
+- A cup at rest does not start moving simply because its support is moved; it changes motion only if an unbalanced horizontal force acts on it.
+- In the sharp-pull trial, friction acts on the cup only briefly, so the cup has very little change in motion while the cardboard strip moves away.
+- In the slow-pull trial, friction acts for longer and changes the cup’s motion.
+- In the reverse trial, a moving cup continues forward when its cardboard support stops; it stops only when friction or a catcher applies an unbalanced force.
+- The front comparison supports the idea that a greater mass has greater inertia: for a comparable force pulse, the heavier car has a smaller change in motion.
+
+### 3. Evidence
+Students collect:
+
+- Measured cup displacement in centimetres for three slow pulls and three sharp pulls.
+- A before-and-after sketch for each trial, showing cup position and strip position.
+- A labelled force sketch showing balanced vertical forces on a stationary cup and the horizontal friction force during a pull.
+- A class observation record from the light-versus-heavy car force pulse: same indicated pull and duration, different distance moved.
+
+### 4. Feasibility
+This needs only cups, cardboard, tape and rulers for the group work. The teacher can prepare the cardboard strips and tape start lines before class. There are no rolling objects near bench edges, no moving students around the room and no equipment requiring specialist setup.
+
+The teacher’s two-car mass comparison is prepared before class at the demonstration bench and takes about four minutes during the main block. Cleanup is limited to stacking cups and cardboard strips.
+
+### 5. Failure risk
+**Likely failure:** Students pull the cardboard upward or too slowly, causing the strip to catch the cup and drag it along. They may then conclude that the sharp trial “did not work.”
+
+**Mitigation:** Demonstrate one correct sharp pull first: keep the strip flat, pull parallel to the bench and do not hold the cup. Give each group several strips so a bent or torn strip does not stop the investigation. The teacher also states explicitly that the cup is not perfectly force-free during a sharp pull; it receives a small, brief frictional force, so a tiny movement is scientifically expected.
+
+---
+
+## 3. Balloon-cart force timeline
+
+### 1. Physical student action
+Each group uses a toy car, one balloon, tape, string, rulers, a stopwatch, cardboard marked every 10 cm, a book as an end stop, and 100 g/200 g masses.
+
+- **0–6 min:** Students tape an inflated balloon to the top of a toy car with the nozzle pointing backwards. The nozzle must extend beyond the rear of the car so expelled air is directed backward. A book and cardboard barrier are placed at the lane end.
+- **6–10 min:** They make a string loop corresponding to a chosen balloon circumference. This becomes their approximate standard inflation size for all trials.
+- **10–20 min:** With the lighter load attached, students inflate the balloon to the chosen size, pinch the nozzle, place the car at the start line and release it. One student releases, one calls the 10 cm marks as the car crosses them, one watches for the balloon becoming limp and one records. They repeat twice.
+- **20–28 min:** Students replace the load with a 200 g mass, inflate to the same string-measured size and repeat the trials.
+- **28–32 min:** Groups draw a force timeline with three stages:
+  1. balloon pinched and car at rest;
+  2. balloon releasing air and car changing speed;
+  3. balloon limp while the car still rolls, then slows.
+- **32–35 min:** Students deflate balloons, remove tape and pack equipment.
+
+### 2. Science payoff
+Students arrive at these specific claims:
+
+- Before release, the car remains at rest because there is no unbalanced horizontal force on it.
+- While air is expelled backwards, the balloon provides a forward thrust. If that thrust is greater than rolling resistance, the forces are unbalanced and the car’s speed changes.
+- When the balloon becomes limp, the car does not instantly lose all motion. It continues rolling; it then slows because rolling resistance is an unbalanced backward force.
+- A car with greater mass has greater inertia. Under approximately matched balloon releases, the heavier loaded car shows a smaller change in motion than the lighter loaded car.
+- If forward and backward forces were balanced while the car was moving, the car would continue at constant velocity; equal travel times for equal distances would be the expected evidence.
+
+### 3. Evidence
+Students record:
+
+| Load | Balloon circumference | Times at 10 cm marks | Marker nearest when balloon became limp | Final stopping marker |
+|---|---:|---|---|---|
+| Light load | ___ cm | ___ | ___ | ___ |
+| Heavy load | ___ cm | ___ | ___ | ___ |
+
+They then calculate or estimate:
+
+- Whether equal-distance times are shortening, lengthening or similar.
+- The distance travelled after the balloon becomes limp.
+- Differences between light and heavy load trials.
+- A force-state timeline with arrows for thrust and rolling resistance.
+
+### 4. Feasibility
+The teacher pre-marks seven cardboard lanes with 10 cm tape divisions and places a book/cardboard end stop on each lane. The activity uses only listed materials and stays on bench tops. One balloon per group plus a small number of spares is sufficient.
+
+The roles prevent crowding: only the releaser handles the balloon, while the other students time, observe and record. Three minutes at the end allows balloons to be deflated and tape removed.
+
+### 5. Failure risk
+**Likely failure:** Students may say that the car stops because the balloon has “run out of force,” without recognising rolling resistance as the force that slows the car after the air has stopped.
+
+**Mitigation:** Make the “balloon limp marker” and “final stopping marker” compulsory entries in the table. During synthesis, ask: “What force is acting between these two markers?” Students must label rolling resistance as a backward unbalanced force. Matching balloon circumference and repeating trials also reduces the chance that different inflation sizes are mistaken for a mass effect.

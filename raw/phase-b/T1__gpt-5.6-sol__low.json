@@ -1,0 +1,115 @@
+{
+  "task_id": "T1",
+  "task_sha256": "14ec8cce77bdd196f6520f95e2a9ac7d973f99fd5cd5358151d4d1b4242b0a7f",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "low",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:28:35.928239+00:00",
+  "elapsed_seconds": 75.74771009199321,
+  "time_to_first_visible_text_seconds": 34.090669414028525,
+  "usage": {
+    "input_tokens": 892,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 3028,
+    "output_tokens_details": {
+      "reasoning_tokens": 1034
+    },
+    "total_tokens": 3920
+  },
+  "input_tokens": 892,
+  "output_tokens": 3028,
+  "reasoning_tokens": 1034,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.0953,
+  "output_text": "## Unit sequence: Electric Circuits and Models\n\n| Lesson | Scheduled day/period | Content statement addressed | Lesson type | Brief activity description |\n|---|---|---|---|---|\n| 1 | Week 1 Monday P2 | C1 | Theory | Students distinguish models from real systems and explain how a simple circuit diagram can simplify a physical system. |\n| 2 | Week 1 Tuesday P4 | C2 | Theory | Students classify examples of energy transfer as heat, light, motion, or electric current and trace transfers between systems. |\n| 3 | Week 1 Wednesday P1 | C3 | Practical | In six bench groups, students construct and systematically break simple circuits to determine that a continuous path, source, and load are all required. |\n| 4 | Week 1 Thursday P3 | C3 checkpoint; C4 | Formative/theory | Students complete a 15-minute circuit-path checkpoint, receive immediate feedback, and then learn that current is charge flow measured in amperes. |\n| 5 | Week 1 Friday P5 | C5 | Theory | Students use representations and worked examples to explain voltage as energy transferred per unit charge, measured in volts. |\n| 6 | Week 2 Monday P2 | C6 | Theory/formative | Students examine how material, length, thickness, and temperature affect resistance, then complete a 15-minute checkpoint with same-lesson feedback. |\n| 7 | Week 2 Tuesday P4 | C7 | Theory | Students compare circuit representations to identify series circuits as one-path systems and parallel circuits as multiple-path systems. |\n| 8 | Week 2 Wednesday P1 | C8, reinforcing C7 | Practical | Groups collect voltage and current measurements from simple resistive circuits, use \\(V=IR\\), and compare measurements in one-path and multiple-path arrangements. |\n| 9 | Week 2 Thursday P3 | C9, consolidating C7–C8 | Theory | Students identify assumptions in simple circuit models and explain when circuit diagrams or \\(V=IR\\) predictions may fail. |\n| 10 | Week 2 Friday P5 | C7, C8, C9 | Summative | Students complete a 30-minute task comparing series and parallel circuits, applying \\(V=IR\\), and evaluating the limits of the model used. |\n\n## Prerequisite chain\n\n```text\nC1 → C2 → C3 → C4 → C5 → C6 → C7 → C8 → C9\nModel   Energy   Circuit   Current   Voltage   Resistance   Series/   V = IR   Model\n                                                   parallel             limits\n```\n\n## Practical placement justification\n\n### Practical 1: Lesson 3 — Requirements for a circuit\n\n- **Placement:** C1 and C2 have already established models and energy transfer. The practical introduces C3 before current, voltage, and resistance, allowing students to establish the necessary circuit structure first.\n- **Grouping:** Six groups of four or five students fit the six fixed bench stations.\n- **Equipment:** Each group uses one power supply, remaining within the six-supply limit. No multimeters or glassware are required, and all 28 students can use the class set of 30 goggles.\n- **Timing:** Instructions, roles, and circuit diagrams are issued before students move to benches. The lesson uses five minutes for safety/setup, 40 minutes of usable bench investigation, and five minutes for shutdown and pack-up.\n- **Technician constraint:** Wednesday P1 avoids reliance on a technician after 1:00 pm; the teacher can check and place equipment before the lesson.\n\n### Practical 2: Lesson 8 — Quantitative circuit modelling\n\n- **Placement:** It follows C7, so students can distinguish one-path and multiple-path arrangements before collecting measurements. It directly teaches and supports C8 through application of \\(V=IR\\), while reinforcing C7.\n- **Grouping:** Students work in the same six groups of four or five at the fixed stations.\n- **Equipment:** Each station uses one power supply, meeting the six-supply limit. The four digital multimeters rotate between groups according to a printed schedule; groups without a meter complete circuit construction, prediction, or calculation while waiting. No more than four meters are used at once, and the 30 goggles cover the whole class.\n- **Timing:** Circuits and printed station instructions are pre-positioned. Five minutes are allocated to safety/setup, 40 minutes to bench work and meter rotation, and five minutes to power-down and pack-up.\n- **Technician constraint:** Wednesday P1 permits advance checking and does not depend on technician availability after 1:00 pm.\n\n## Formative cadence\n\n1. **Checkpoint 1 — Lesson 4**\n   - **Checks:** C3: identification of a continuous path, source, and load; diagnosis of incomplete circuits.\n   - **Format:** A low-stakes, 15-minute printed task using circuit representations and short explanations.\n   - **Feedback:** The teacher displays worked answers immediately, students self-correct in a different colour, and the teacher gives brief targeted feedback to students with incorrect path, source, or load identifications before C4 begins.\n\n2. **Checkpoint 2 — Lesson 6**\n   - **Checks:** C6: resistance and its relationship to material, length, thickness, and temperature.\n   - **Format:** A low-stakes, 15-minute printed prediction-and-explanation task.\n   - **Feedback:** Students compare responses with displayed model answers; the teacher conducts a short correction conference with identified students and provides annotated corrections before the lesson ends.\n\n## Deferrals and risks\n\n### Deferrals if a practical is unavailable\n\n- If **Practical 1** is unavailable, physical testing of the continuous-path, source, and load requirements must be deferred to the next eligible non-Friday lab period. C3 may be introduced through circuit representations, but its practical evidence remains deferred.\n- If **Practical 2** is unavailable, quantitative measurement supporting C8 must be deferred. Students may practise \\(V=IR\\) with teacher-supplied values, but measurement and comparison of physical circuits must be rescheduled.\n- Any replacement practical must remain within the limit of two practicals per week and cannot be placed on Friday P5.\n\n### Timetable conflicts\n\n- Friday P5 is used only for theory or assessment because practical work is prohibited due to early-dismissal risk.\n- Tuesday P4 and Thursday P3 may be affected by the lack of a dedicated technician after 1:00 pm, so both practicals are placed on Wednesday P1.\n- The summative task uses only 30 minutes of Lesson 10, complying with the in-class limit.\n\n### Named risks and mitigation\n\n1. **Multimeter bottleneck:** Only four meters are available for six groups.  \n   **Mitigation:** Use a timed rotation, printed group schedule, and parallel prediction/calculation tasks so no group is inactive.\n\n2. **Shared-lab availability or equipment displacement:** Equipment may be moved by another class.  \n   **Mitigation:** Confirm L4 booking, check equipment before each practical, and place labelled station trays in advance.\n\n3. **Insufficient bench time:** Slow instructions or setup could reduce usable practical time below 40 minutes.  \n   **Mitigation:** Provide printed instructions beforehand, pre-position equipment, assign group roles, and enforce a five-minute setup/five-minute pack-up structure.\n\n4. **Unsafe or incorrect circuit connections:** Students may connect components incorrectly or alter powered circuits.  \n   **Mitigation:** Require teacher approval before power is switched on, keep supplies off during changes, use goggles, and stop the class immediately if unsafe connections occur.\n\n5. **Early dismissal on Friday:** Lesson time may be shortened unexpectedly.  \n   **Mitigation:** No practical is scheduled Friday; the 30-minute summative begins immediately after instructions and is collected before any early release.\n\n6. **Absence during a practical:** A student may miss required evidence.  \n   **Mitigation:** Retain group data and printed procedures, then provide a supervised catch-up using the next eligible lab period or a supplied data set for interim learning.\n\n## Adjustments\n\n### Practical 1\n\n- The two students receive printed, numbered instructions with a circuit diagram, safety steps, and a completion checklist.\n- Instructions are provided before movement to benches to allow extra processing time.\n- Each student is assigned a stable role, such as component checker or results recorder, and the teacher checks understanding privately before power is used.\n- They are not required to complete additional circuit variations if extra processing time is needed; the essential C3 observations are prioritised.\n\n### Practical 2\n\n- The two students receive a printed meter-use sequence, labelled circuit representations, a \\(V=IR\\) calculation scaffold, and the multimeter rotation timetable.\n- Their groups are scheduled later in the meter rotation, providing additional time to process instructions and construct the circuit before measuring.\n- The teacher checks the first calculation and connection before independent work continues.\n- Reduced repetition is permitted while retaining one valid measurement, one \\(V=IR\\) calculation, and one C7 comparison.\n\n### Formative checkpoint 1\n\n- Printed instructions and uncluttered circuit representations are supplied.\n- The students receive the full 15 minutes without pressure to move early to the next activity.\n- Feedback is given individually using the same source–load–continuous path language as the printed task.\n\n### Formative checkpoint 2\n\n- The students receive a printed comparison scaffold covering material, length, thickness, and temperature.\n- Extra processing time is protected within the 15-minute checkpoint by reducing non-essential writing.\n- The teacher provides immediate verbal and annotated feedback before the end of Lesson 6.",
+  "word_count": 1433,
+  "deterministic_checks": [
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Lesson count is between 8 and 10 inclusive."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Every lesson row has non-empty day/period, content code from C1–C9, type, and activity."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "All day/period values are within {Mon P2, Tue P4, Wed P1, Thu P3, Fri P5}."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "No practical lesson is scheduled on Friday Period 5."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least one practical lesson references C3 or C4 and occurs at lesson number ≤4."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least one practical lesson references C7 or C8 and occurs at lesson number ≥6."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Number of practical lessons per week does not exceed 2 across the whole sequence."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least two formative checkpoints exist; one references C3, one references C6."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Each formative checkpoint states a duration of 15 minutes or less."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "A summative task references C7, C8, and C9 and states in-class time ≤30 minutes."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Prerequisite chain text contains arrows or explicit dependencies from C1 through C9 in order."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "At least three distinct named risks are present, each with a mitigation."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Response mentions deferral of C8 if the second practical is unavailable."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Response mentions printed instructions and extra processing time for the two documented students in practical and formative contexts."
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 3,
+    "response.output_item.done": 3,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1988,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

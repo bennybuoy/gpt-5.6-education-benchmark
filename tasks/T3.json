@@ -1,0 +1,73 @@
+{
+  "task_id": "T3",
+  "title": "NSW Year 8 Depth-Study Portfolio Architecture (30 marks)",
+  "candidate_prompt": "Design a 30-mark Year 8 depth-study portfolio architecture using ONLY the supplied synthetic requirements. Do not reference external NSW syllabus documents, NESA guidelines, or any outside source.\n\nSUPPLIED CONTEXT\n- Cohort: 120 Year 8 students across 4 classes.\n- Depth study topic: 'Energy transfer in simple electric circuits'.\n- Duration: 3 school weeks.\n- Group practical: students work in groups of 3; each group submits one shared practical report.\n- Individual evidence: each student submits an individual reflection and an individual analysis task.\n- Total marks: 30.\n\nSUPPLIED MARK ALLOCATION RULES\n- Group practical report: 12 marks.\n- Individual analysis task: 12 marks.\n- Individual reflection: 6 marks.\n- No single criterion may exceed 8 marks.\n- Each criterion must have a named descriptor at each of 4 performance bands: Emerging, Developing, Proficient, Exemplary.\n\nSUPPLIED AUTHENTICITY AND ABSENCE CONSTRAINTS\n- Each group practical report must include a contribution statement signed by all group members indicating who completed each section.\n- If a group member is absent for the practical session, their individual analysis and reflection must be based on supplied secondary data, not on group data they did not collect.\n- If a student is absent for more than 2 of the 3 weeks, they must be offered an alternative individual-only task worth 30 marks using supplied secondary data.\n- Drafts must be submitted at two checkpoints; drafts missing at a checkpoint cannot receive full marks in the corresponding criterion.\n- Teacher moderation: two teachers must independently mark at least 20% of portfolios; discrepancies greater than 3 marks on any criterion trigger remoderation.\n- Blocking decisions: a portfolio cannot be awarded Proficient or Exemplary overall if the individual analysis task is missing, plagiarised, or based on data the student did not personally collect or was not authorised to use.\n\nSUPPLIED CHECKPOINTS\n- Checkpoint 1, end of week 1: group practical plan and individual analysis outline.\n- Checkpoint 2, end of week 2: group practical draft results and individual analysis draft.\n- Final submission, end of week 3: full portfolio.\n\nYOUR TASK\nProduce a portfolio architecture document containing:\n1. A criterion table listing each criterion, its mark value, the component it belongs to (group practical / individual analysis / individual reflection), and the four band descriptors.\n2. A mark allocation check showing the total is 30, no criterion exceeds 8 marks, and group/individual split is 12/12/6.\n3. A checkpoint schedule with dates expressed as week/day, what is submitted, who checks it, and the consequence of missing the checkpoint.\n4. An absence pathway table covering: absent for practical session, absent for 1 week, absent for 2 weeks, absent for more than 2 weeks.\n5. An authenticity protocol stating how contribution statements are verified, how secondary-data use is authorised, and how plagiarism is detected and handled.\n6. A moderation procedure stating sampling rate, discrepancy threshold, remoderation steps, and who makes final decisions.\n7. A blocking decisions list stating each condition that prevents Proficient/Exemplary overall and the rationale.\n\nDo not reveal any hidden scoring criteria. Keep the whole response under 1500 words.",
+  "hidden_key": "The architecture must include a blocking rule that prevents Proficient/Exemplary when the individual analysis is missing, plagiarised, or based on unauthorised data; must require two-teacher moderation of at least 20% with a 3-mark discrepancy trigger; and must route absences over 2 weeks to an individual-only 30-mark alternative using supplied secondary data.",
+  "rubric": {
+    "total": 100,
+    "critical_cap": 45,
+    "major_cap": 30,
+    "criteria": [
+      {
+        "name": "Criterion table completeness",
+        "max": 25,
+        "critical": true,
+        "description": "Each criterion named with mark value, component, and four band descriptors (Emerging, Developing, Proficient, Exemplary)."
+      },
+      {
+        "name": "Mark allocation correctness",
+        "max": 10,
+        "critical": true,
+        "description": "Total 30; no criterion >8 marks; group 12, individual analysis 12, reflection 6."
+      },
+      {
+        "name": "Checkpoint schedule",
+        "max": 15,
+        "major": true,
+        "description": "Two checkpoints plus final submission, each with week/day, submission item, checker, and missing-checkpoint consequence."
+      },
+      {
+        "name": "Absence pathways",
+        "max": 15,
+        "critical": true,
+        "description": "Covers absent for practical, 1 week, 2 weeks, >2 weeks; >2 weeks routes to individual-only 30-mark alternative using supplied secondary data."
+      },
+      {
+        "name": "Authenticity protocol",
+        "max": 15,
+        "major": true,
+        "description": "Contribution statement verification, secondary-data authorisation, plagiarism detection and handling all specified."
+      },
+      {
+        "name": "Moderation procedure",
+        "max": 12,
+        "critical": true,
+        "description": "At least 20% sampling, two independent teachers, 3-mark discrepancy trigger, remoderation steps, final decision-maker named."
+      },
+      {
+        "name": "Blocking decisions",
+        "max": 8,
+        "critical": true,
+        "description": "Explicit blocking conditions preventing Proficient/Exemplary overall, including missing/plagiarised/unauthorised individual analysis, with rationale."
+      }
+    ]
+  },
+  "deterministic_checks": [
+    "A criterion table exists with at least one criterion per component (group practical, individual analysis, individual reflection).",
+    "Sum of criterion marks equals 30.",
+    "No criterion mark value exceeds 8.",
+    "Group practical criteria sum to 12, individual analysis criteria sum to 12, individual reflection criteria sum to 6.",
+    "Each criterion has four band descriptors labelled Emerging, Developing, Proficient, Exemplary.",
+    "Checkpoint schedule includes Checkpoint 1 at end of week 1, Checkpoint 2 at end of week 2, and final submission at end of week 3.",
+    "Each checkpoint entry specifies a submission item, a checker, and a consequence for missing it.",
+    "Absence pathway table includes entries for: absent for practical session, absent for 1 week, absent for 2 weeks, absent for more than 2 weeks.",
+    "The >2 weeks absence pathway routes to an individual-only task worth 30 marks using supplied secondary data.",
+    "Authenticity protocol mentions contribution statements signed by all group members.",
+    "Authenticity protocol mentions secondary-data authorisation for absent students.",
+    "Authenticity protocol mentions plagiarism detection and a handling consequence.",
+    "Moderation procedure states at least 20% sampling and two independent teachers.",
+    "Moderation procedure states a discrepancy threshold of 3 marks and a remoderation step.",
+    "Blocking decisions list includes missing individual analysis, plagiarised individual analysis, and unauthorised-data individual analysis as blocking conditions for Proficient/Exemplary overall."
+  ],
+  "source_notes": "Synthetic NSW Year 8 depth-study portfolio scenario. All mark allocations, authenticity rules, absence pathways, checkpoints, and moderation rules are supplied in the prompt; no external source is required."
+}

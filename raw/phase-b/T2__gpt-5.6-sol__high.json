@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "high",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:28:35.931730+00:00",
+  "elapsed_seconds": 74.43488698801957,
+  "time_to_first_visible_text_seconds": 43.86829944199417,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 2465,
+    "output_tokens_details": {
+      "reasoning_tokens": 1280
+    },
+    "total_tokens": 3056
+  },
+  "input_tokens": 591,
+  "output_tokens": 2465,
+  "reasoning_tokens": 1280,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.076905,
+  "output_text": "## 1. Central decision\n\n**What classification is justified by the evidence: physical change, chemical change, or not yet decidable?**  \nStudents must base the decision on whether a new substance formed, while separating what was observed from what was inferred.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use evidence to classify changes and communicate the strength and limits of the conclusion.\n\nStudents can:\n\n1. Record observations separately from inferences.\n2. Classify a change by considering whether a new substance formed, rather than relying on one sign, dissolving, or reversibility alone.\n3. Justify a classification, identify an alternative explanation, and state when more evidence is needed.\n\n## 3. Lesson sequence\n\n- **0–4 minutes — Commit:** Individually sort three projected or printed cases into physical, chemical, or uncertain and write one reason. Cases include torn paper, rusting iron, and an unidentified colour change.\n- **4–12 minutes — Modelled comparison:** Teacher crumples a clean sheet of paper and compares this with a printed before-and-after rusting case containing colour and mass data. Students identify observation and inference in each.\n- **12–18 minutes — Explicit explanation:** Establish definitions, useful indicators, misleading shortcuts, and the need to qualify conclusions.\n- **18–30 minutes — Construct:** In groups of three, students build an A3 “evidence-to-claim map” from blank paper and movable prompt cards. It must guide a user from observations to a justified, qualified classification.\n- **30–40 minutes — Test:** Groups apply their map to one card at a time: cutting paper; salt reported as dissolving and later recovered; boiling water producing gas; rusting; formation of a solid when two liquids mix; and an unexplained colour change. They record where their map fails.\n- **40–48 minutes — Debate and revise:** Groups exchange one disputed classification. The receiving group challenges any unsupported inference or automatic use of a sign. Original groups revise their map in a different colour.\n- **48–55 minutes — A16 rehearsal:** Each group receives a mock practical observation record. One student reads only observations, one applies the map, and one challenges the conclusion. Roles rotate after each short case.\n- **55–60 minutes — Individual written check:** Students independently answer the exam-style question below.\n\n## 4. Student-built artifact\n\nAn **evidence-to-claim map** containing:\n\n- a box for direct observations only;\n- the question, “Is there evidence that one or more new substances formed?”;\n- possible indicators, labelled **clues, not automatic proof**;\n- checks for physical alternatives such as change of state, size, shape, arrangement, or dissolving;\n- a warning that reversibility is not a definition;\n- three permitted conclusions: physical, chemical, or insufficient evidence;\n- a claim–evidence–reasoning statement, confidence level, alternative explanation, and useful further evidence.\n\nGroups must revise the map after testing it against at least one counterexample.\n\n## 5. Teacher explanation\n\nFor crumpled paper: “I observe a change in shape. I do not observe evidence of a new substance. My inference is that this is a physical change.”\n\nFor the rusting case: “I observe a grey surface becoming reddish-brown and the recorded mass increasing. ‘A new substance formed’ is an inference, not an observation. Together, the observations support a chemical-change classification because reaction with material from the surroundings can produce a new substance. Colour change alone would not prove this.”\n\nClarify that physical changes alter state, shape, size, or arrangement without forming a new substance. Chemical changes form one or more new substances. Gas, temperature, precipitate, light, odour, or colour may support a chemical inference, but context matters. Dissolving may be physical, and irreversibility alone is unreliable.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** Two colourless liquids are mixed. A yellow solid appears and the container becomes warmer. Classify the change and justify your answer. Separate observations from inference and state one limitation of the evidence. **(5 marks)**\n\n**Marking points:**\n\n- Identifies the observations: yellow solid appeared and temperature increased. (1)\n- Classifies the change as likely chemical. (1)\n- Identifies formation of the solid as evidence consistent with a new substance. (1)\n- Explains that “new substance formed” is an inference from the observations. (1)\n- States that no single sign is proof and that identity/composition evidence would strengthen the conclusion. (1)\n\n## 7. ADHD-supportive access and deep extension\n\nCases are released one at a time under visible short timers, reducing competing information. Fixed roles—reader, mapper, challenger—give each student an immediate action and rotate movement and talk predictably. Movable cards permit purposeful handling without unstructured movement. Public commitment before discussion discourages passive copying.\n\nDepth is preserved by requiring every group to test a counterexample, offer an alternative explanation, rate confidence, and specify further evidence. Extension students redesign the map so it handles boiling, dissolving, irreversible physical changes, and ambiguous colour changes without relying on cue-counting.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the revised map as a practical decision aid: record observations first, then classify and justify physical and chemical changes, including uncertainty.\n\nAH17 uses only paper, images and reported scenarios—no wet chemicals, flames, heating, tasting, or uncontrolled substances. Pre-allocate groups and materials to prevent transition delays. Monitor noise during exchange, stop students treating indicators as a checklist, and collect or photograph maps so they are available in A16.",
+  "word_count": 863,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 863,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 4,
+    "response.output_item.done": 4,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1179,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

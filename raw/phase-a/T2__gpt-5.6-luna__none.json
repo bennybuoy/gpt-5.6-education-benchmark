@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-luna",
+  "model_returned": "gpt-5.6-luna",
+  "effort": "none",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T10:39:45.154097+00:00",
+  "elapsed_seconds": 21.47083861392457,
+  "time_to_first_visible_text_seconds": 0.7235810969723389,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1150,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1741
+  },
+  "input_tokens": 591,
+  "output_tokens": 1150,
+  "reasoning_tokens": 0,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.007491,
+  "output_text": "## 1. Central decision\n\nStudents will use a **Claim–Evidence–Limits (CEL) decision tool** rather than classify changes from a single visual sign. They will test and revise the tool against scenario cards, distinguishing observations from inferences and identifying when evidence is insufficient.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:**  \nDistinguish physical and chemical changes by deciding whether evidence supports formation of a new substance.\n\n**Success criteria:** Students can:\n\n1. Separate an observation from an inference.\n2. Classify a change as physical, chemical, or not yet determined, with evidence.\n3. State a limitation or alternative explanation and identify what further evidence would improve the decision.\n\n## 3. Lesson sequence\n\n**0–5 min — Entry decision**  \nDisplay: “Ice melts” and “A tablet fizzes in water.” Students individually choose physical, chemical, or insufficient evidence, then briefly justify. Collect responses to reveal assumptions without correcting them yet.\n\n**5–12 min — Teacher model**  \nModel: “A white solid disappears when stirred into water.”  \n- Observation: “The solid is no longer visible.”  \n- Inference: “It dissolved.”  \n- Further inference: “No new substance formed.”  \nExplain that the last claim is not established merely by disappearance; dissolving can be physical, but evidence and context matter. Model a second case: “A new solid appears when two clear liquids are mixed.” Observation is the solid appearing; inference is that a chemical change may have occurred because a new substance may have formed. This is stronger evidence, but still requires careful wording.\n\n**12–20 min — Build the CEL tool**  \nIn groups of three, students construct a pocket-sized flowchart:\n\n1. What was observed?\n2. Does the evidence indicate a new substance formed?\n3. Claim: physical, chemical, or insufficient evidence.\n4. What limits or alternative explanations remain?\n5. What additional observation or test would help?\n\nGroups add a warning box: “Colour, gas, temperature, precipitate, light or odour are clues, not automatic proof.”\n\n**20–35 min — Card sort and challenge**  \nGroups sort scenario cards into physical, chemical, or insufficient evidence, writing an observation, claim and limitation for each. Include dissolving, cutting, melting, rusting, precipitate formation, colour change and gas production. One student is the evidence reader, one the challenger, and one the recorder; rotate roles halfway through.\n\n**35–45 min — Test and revise**  \nGroups exchange two cards and attempt to challenge the other group’s classification. They revise their flowchart where it fails, especially where a sign could have more than one explanation. Groups nominate their most difficult card and defend their decision.\n\n**45–52 min — Whole-class synthesis**  \nCompare classifications. Explicitly separate “what we saw” from “what we think it means.” Emphasise that chemical change requires evidence supporting formation of one or more new substances, not simply irreversibility or a single sign.\n\n**52–59 min — Individual written check**  \nStudents complete the check below independently.\n\n**59–60 min — Exit transition**  \nStudents circle one tool question they will use in the A16 practical: observation, new substance, limitation, or further test.\n\n## 4. Student-built artifact\n\nA revised **CEL decision card/flowchart** with:\n\n- observation box;\n- physical/chemical/insufficient-evidence branches;\n- evidence for or against a new substance;\n- limitations and alternative explanations;\n- suggested further evidence;\n- warning that individual signs are not automatic proof.\n\nIt is usable during the next practical as a recording and justification scaffold.\n\n## 5. Teacher explanation\n\nA physical change alters state, shape, size or arrangement without forming a new substance. A chemical change forms one or more new substances. Students should write observations neutrally, then make an inference supported by those observations. Reversibility alone is not a definition: some physical changes may be difficult to reverse, and a decision must focus on substance identity and evidence.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** A student mixes two clear liquids. A cloudy white solid appears and settles. Explain whether this is evidence of a physical or chemical change. Include one observation, one inference, and one limitation or further question.\n\n**Marking points (4):**\n\n- 1: Accurate observation: a cloudy/white solid appeared and settled.\n- 1: Classifies it as evidence consistent with a chemical change because a new substance may have formed.\n- 1: Distinguishes inference from observation.\n- 1: States a limitation or useful further evidence, such as requiring additional testing to confirm the substance formed.\n\n## 7. ADHD-supportive access and deep extension\n\nShort, timed phases, visible countdowns, role rotation and a physical card-sort provide frequent purposeful actions and reduce waiting. The three-person roles make participation accountable without lowering cognitive demand. The same tool supports access through a fixed sequence while extension students challenge ambiguous cards, propose competing explanations and identify the most discriminating additional evidence.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the CEL card while classifying and justifying physical and chemical changes in the practical. They should record observations first, then claims and limitations, rather than treating the card as an answer key.\n\nRisks: groups may confuse “not visible” with “gone”; address this during circulation. Keep cards and writing tools ready to avoid transition loss. Do not use wet chemistry, heating, flames, tasting or uncontrolled substances in AH17.",
+  "word_count": 841,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 841,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 1,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1146,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.output_item.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

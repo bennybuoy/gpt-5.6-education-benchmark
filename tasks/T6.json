@@ -1,0 +1,124 @@
+{
+  "task_id": "T6",
+  "title": "Cross-document consistency repair",
+  "candidate_prompt": "You are cross-checking classroom resources against an approved lesson plan. The APPROVED PLAN is the source of truth. You may repair only the worksheet and slide outline. Do not change, reinterpret or “improve” the approved plan.\n\nAPPROVED PLAN\nLesson: Year 8 — Evidence for chemical change (60 min, AH17 dry classroom)\nLearning intention: Distinguish observations from inferences and use multiple observations to decide whether evidence supports formation of a new substance.\nSuccess criteria:\n1. Label statements as observation or inference.\n2. Use at least two relevant observations before claiming a chemical change.\n3. State when evidence is insufficient.\nSequence: 0–7 retrieval; 7–18 explicit teaching and teacher model; 18–33 groups build an Evidence–Inference–Decision tool; 33–43 groups test it against two cases and revise one rule; 43–54 individual five-mark check; 54–60 exit ticket and A16 handoff.\nWorked example: fizzing tablet in water. Observation: bubbles and temperature decrease. Inference: gas may have formed. Decision: observations alone do not identify the gas or prove a new substance; more evidence is needed.\nIndividual check: five marks—two observations (2), observation/inference distinction (1), evidence-based decision (1), limitation or further evidence (1).\nExit ticket: “One observation is ___; one inference is ___; my decision is ___ because ___; evidence still needed is ___.”\nNext lesson: students use the revised tool in A16 to record live reaction evidence.\n\nWORKSHEET DRAFT\nTitle: Proving a Chemical Reaction\nLearning intention: Identify five signs that prove a chemical reaction occurred.\nSuccess criteria: List colour change, bubbles, odour, temperature and light.\nWorked example: Fizzing always proves a gas-producing chemical reaction.\nGroup task: Circle the strongest sign on six case cards. Copy its name into the table.\nIndividual check (3 marks): Name three signs of chemical reaction.\nExit: Write one sign that proves a reaction.\nTeacher note printed at foot: Correct answers—bubbles, colour change, temperature change.\n\nSLIDE OUTLINE DRAFT\nS1 title and safety.\nS2 learning intention: Know the indicators of chemical reactions.\nS3 success: Recall four indicators.\nS4–S5 teacher explanation (12 minutes).\nS6 practical demonstration: teacher mixes vinegar and bicarbonate in AH17.\nS7 students complete worksheet individually (20 minutes).\nS8 worked example: melting wax is chemical because it cannot easily be reversed.\nS9 group answer reveal.\nS10 four-mark exit quiz: list four signs.\nS11 next lesson: copy definitions in A16.\n\nTASK\nReturn exactly these sections:\n1. Mismatch ledger — table with columns ID, document/location, mismatch, exact approved-plan evidence, severity.\n2. Worksheet repairs — minimal replacement text for every affected worksheet element.\n3. Slide repairs — minimal replacement text or instruction for every affected slide.\n4. Verification — map the repaired learning intention, success criteria, worked example, timings, individual check, exit ticket and A16 handoff back to the approved plan.\n5. Plan integrity statement — explicitly confirm that no approved-plan element was changed.\n\nKeep the response under 1,200 words. Do not add new practical work or new scientific content. Do not include model identity or benchmark commentary.",
+  "hidden_key": {
+    "planted_mismatches": [
+      {
+        "id": "M1",
+        "location": "worksheet title/LI",
+        "gold": "replace proof/indicator framing with observation-inference and multiple-evidence LI"
+      },
+      {
+        "id": "M2",
+        "location": "worksheet success criteria",
+        "gold": "replace five-sign recall with three approved success criteria"
+      },
+      {
+        "id": "M3",
+        "location": "worksheet worked example",
+        "gold": "replace fizzing-proves claim with approved fizzing-tablet example and limitation"
+      },
+      {
+        "id": "M4",
+        "location": "worksheet group task",
+        "gold": "replace circle/copy with build-test-revise Evidence–Inference–Decision tool"
+      },
+      {
+        "id": "M5",
+        "location": "worksheet individual check",
+        "gold": "replace 3-mark recall with approved 5-mark evidence reasoning check"
+      },
+      {
+        "id": "M6",
+        "location": "worksheet exit",
+        "gold": "replace proof statement with approved four-part exit ticket"
+      },
+      {
+        "id": "M7",
+        "location": "worksheet teacher answer leak",
+        "gold": "remove answers from student material; teacher key separate"
+      },
+      {
+        "id": "M8",
+        "location": "slides LI/SC",
+        "gold": "align exactly with approved LI and three SC"
+      },
+      {
+        "id": "M9",
+        "location": "slides AH17 wet demo",
+        "gold": "remove wet demonstration; AH17 is dry"
+      },
+      {
+        "id": "M10",
+        "location": "slides student task/timing",
+        "gold": "align sequence to 0–7,7–18,18–33,33–43,43–54,54–60"
+      },
+      {
+        "id": "M11",
+        "location": "slides melting wax claim",
+        "gold": "remove false irreversibility claim and use approved fizzing example"
+      },
+      {
+        "id": "M12",
+        "location": "slides answer reveal",
+        "gold": "replace with test/revise phase without student answer leakage"
+      },
+      {
+        "id": "M13",
+        "location": "slides exit",
+        "gold": "replace four-sign recall with approved exit ticket"
+      },
+      {
+        "id": "M14",
+        "location": "slides handoff",
+        "gold": "replace copy definitions with use revised tool in A16 live evidence recording"
+      }
+    ],
+    "forbidden": [
+      "change approved plan",
+      "retain wet AH17 demo",
+      "claim a single sign proves chemical change",
+      "leave answers in student resource"
+    ],
+    "maximum_words": 1200
+  },
+  "rubric": {
+    "gold_mismatch_recall": 42,
+    "scientific_exactness": 20,
+    "minimal_resource_side_repairs": 18,
+    "source_of_truth_obedience": 10,
+    "verification_traceability": 10,
+    "caps": {
+      "critical_scientific_or_AH17_safety_error": 50,
+      "plan_changed": 70,
+      "missing_worksheet_or_slide_repairs": 80
+    }
+  },
+  "deterministic_checks": [
+    {
+      "id": "T6-LEN",
+      "type": "max_words",
+      "value": 1200
+    },
+    {
+      "id": "T6-SECTIONS",
+      "type": "required_headings",
+      "values": [
+        "Mismatch ledger",
+        "Worksheet repairs",
+        "Slide repairs",
+        "Verification",
+        "Plan integrity statement"
+      ]
+    },
+    {
+      "id": "T6-GOLD-COUNT",
+      "type": "gold_mismatch_count",
+      "value": 14
+    }
+  ],
+  "source_notes": [
+    "Synthetic source-of-truth consistency fixture; all authoritative plan facts are supplied in prompt."
+  ]
+}

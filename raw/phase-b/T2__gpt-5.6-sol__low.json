@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "low",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:28:35.933398+00:00",
+  "elapsed_seconds": 42.523447996005416,
+  "time_to_first_visible_text_seconds": 15.560129016987048,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1541,
+    "output_tokens_details": {
+      "reasoning_tokens": 410
+    },
+    "total_tokens": 2132
+  },
+  "input_tokens": 591,
+  "output_tokens": 1541,
+  "reasoning_tokens": 410,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.049185,
+  "output_text": "## 1. Central decision\n\nStudents decide: **What classification is best supported—physical change, chemical change, or insufficient evidence?** They must separate what was observed from what is inferred, explain whether a new substance formed, consider alternative explanations, and state confidence rather than treating one sign or reversibility as proof.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use evidence to classify and justify physical and chemical changes.\n\nStudents can:\n\n1. State that physical changes form no new substance, whereas chemical changes form one or more new substances.\n2. Separate observations from inferences and explain why colour, gas, temperature, precipitate, light or odour are clues rather than automatic proof.\n3. Use and revise a reasoning tool to make a classification, consider alternatives and identify limits in the evidence.\n\n## 3. Lesson sequence\n\n- **0–5 minutes — Entry decision:** Display two silent image sequences: paper being cut and an iron object before/after developing a reddish-brown coating. Students independently record one observation and one tentative classification for each.\n- **5–13 minutes — Teacher-modelled comparison:** Model an observation/inference table for both examples. Explicitly expose unsupported claims and introduce “physical,” “chemical” and “insufficient evidence” as defensible outcomes.\n- **13–20 minutes — Build the tool:** In groups of three, students construct a compact evidence-based decision tool on A3 paper using the required components in Section 4.\n- **20–34 minutes — Test on scenario cards:** Groups rotate cards every 3–4 minutes: ice melting; paper torn; a solid disappearing into water; bubbles seen during a change; unexpected temperature increase; a new solid appearing in a liquid; colour and odour changing. Cards provide only observations, not answers. Groups apply their tool and record classifications and confidence.\n- **34–43 minutes — Evidence debate:** Each group defends one difficult classification. Another group must challenge it with an alternative explanation or evidence limitation.\n- **43–49 minutes — Revise the tool:** Groups improve wording, add an “insufficient evidence” route, and remove any rule that treats one sign or irreversibility as automatic proof.\n- **49–57 minutes — Individual exam-style check:** Students respond silently without group support.\n- **57–60 minutes — Forward link:** Students place the revised tool in their science folder and write one observation they must record precisely in A16 and one inference they must not present as an observation.\n\n## 4. Student-built artifact\n\nAn **Evidence-to-Claim Decision Map** suitable for use beside the A16 practical:\n\n1. **Observe:** What was directly seen, heard, smelt safely, or measured?\n2. **Infer:** Does the evidence suggest a new substance, or only a change in state, shape, size or arrangement?\n3. **Challenge:** Could the observation have another explanation? For example, bubbles might be boiling or trapped air; colour change alone is not proof.\n4. **Decide:** Physical / chemical / insufficient evidence.\n5. **Justify:** “I observed… This supports… because…”\n6. **Qualify:** Confidence and evidence still needed.\n\n## 5. Teacher explanation\n\nModel:\n\n- **Cut paper:** “Several smaller pieces with new edges” is an **observation**. “No new substance formed” is an **inference** supported by the change being in size and shape; classify as physical.\n- **Reddish-brown coating:** “The surface changed from grey to reddish-brown” is an **observation**. “A new substance formed” is an **inference**, not something directly visible. The coating supports a chemical classification, but colour alone would not prove it.\n\nClarify that dissolving can be physical and that reversibility is not the definition: some physical changes are difficult to reverse, while classification depends on whether new substances form.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** Two colourless liquids are combined. A white solid appears and the mixture becomes warmer. Classify the change and justify your answer using the evidence. State one limitation.\n\n**Marking points — 4 marks:**\n\n- 1: Classifies it as **likely chemical**.\n- 1: Identifies the white solid and/or temperature increase as observations.\n- 1: Infers that formation of a new substance is supported.\n- 1: States that these signs are not automatic proof, or that substance identity/additional testing is unavailable.\n\n## 7. ADHD-supportive access and deep extension\n\nShort timed phases, visible countdowns, fixed roles—reader, mapper and challenger—and one card at a time reduce waiting, competing stimuli and working-memory load. Rotation provides controlled movement; every phase produces a concrete decision. Students may speak reasoning before writing, but the final check is individual.\n\nDeep extension remains open: students rank evidence strength, construct competing explanations, identify what further evidence would discriminate between them, and argue when “insufficient evidence” is more scientific than forced classification.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the decision map to classify and justify observed physical and chemical changes, recording observations before discussing inferences.\n\nAH17 uses only teacher-provided images, text cards and paper materials: no wet chemistry, flames, heating, tasting or uncontrolled substances. Pre-number card sets, keep groups seated except for controlled rotation, prohibit miming unsafe procedures, and collect artifacts for redistribution in A16.",
+  "word_count": 806,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 806,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.output_item.done": 2,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1125,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

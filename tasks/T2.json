@@ -1,0 +1,41 @@
+{
+  "task_id": "T2",
+  "title": "Lesson pedagogical core",
+  "candidate_prompt": "# Clean EduAgent Benchmark Task\n\nYou are designing one lesson only. You have no tools, retrieval, memory, persona, or access to other documents. Use only the source block below.\n\n## Context\n\n- NSW Year 8 Science, Focus Area 7: Change.\n- This is a 60-minute lesson in AH17, an ordinary classroom, not a wet laboratory.\n- Approximately 30 mixed-attainment students; several students show hyperactive-ADHD-like behaviour and low engagement.\n- Engaged students must retain access to deep scientific thinking.\n- The next lesson is in wet lab A16 and will involve a practical in which students classify and justify physical and chemical changes.\n- Pedagogy: build, test, debate or construct; do not produce a fill-in-the-blanks worksheet.\n\n## Authoritative content supplied for this benchmark\n\nStudents need to distinguish physical and chemical changes using evidence.\n\n- In a physical change, no new substance is formed; state, shape, size or arrangement may change.\n- In a chemical change, one or more new substances form.\n- Colour change, gas production, temperature change, precipitate formation, light or odour can be observations consistent with chemical change, but no single sign is automatic proof in every context.\n- Dissolving can be a physical change.\n- Reversibility or irreversibility alone is not a reliable definition.\n- Students must distinguish observation from inference and state the limits of available evidence.\n\n## Task\n\nDesign the lesson's pedagogical core so it prepares students for the next wet-lab practical without conducting wet chemistry in AH17.\n\nReturn no more than 750 words using exactly these headings:\n\n1. Central decision\n2. Learning intention and three success criteria\n3. Lesson sequence\n4. Student-built artifact\n5. Teacher explanation\n6. Individual exam-style check and marking points\n7. ADHD-supportive access and deep extension\n8. Forward link and operational risks\n\nRequirements:\n\n- Give a timed sequence totalling exactly 60 minutes.\n- Include a teacher-modelled comparison that separates observation from inference.\n- Students must construct, test or revise a usable reasoning tool or model.\n- Include one individual written check that reveals whether a student can justify a classification from evidence.\n- Include concise marking points for that check.\n- Make the forward link to the A16 practical explicit.\n- Do not cite or invent NESA wording beyond the supplied source block.\n- Do not propose wet chemistry, flames, heating, tasting or uncontrolled substances in AH17.\n- Avoid generic engagement claims. Explain the mechanism by which structure supports attention while preserving depth.\n- Be scientifically precise and classroom-feasible.\n",
+  "hidden_key": {
+    "rubric_text": "# Hidden Scoring Rubric — 100 points\n\nScore only what is present in the response.\n\n## A. Scientific accuracy and epistemic precision — 20\n- Correct physical/chemical distinction: 6\n- Treats indicators as evidence, not automatic proof: 5\n- Observation versus inference is operationalised: 5\n- Handles dissolving/reversibility without misconception: 4\n\n## B. Pedagogical coherence and forward sequence — 20\n- Central decision has a defensible mechanism: 5\n- Timed sequence coherently develops reasoning: 7\n- Preparation for the next A16 practical is explicit and usable: 5\n- Correction/revision is built in: 3\n\n## C. Constraint compliance and feasibility — 15\n- Exact 60-minute total: 3\n- No wet-lab activity in AH17: 4\n- Feasible for approximately 30 students: 4\n- Follows exact heading/output contract and <=750 words: 4\n\n## D. Build-don't-fill student thinking — 15\n- Students construct a genuine reasoning tool/model/artifact: 6\n- They test it against cases or counterexamples: 5\n- They revise or defend it from evidence: 4\n\n## E. Assessment validity — 15\n- Individual response requires evidence-based justification: 6\n- Marking points are concise, observable and aligned: 5\n- Check diagnoses likely misconceptions: 4\n\n## F. ADHD-supportive access without lowered ceiling — 10\n- Concrete attention/executive-function mechanisms: 5\n- Engaged students receive deeper work on same concept, not busywork: 5\n\n## G. Precision and efficiency — 5\n- High information density, low generic prose: 3\n- Teacher can implement it without guessing essential steps: 2\n\n## Critical caps\n- Incorrect definition of chemical change: overall maximum 50.\n- Wet chemistry/flame/heating proposed in AH17: overall maximum 60.\n- No individual written check: overall maximum 75.\n- No explicit next-lesson handoff: overall maximum 85.\n\nJudges must provide category scores, cap applied if any, total, and 2–4 sentence evidence-based rationale.\n",
+    "critical_requirements": [
+      "chemical change defined by formation of new substance",
+      "no wet chemistry/flames/heating in AH17",
+      "individual written check",
+      "explicit A16 next-lesson handoff"
+    ],
+    "maximum_words": 750
+  },
+  "rubric": "# Hidden Scoring Rubric — 100 points\n\nScore only what is present in the response.\n\n## A. Scientific accuracy and epistemic precision — 20\n- Correct physical/chemical distinction: 6\n- Treats indicators as evidence, not automatic proof: 5\n- Observation versus inference is operationalised: 5\n- Handles dissolving/reversibility without misconception: 4\n\n## B. Pedagogical coherence and forward sequence — 20\n- Central decision has a defensible mechanism: 5\n- Timed sequence coherently develops reasoning: 7\n- Preparation for the next A16 practical is explicit and usable: 5\n- Correction/revision is built in: 3\n\n## C. Constraint compliance and feasibility — 15\n- Exact 60-minute total: 3\n- No wet-lab activity in AH17: 4\n- Feasible for approximately 30 students: 4\n- Follows exact heading/output contract and <=750 words: 4\n\n## D. Build-don't-fill student thinking — 15\n- Students construct a genuine reasoning tool/model/artifact: 6\n- They test it against cases or counterexamples: 5\n- They revise or defend it from evidence: 4\n\n## E. Assessment validity — 15\n- Individual response requires evidence-based justification: 6\n- Marking points are concise, observable and aligned: 5\n- Check diagnoses likely misconceptions: 4\n\n## F. ADHD-supportive access without lowered ceiling — 10\n- Concrete attention/executive-function mechanisms: 5\n- Engaged students receive deeper work on same concept, not busywork: 5\n\n## G. Precision and efficiency — 5\n- High information density, low generic prose: 3\n- Teacher can implement it without guessing essential steps: 2\n\n## Critical caps\n- Incorrect definition of chemical change: overall maximum 50.\n- Wet chemistry/flame/heating proposed in AH17: overall maximum 60.\n- No individual written check: overall maximum 75.\n- No explicit next-lesson handoff: overall maximum 85.\n\nJudges must provide category scores, cap applied if any, total, and 2–4 sentence evidence-based rationale.\n",
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "type": "max_words",
+      "value": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "type": "required_headings",
+      "values": [
+        "Core learning problem",
+        "Learning intention",
+        "Success criteria",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "Extension",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "source_notes": [
+    "Frozen unchanged from the original GPT-5.6 education benchmark for comparability."
+  ]
+}

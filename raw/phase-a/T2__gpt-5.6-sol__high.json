@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "high",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T10:38:24.096387+00:00",
+  "elapsed_seconds": 79.57243058294989,
+  "time_to_first_visible_text_seconds": 52.77013448695652,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 2860,
+    "output_tokens_details": {
+      "reasoning_tokens": 1707
+    },
+    "total_tokens": 3451
+  },
+  "input_tokens": 591,
+  "output_tokens": 2860,
+  "reasoning_tokens": 1707,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.088755,
+  "output_text": "## 1. Central decision\n\nFor any change, students decide: **Does the available evidence support a physical change, a chemical change, or is there insufficient evidence?** They must separate what was observed from the inference that a new substance did or did not form.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use evidence to classify changes and communicate the limits of the classification.\n\nStudents can:\n\n1. Record observations without inserting explanations or assumptions.\n2. Classify a change as physical, chemical or insufficient-evidence, linking the claim to whether a new substance forms.\n3. Qualify a conclusion by explaining why dissolving, reversibility or one apparent sign is not decisive by itself.\n\n## 3. Lesson sequence\n\n- **0–5 minutes – Observation or inference:** Individually sort six projected statements, such as “the temperature rose 4°C” and “a new substance formed.” Pair-check, then teacher confirms the distinction.\n- **5–13 minutes – Modelled comparison:** Teacher compares two written cases, explicitly annotating observation, inference and limitation.\n- **13–23 minutes – Construct the tool:** Pairs arrange rule, evidence and caution cards on blank A3 paper to build an “Evidence-to-Claim” decision map. They add arrows and their own wording.\n- **23–38 minutes – Test the tool:** Each pair applies its map to five dry case cards: reshaping clay; cutting paper; a liquid becoming solid; a solid disappearing when mixed with water; and a previously clear mixture forming a solid while its temperature rises. For each, students record a claim, evidence and limitation. Pairs must allow “insufficient evidence.”\n- **38–47 minutes – Evidence debate and revision:** Pairs compare one disputed classification with another pair. Each side must challenge one assumption. Students then revise their map in a different colour and label the reason for the revision.\n- **47–55 minutes – Individual exam-style check:** Students answer the written question independently.\n- **55–60 minutes – A16 transfer:** Teacher previews how the maps will be used in the next practical. Students write one personal reminder on the back, such as “record observations before classifying,” and submit maps for return in A16.\n\n**Total: 60 minutes.**\n\n## 4. Student-built artifact\n\nThe A3 **Evidence-to-Claim decision map** must contain:\n\n- an “observations only” entry point;\n- a branch asking whether evidence supports formation of one or more new substances;\n- physical, chemical and insufficient-evidence outcomes;\n- physical-change possibilities: state, shape, size or arrangement;\n- chemical-change indicators, clearly labelled “consistent with, not automatic proof”;\n- caution nodes for dissolving and reversibility;\n- a claim–evidence–limitation sentence structure.\n\nIt is not a completed template: students determine the arrangement, wording and links, test it against cases, and revise failures. The same map becomes a reasoning aid in A16.\n\n## 5. Teacher explanation\n\nModel Case A: “A blue lump is pressed flat and remains blue.”  \n**Observations:** it changed shape; it remained blue.  \n**Inference:** the evidence supports a physical change because only shape changed and there is no reported evidence of a new substance.  \n**Limit:** appearance alone cannot establish everything about substance identity.\n\nModel Case B: “After two materials were combined, a solid appeared in a previously clear mixture and the temperature rose 4°C.”  \n**Observations:** a solid appeared; temperature rose 4°C.  \n**Inference:** the evidence supports a chemical change because the combination of observations is consistent with new substance formation.  \n**Limit:** neither observation is automatic proof, and the new substance has not been identified.\n\nEmphasise: physical means no new substance; chemical means one or more new substances form. A difficult-to-reverse change is not automatically chemical, and dissolving can be physical.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** Two colourless liquids are combined. The mixture turns yellow and its temperature rises by 4°C. No further tests are completed. Classify the change and justify your answer by distinguishing observations from inference and stating one limitation.\n\n**Marking points, 4 marks:**\n\n- Identifies yellow colour and 4°C rise as observations.\n- Classifies the change as evidence supporting a chemical change.\n- Links the inference to possible formation of one or more new substances.\n- States that these signs are not conclusive proof without further evidence.\n\n## 7. ADHD-supportive access and deep extension\n\nVisible timers and short decision cycles reduce unstructured waiting. Pairs use rotating roles—card handler, sceptic and recorder—so movement is purposeful and no student remains passive. One case card is revealed at a time, limiting visual load while preserving the full reasoning demand. Public answers are delayed until pairs commit, reducing calling out.\n\nExtension cards require students to construct two rival explanations for ambiguous evidence, rank evidence strength, or specify what additional evidence would improve confidence. Thus faster students deepen evaluation rather than merely completing more classifications.\n\n## 8. Forward link and operational risks\n\nIn A16, students will first record observations, then use the map to classify and justify practical changes, including evidence limitations. Maps are returned at the laboratory entrance.\n\nAH17 uses only paper, laminated cards and written scenarios: no liquids, substances, heating, flames or tasting. Key risks are treating every sign as proof, defaulting uncertain cases to physical, and pair dominance. Teacher questioning, the mandatory insufficient-evidence branch, role rotation and individual assessment directly address these risks.",
+  "word_count": 845,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 845,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 5,
+    "response.output_item.done": 5,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1147,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

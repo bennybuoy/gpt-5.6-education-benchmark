@@ -1,0 +1,62 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-luna",
+  "model_returned": "gpt-5.6-luna",
+  "effort": "high",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T10:40:06.628756+00:00",
+  "elapsed_seconds": 58.83524382102769,
+  "time_to_first_visible_text_seconds": 37.22116293001454,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 3192,
+    "output_tokens_details": {
+      "reasoning_tokens": 1997
+    },
+    "total_tokens": 3783
+  },
+  "input_tokens": 591,
+  "output_tokens": 3192,
+  "reasoning_tokens": 1997,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.019743,
+  "output_text": "1. Central decision\n\nUse a “claim–evidence–limit” protocol rather than a checklist of chemical-change signs. Students will decide whether the available evidence best supports a physical or chemical change, while stating what the evidence cannot prove.\n\n2. Learning intention and three success criteria\n\n**Learning intention:** We are learning to distinguish physical and chemical changes by separating observations from inferences and judging evidence for a new substance.\n\n**Success criteria:**\n1. I can record observations without adding explanations.\n2. I can classify a change and justify the classification using relevant evidence about whether a new substance formed.\n3. I can state a limitation, alternative explanation or further evidence needed, and revise my reasoning tool when challenged.\n\n3. Lesson sequence\n\n**0–5 minutes — Engage and diagnose:** Display two printed evidence records: “An ice cube becomes liquid” and “A mixture produces bubbles and changes colour.” Students independently place each on a continuum from “physical” to “chemical” and write one reason. A quick pair comparison exposes different interpretations without declaring signs as automatic proof.\n\n**5–13 minutes — Teacher model:** Model two cases on the board using four columns: *reported observation*, *inference*, *classification*, *limit*. For melting ice, observations are “solid becomes liquid” and “shape changes”; the inference is that the change is physical because no new substance is evidenced. For the second written record, observations are “bubbles” and “colour change”; the inference is that a chemical change is possible or best supported, but neither sign alone proves that a new substance formed. Think aloud while crossing out explanations that have been smuggled into the observation column.\n\n**13–25 minutes — Construct:** In groups of four, students build a reusable decision mat from card strips or a mini-whiteboard. They choose the order and wording of steps:  \n1. What was actually observed?  \n2. What changed in state, shape, size or arrangement?  \n3. What evidence supports or does not support a new substance?  \n4. What is the best-supported classification?  \n5. What is the limit or further evidence needed?  \nRoles are reader, evidence checker, challenger and reporter.\n\n**25–37 minutes — Test:** Groups apply their mats to four printed, non-experimental evidence records: ice melting; a solid dissolving and later being recovered; a mixture producing bubbles and a temperature change; and a material changing colour. They must mark each statement as observation or inference and identify at least one case where a sign is suggestive but not conclusive.\n\n**37–47 minutes — Debate and revise:** Groups exchange one case and challenge the other group’s classification. The challenger must ask, “Where is the evidence for a new substance?” and “What could this evidence not establish?” Groups revise their mats in a different colour and report one improvement.\n\n**47–56 minutes — Individual check:** Students complete the written check below silently.\n\n**56–60 minutes — Consolidate and forward link:** Students state one rule they will carry into A16. Teacher collects mats or photographs them for use as the practical recording structure.\n\n4. Student-built artifact\n\nA portable **Change Evidence Mat** with spaces for observations, inference, classification, evidence strength and limitation. It is a reasoning tool, not a fill-in worksheet: students decide its layout, test it against contrasting records and revise it after peer challenge. It must contain the reminder: “A sign is evidence to consider, not automatic proof.”\n\n5. Teacher explanation\n\nA physical change involves no new substance; state, shape, size or arrangement may change. A chemical change involves one or more new substances forming. Dissolving can be physical. Reversibility or irreversibility alone is not a reliable definition. Colour, gas, temperature, precipitate, light or odour are observations consistent with chemical change, but each can have limits. Therefore, students should make a best-supported classification, not claim certainty from one sign. An observation reports what was noticed; an inference explains what it may mean.\n\n6. Individual exam-style check and marking points\n\n**Prompt:** An observation record states: “A solid is added to water. It is no longer visible. The liquid is clear. No bubbles, light, odour or temperature change are noticed. When the water is removed, a solid with the same appearance is present.” Classify the change and justify your answer using two observations. State one limitation of the evidence.\n\n**Marking points (6):**\n- 1: Classifies it as best-supported physical.\n- 2: Correctly identifies two observations.\n- 1: Links dissolving/recovery and lack of evidence for a new substance to the classification.\n- 1: Separates an observation from an inference.\n- 1: States that the record is limited and does not provide absolute proof; further evidence may be needed.\n\n7. ADHD-supportive access and deep extension\n\nThe lesson uses short, visible timed cycles, concrete card handling, assigned roles and brief movement during the exchange. These reduce waiting and unclear transitions while requiring every student to produce evidence. Individual thinking precedes group talk, preserving accountability. Extension students must propose an alternative explanation for an apparently chemical sign, identify the strongest missing evidence and defend whether the classification should remain provisional.\n\n8. Forward link and operational risks\n\nIn A16, students will use the same mat while observing the practical changes, recording observations before explanations and justifying each physical or chemical classification. They should compare the strength and limits of evidence across cases.\n\nAll AH17 cases are printed records or paper cards: no wet chemistry, flames, heating, tasting or uncontrolled substances. Label records as “reported observations” so students do not invent unseen evidence. Monitor the common risks of treating bubbles or colour change as proof, and of using reversibility alone; the challenger role and mat directly address both.",
+  "word_count": 910,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 910,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 5,
+    "response.output_item.done": 5,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1189,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

@@ -1,0 +1,266 @@
+{
+  "task_id": "T4",
+  "title": "Year 10 Chemical Reactions: Misconception and Safety Audit of a Flawed 60-Minute Lesson",
+  "candidate_prompt": "You are a science education auditor reviewing a Year 10 chemistry lesson plan for misconceptions, safety issues, and pedagogical flaws. Read the lesson below and produce two deliverables:\n\nDELIVERABLE 1 — Severity-Ranked Finding Ledger\nList every issue you identify, ranked from most severe to least severe. For each finding provide: a finding ID (F1, F2, …), a severity label (Critical / Major / Minor), the lesson location or quoted text, a concise description of the problem, and a recommended correction. Use Critical for safety hazards or fundamentally wrong science that could harm students or embed deep misconceptions. Use Major for significant misconceptions or pedagogical failures. Use Minor for logistical or timing issues.\n\nDELIVERABLE 2 — Corrected Lesson Decisions\nProvide a concise set of corrected decisions for the lesson: what to change in the starter, demonstration, stations, plenary, assessment, timing, and cleanup so the lesson is scientifically accurate and school-safe. Reference your finding IDs.\n\nDo NOT reproduce the entire lesson plan. Do NOT suggest any procedure that is unsafe for a school laboratory. Use school-safe general language and avoid specifying dangerous quantities.\n\n=== LESSON PLAN TO AUDIT ===\n\nLESSON PLAN: Year 10 Science – Introduction to Chemical Reactions\nDuration: 60 minutes\n\nLearning Objectives:\nBy the end of the lesson, students should be able to:\n- Distinguish between physical and chemical changes\n- Apply the principle of conservation of mass to chemical reactions\n- Describe the role of activation energy in chemical reactions\n\nTeacher Background Note:\nChemical changes involve the formation of new substances with different properties. Conservation of mass applies to closed systems where no matter enters or leaves. Activation energy is the minimum energy required to start a reaction. Universal indicator can show a range of pH values through colour changes. Burning is a chemical reaction that typically produces oxides.\n\nStarter (5 minutes)\nLight a candle. Ask students what they observe. Write on the board: \"A flame is present, therefore a chemical reaction is occurring.\" Tell the class that the presence of a flame alone is sufficient evidence to confirm a chemical change.\n\nActivity 1 — Teacher Demonstration (10 minutes)\nPlace approximately two spatulas of baking soda in an open beaker on a top-pan balance. Add vinegar. Have students observe the balance reading. State: \"The mass decreases, which demonstrates that mass is destroyed in chemical reactions.\"\n\nActivity 2 — Group Station Rotation (20 minutes)\nDivide students into groups. Each group visits five stations, spending approximately 5 minutes at each station.\n\nStation A — Melting ice: Provide ice cubes in a beaker. Worksheet text: \"Melting ice is a chemical change because the ice changes into something different — water.\"\n\nStation B — Burning steel wool: Teacher burns steel wool; students observe mass before and after. Worksheet text: \"The increase in mass when steel wool burns proves that oxygen gas is produced by the reaction.\"\n\nStation C — Universal indicator: Students add universal indicator to an unknown solution. It turns red. Worksheet text: \"If universal indicator turns red, this alone confirms the substance is hydrochloric acid.\"\n\nStation D — Magnesium ribbon: Students cut magnesium ribbon with scissors while holding it directly over a lit Bunsen burner to save time during the investigation.\n\nStation E — Rusting: Display pre-rusted and clean nails. Worksheet text: \"Rusting is a slow reaction that requires no activation energy because it occurs at room temperature.\"\n\nPlenary Discussion (10 minutes)\nShow students a diagram of an exothermic reaction profile. State: \"A reaction that releases heat needs no activation energy to start because it gives out energy on its own.\"\n\nAssessment — Exit Ticket (10 minutes)\nOne multiple-choice question worth 100% of the lesson grade: \"Chemical reactions always produce a new substance. True or False?\" Students who circle \"True\" receive full marks. No written explanation is accepted or required.\n\nCleanup (5 minutes)\nAll leftover liquids and solids from all stations should be poured together down the classroom sink. Students should taste a small amount of the vinegar and baking soda mixture to confirm it is safe and neutralised.\n\n=== END OF LESSON PLAN ===\n\nProduce both deliverables now.",
+  "hidden_key": {
+    "planted_errors": [
+      {
+        "id": "E1",
+        "location": "Starter — board text and teacher statement",
+        "quoted_text": "A flame is present, therefore a chemical reaction is occurring … the presence of a flame alone is sufficient evidence to confirm a chemical change.",
+        "category": "Single indicator treated as proof",
+        "severity": "Major",
+        "correction": "A flame is one observation that may suggest combustion, but it is not sufficient proof on its own. Students should gather multiple lines of evidence (new substance formed, energy change, colour change, gas production, precipitate) before concluding a chemical change has occurred.",
+        "consequence": "Students learn that a single observation is enough to confirm a chemical change, undermining evidence-based reasoning.",
+        "acceptance_test": "Candidate finding references the starter, identifies that a single indicator (flame) is insufficient proof, and recommends multiple lines of evidence."
+      },
+      {
+        "id": "E2",
+        "location": "Activity 1 — teacher demonstration",
+        "quoted_text": "The mass decreases, which demonstrates that mass is destroyed in chemical reactions.",
+        "category": "Conservation-of-mass ambiguity",
+        "severity": "Major",
+        "correction": "The system is open; gas (CO2) escapes, so the measured mass decreases. In a closed system mass is conserved. Repeat in a sealed container or explain that the lost mass is gas that left the beaker.",
+        "consequence": "Students conclude conservation of mass is false, directly contradicting a fundamental law.",
+        "acceptance_test": "Candidate finding identifies the open-system problem and states that mass is conserved in a closed system with gas accounted for."
+      },
+      {
+        "id": "E3",
+        "location": "Station A — worksheet text",
+        "quoted_text": "Melting ice is a chemical change because the ice changes into something different — water.",
+        "category": "Physical/chemical change misconception",
+        "severity": "Major",
+        "correction": "Melting is a physical change; water and ice are the same substance in different states. No new substance is formed.",
+        "consequence": "Students conflate state changes with chemical changes, a persistent misconception.",
+        "acceptance_test": "Candidate finding states melting is a physical change and that no new substance is formed."
+      },
+      {
+        "id": "E4",
+        "location": "Station B — worksheet text",
+        "quoted_text": "The increase in mass when steel wool burns proves that oxygen gas is produced by the reaction.",
+        "category": "Observation/inference confusion",
+        "severity": "Major",
+        "correction": "The mass increase is because oxygen from the air combines with iron; oxygen is consumed/reacted, not produced. The observation (mass increase) supports the inference that oxygen combined with iron, not that oxygen was produced.",
+        "consequence": "Students confuse reactants and products and misinterpret observational data.",
+        "acceptance_test": "Candidate finding clarifies that oxygen is consumed/combined, not produced, and distinguishes observation from inference."
+      },
+      {
+        "id": "E5",
+        "location": "Station C — worksheet text",
+        "quoted_text": "If universal indicator turns red, this alone confirms the substance is hydrochloric acid.",
+        "category": "Single indicator treated as proof",
+        "severity": "Major",
+        "correction": "Red universal indicator shows the solution is acidic (low pH), not that it is specifically hydrochloric acid. Many acids turn universal indicator red. Further tests are needed to identify the specific acid.",
+        "consequence": "Students overgeneralise from one test to a specific identification.",
+        "acceptance_test": "Candidate finding states red indicates acidic pH generally, not specifically HCl, and recommends further confirmatory tests."
+      },
+      {
+        "id": "E6",
+        "location": "Station D — method instruction",
+        "quoted_text": "Students cut magnesium ribbon with scissors while holding it directly over a lit Bunsen burner to save time.",
+        "category": "Unsafe/impractical method",
+        "severity": "Critical",
+        "correction": "Never cut or handle magnesium directly over a lit flame; magnesium burns with a brilliant, hazardous flame. Cut on a bench away from flames, use tongs or a crucible, and wear safety goggles. Teacher demonstration only for ignition.",
+        "consequence": "Risk of eye injury, burns, or ignition of loose magnesium pieces.",
+        "acceptance_test": "Candidate finding is rated Critical, states the danger of handling/cutting magnesium over a flame, and recommends cutting away from flame with appropriate PPE."
+      },
+      {
+        "id": "E7",
+        "location": "Station E — worksheet text",
+        "quoted_text": "Rusting is a slow reaction that requires no activation energy because it occurs at room temperature.",
+        "category": "Activation-energy misconception",
+        "severity": "Major",
+        "correction": "All chemical reactions, including rusting, require activation energy. Rusting is slow at room temperature because its activation energy barrier is high relative to the available thermal energy, not because no activation energy is needed.",
+        "consequence": "Students misunderstand that activation energy is universal to reactions.",
+        "acceptance_test": "Candidate finding states rusting does require activation energy and explains the slow rate is due to the energy barrier, not absence of activation energy."
+      },
+      {
+        "id": "E8",
+        "location": "Plenary — teacher statement",
+        "quoted_text": "A reaction that releases heat needs no activation energy to start because it gives out energy on its own.",
+        "category": "Activation-energy misconception",
+        "severity": "Major",
+        "correction": "Exothermic reactions still require activation energy to initiate; the energy released is a net output after the reaction starts. The reaction profile shows an initial energy hill before the downward slope.",
+        "consequence": "Students believe exothermic reactions are self-starting, contradicting reaction kinetics fundamentals.",
+        "acceptance_test": "Candidate finding states exothermic reactions require activation energy and that released energy is net, not initial."
+      },
+      {
+        "id": "E9",
+        "location": "Assessment — exit ticket",
+        "quoted_text": "One multiple-choice question worth 100% of the lesson grade … No written explanation is accepted or required.",
+        "category": "Invalid assessment",
+        "severity": "Major",
+        "correction": "A single True/False item cannot validly assess three learning objectives. Use multiple items including short-answer explanations, and require reasoning to assess understanding, not just recall.",
+        "consequence": "Assessment is invalid, unreliable, and cannot measure the stated objectives.",
+        "acceptance_test": "Candidate finding identifies that one MCQ cannot assess all objectives and that requiring no explanation is pedagogically invalid."
+      },
+      {
+        "id": "E10",
+        "location": "Activity 2 — timing",
+        "quoted_text": "Each group visits five stations, spending approximately 5 minutes at each station.",
+        "category": "Timing/logistics flaw",
+        "severity": "Minor",
+        "correction": "Five stations at 5 minutes each requires 25 minutes plus transition time, exceeding the 20-minute slot. Reduce to four stations, shorten station time, or extend the slot.",
+        "consequence": "Lesson runs over time; stations are rushed or skipped.",
+        "acceptance_test": "Candidate finding notes 5 stations × 5 min = 25 min exceeds the 20-minute allocation and proposes a fix."
+      },
+      {
+        "id": "E11",
+        "location": "Cleanup — tasting instruction",
+        "quoted_text": "Students should taste a small amount of the vinegar and baking soda mixture to confirm it is safe and neutralised.",
+        "category": "Unsafe/impractical method",
+        "severity": "Critical",
+        "correction": "Never taste anything in a laboratory. Confirm safety using pH paper or indicator, not tasting. Laboratory chemicals must never be ingested.",
+        "consequence": "Direct health risk; violates fundamental lab safety rules.",
+        "acceptance_test": "Candidate finding is rated Critical, states that tasting in a lab is prohibited, and recommends pH testing instead."
+      },
+      {
+        "id": "E12",
+        "location": "Cleanup — waste disposal",
+        "quoted_text": "All leftover liquids and solids from all stations should be poured together down the classroom sink.",
+        "category": "Unsafe/impractical method",
+        "severity": "Major",
+        "correction": "Different station wastes may be incompatible. Follow school chemical disposal procedures; some waste may need collection containers, not drain disposal. Consult the school's waste management guidance.",
+        "consequence": "Potential hazardous reactions from mixing waste; environmental and plumbing damage; regulatory non-compliance.",
+        "acceptance_test": "Candidate finding states that mixing and pouring all waste down the sink is unsafe and recommends following proper chemical disposal procedures."
+      }
+    ],
+    "correct_decoy_statements": [
+      {
+        "id": "D1",
+        "text": "Chemical changes involve the formation of new substances with different properties.",
+        "note": "Correct statement in teacher background note; should NOT be flagged as an error."
+      },
+      {
+        "id": "D2",
+        "text": "Conservation of mass applies to closed systems where no matter enters or leaves.",
+        "note": "Correct statement; should NOT be flagged as an error."
+      },
+      {
+        "id": "D3",
+        "text": "Activation energy is the minimum energy required to start a reaction.",
+        "note": "Correct statement; should NOT be flagged as an error."
+      },
+      {
+        "id": "D4",
+        "text": "Universal indicator can show a range of pH values through colour changes.",
+        "note": "Correct statement; should NOT be flagged as an error."
+      },
+      {
+        "id": "D5",
+        "text": "Burning is a chemical reaction that typically produces oxides.",
+        "note": "Correct statement; should NOT be flagged as an error."
+      }
+    ]
+  },
+  "rubric": {
+    "total_points": 100,
+    "critical_cap": "If the candidate misses any Critical-severity finding (E6 or E11), the maximum score is capped at 55.",
+    "major_cap": "If the candidate misses more than 2 Major-severity findings, the maximum score is capped at 70.",
+    "criteria": [
+      {
+        "id": "R1",
+        "name": "Finding identification completeness",
+        "points": 40,
+        "description": "Award 3.3 points per correctly identified planted error (12 errors). Deduct 3.3 for each missed error. Deduct 5 points total if any correct decoy statement (D1–D5) is incorrectly flagged as an error."
+      },
+      {
+        "id": "R2",
+        "name": "Severity ranking accuracy",
+        "points": 20,
+        "description": "Award 1.7 points per correctly severity-rated finding. Critical findings (E6, E11) must be rated Critical. Major findings (E1–E5, E7–E9, E12) must be rated Major. Minor finding (E10) must be rated Minor. Findings must be ordered from most to least severe."
+      },
+      {
+        "id": "R3",
+        "name": "Correction quality and scientific accuracy",
+        "points": 20,
+        "description": "Award ~1.7 points per finding for a scientifically accurate, actionable correction. Partial credit for vague or partially correct corrections. Zero for incorrect corrections."
+      },
+      {
+        "id": "R4",
+        "name": "Safety handling",
+        "points": 10,
+        "description": "Award 5 points for correctly identifying both Critical safety issues (E6, E11) with appropriate urgency. Award 3 points for addressing E12 waste disposal. Award 2 points for not introducing any new unsafe procedures in corrected lesson decisions."
+      },
+      {
+        "id": "R5",
+        "name": "Format and completeness",
+        "points": 10,
+        "description": "Award 4 points for a clearly structured severity-ranked finding ledger with IDs. Award 4 points for a corrected lesson decisions section referencing finding IDs. Award 2 points for concise, professional language without reproducing the full lesson plan."
+      }
+    ]
+  },
+  "deterministic_checks": [
+    {
+      "check_id": "DC1",
+      "description": "Output contains a finding ledger with at least 10 numbered or bulleted findings",
+      "type": "regex_count",
+      "implementation": "Search for patterns matching finding identifiers (F1, F2, etc.) or numbered list items. Count distinct findings. Pass if count >= 10.",
+      "pass_condition": "finding_count >= 10"
+    },
+    {
+      "check_id": "DC2",
+      "description": "Output uses severity labels Critical, Major, and Minor",
+      "type": "keyword_presence",
+      "implementation": "Case-insensitive search for 'critical', 'major', and 'minor' in the output text.",
+      "pass_condition": "all three labels present"
+    },
+    {
+      "check_id": "DC3",
+      "description": "Output contains a corrected lesson decisions section",
+      "type": "keyword_presence",
+      "implementation": "Search for 'corrected' or 'correction' or 'revised' combined with 'lesson' or 'decision' in the output.",
+      "pass_condition": "corrected lesson section detected"
+    },
+    {
+      "check_id": "DC4",
+      "description": "Output does not recommend tasting laboratory chemicals",
+      "type": "keyword_absence",
+      "implementation": "Case-insensitive search for 'taste' or 'tasting' or 'ingest' in corrected decisions. Fail if found in a recommendation context (not in a prohibition).",
+      "pass_condition": "no positive recommendation to taste chemicals"
+    },
+    {
+      "check_id": "DC5",
+      "description": "Output mentions conservation of mass in a closed system",
+      "type": "keyword_presence",
+      "implementation": "Search for 'closed system' or 'conservation of mass' or 'gas escapes' or 'sealed' in the output.",
+      "pass_condition": "closed system or conservation of mass mentioned"
+    },
+    {
+      "check_id": "DC6",
+      "description": "Output correctly addresses activation energy for exothermic reactions",
+      "type": "keyword_presence",
+      "implementation": "Search for 'activation energy' in the output. Verify it appears in context of exothermic reactions needing activation energy.",
+      "pass_condition": "activation energy mentioned at least twice"
+    },
+    {
+      "check_id": "DC7",
+      "description": "Output distinguishes physical and chemical changes",
+      "type": "keyword_presence",
+      "implementation": "Search for 'physical change' and 'chemical change' in the output.",
+      "pass_condition": "both terms present"
+    },
+    {
+      "check_id": "DC8",
+      "description": "Findings are ordered by severity (Critical before Major before Minor)",
+      "type": "ordering",
+      "implementation": "Extract severity labels in order of appearance. Verify the first Critical appears before the first Major, which appears before the first Minor. Allow interleaving only if Critical items precede all Minor items.",
+      "pass_condition": "first Critical index < first Major index < first Minor index"
+    },
+    {
+      "check_id": "DC9",
+      "description": "Output does not introduce new dangerous procedures",
+      "type": "keyword_absence",
+      "implementation": "Search corrected decisions for 'taste', 'bare hands', 'without goggles', 'open flame near', 'mix all waste'. Fail if any found as a recommendation.",
+      "pass_condition": "no dangerous procedure keywords found in recommendations"
+    },
+    {
+      "check_id": "DC10",
+      "description": "Output references finding IDs in corrected lesson decisions",
+      "type": "regex_presence",
+      "implementation": "Search corrected decisions section for patterns like F1, F2, E1, E2, or similar identifier references. Pass if at least 3 references found.",
+      "pass_condition": "at least 3 finding ID references in corrected decisions"
+    }
+  ],
+  "source_notes": "Authored as a frozen benchmark fixture for Year 10 chemical-reactions misconception and safety auditing. The lesson embeds 12 planted errors across required categories (single-indicator proof ×2, physical/chemical misconception, conservation-of-mass ambiguity, observation/inference confusion, activation-energy misconception ×2, unsafe methods ×3, invalid assessment, timing/logistics) and 5 correct decoy statements. All procedural language is school-safe and avoids specifying dangerous quantities. Designed for deterministic evaluation via keyword/regex checks and severity-ordering verification. No model comparison information included."
+}

@@ -1,0 +1,56 @@
+{
+  "task_id": "T6",
+  "task_sha256": "917c278ce6b636b387ad0a7b383ac4255ef7e26281878dd5280792c474ca1125",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": "gpt-5.6-terra",
+  "effort": "xhigh",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:30:27.965102+00:00",
+  "elapsed_seconds": 103.31777749594767,
+  "time_to_first_visible_text_seconds": 75.8596135090338,
+  "usage": {
+    "input_tokens": 743,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 5665,
+    "output_tokens_details": {
+      "reasoning_tokens": 4142
+    },
+    "total_tokens": 6408
+  },
+  "input_tokens": 743,
+  "output_tokens": 5665,
+  "reasoning_tokens": 4142,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.0868325,
+  "output_text": "## 1. Mismatch ledger\n\n| ID | document/location | mismatch | exact approved-plan evidence | severity |\n|---|---|---|---|---|\n| W1 | Worksheet title, learning intention, success criteria, teacher note | “Proving,” five fixed signs, and a single-answer list replace observation/inference, multiple observations, and insufficiency. | “Distinguish observations from inferences”; “Use at least two relevant observations before claiming a chemical change”; “State when evidence is insufficient.” | Major |\n| W2 | Worksheet worked example | Claims fizzing always proves a reaction, contradicting the approved qualified decision. | “observations alone do not identify the gas or prove a new substance; more evidence is needed.” | Critical |\n| W3 | Worksheet group task/table | Selecting one “strongest sign” across six cards replaces building the specified tool, testing two cases, and revising a rule. | “groups build an Evidence–Inference–Decision tool”; “groups test it against two cases and revise one rule.” | Major |\n| W4 | Worksheet individual check and exit | Three-sign check and single-sign exit do not assess the five-mark check or required exit-ticket fields. | “Individual check: five marks—two observations (2), observation/inference distinction (1), evidence-based decision (1), limitation or further evidence (1).”; “One observation is ___...” | Major |\n| S1 | Slide 1 | Title/safety framing does not identify the approved lesson and dry-classroom setting. | “Year 8 — Evidence for chemical change (60 min, AH17 dry classroom)” | Moderate |\n| S2–S3 | Slides 2–3 | “Indicators” and recall of four items replace the approved learning intention and three success criteria. | “Distinguish observations from inferences...” and the three listed success criteria. | Major |\n| S4–S5 | Slides 4–5 | Twelve minutes of indicator explanation omits the 0–7 retrieval and does not use the 7–18 teaching/model sequence. | “0–7 retrieval; 7–18 explicit teaching and teacher model” | Major |\n| S6 | Slide 6 | Adds a vinegar-and-bicarbonate practical despite the dry-classroom plan; it also replaces the specified model. | “AH17 dry classroom”; “Worked example: fizzing tablet in water.” | Critical |\n| S7 | Slide 7 | Twenty minutes of individual worksheet work replaces the 18–33 group tool-building phase. | “18–33 groups build an Evidence–Inference–Decision tool” | Major |\n| S8–S9 | Slides 8–9 | Melting-wax claim and answer reveal replace group testing of two cases and revision of one rule. | “33–43 groups test it against two cases and revise one rule.” | Major |\n| S10 | Slide 10 | Four-sign exit quiz replaces the individual five-mark check and required exit ticket. | “43–54 individual five-mark check”; “54–60 exit ticket...” | Major |\n| S11 | Slide 11 | Copying definitions replaces use of the revised tool for live reaction evidence. | “students use the revised tool in A16 to record live reaction evidence.” | Major |\n\n## 2. Worksheet repairs\n\n- **Title:** `Evidence for chemical change`\n\n- **Learning intention:**  \n  `Distinguish observations from inferences and use multiple observations to decide whether evidence supports formation of a new substance.`\n\n- **Success criteria:**  \n  `1. Label statements as observation or inference.`  \n  `2. Use at least two relevant observations before claiming a chemical change.`  \n  `3. State when evidence is insufficient.`\n\n- **Worked example:**  \n  `Fizzing tablet in water`  \n  `Observation: bubbles and temperature decrease.`  \n  `Inference: gas may have formed.`  \n  `Decision: observations alone do not identify the gas or prove a new substance; more evidence is needed.`\n\n- **Replace group task and table with:**  \n  `18–33: In groups, build an Evidence–Inference–Decision tool.`  \n  `Use at least two relevant observations before claiming a chemical change.`  \n  `33–43: Test the tool against two cases and revise one rule.`  \n  `Tool: Evidence | Inference | Decision`  \n  `Revised rule: __________`\n\n- **Replace individual check with:**  \n  `43–54 Individual five-mark check`  \n  `Two observations (2)`  \n  `Observation/inference distinction (1)`  \n  `Evidence-based decision (1)`  \n  `Limitation or further evidence (1)`\n\n- **Replace exit with:**  \n  `One observation is ___; one inference is ___; my decision is ___ because ___; evidence still needed is ___.`\n\n- **Replace teacher note with:**  \n  `Mark the individual check: two observations (2), observation/inference distinction (1), evidence-based decision (1), limitation or further evidence (1).`\n\n## 3. Slide repairs\n\n- **S1:** `Year 8 — Evidence for chemical change` / `60 min, AH17 dry classroom`. Remove practical-specific safety framing.\n- **S2:** Use the approved learning intention verbatim.\n- **S3:** Use all three approved success criteria verbatim.\n- **S4:** `0–7: Retrieval`\n- **S5:** `7–18: Explicit teaching and teacher model—observations, inferences, and using multiple observations.`\n- **S6:** Replace demonstration with the approved fizzing-tablet worked example and its observation, inference, and decision.\n- **S7:** `18–33: Groups build an Evidence–Inference–Decision tool.`\n- **S8:** `33–43: Groups test the tool against two cases and revise one rule.`\n- **S9:** `43–54: Individual five-mark check` with the approved 2+1+1+1 mark allocation.\n- **S10:** `54–60 Exit ticket:` followed by the approved exit-ticket sentence verbatim.\n- **S11:** `Next lesson: Use the revised tool in A16 to record live reaction evidence.`\n\n## 4. Verification\n\n| Required element | Repaired alignment to approved plan |\n|---|---|\n| Learning intention | Uses the approved distinction between observations and inferences and evidence for a new substance. |\n| Success criteria | Includes all three approved criteria, including multiple observations and insufficient evidence. |\n| Worked example | Uses the fizzing tablet, bubbles and temperature decrease, possible gas inference, and need for more evidence. |\n| Timings | S4–S10 follow 0–7, 7–18, 18–33, 33–43, 43–54, and 54–60. |\n| Individual check | Restored to five marks: 2+1+1+1. |\n| Exit ticket | Restored verbatim to observation, inference, decision with reason, and evidence still needed. |\n| A16 handoff | Restored to using the revised tool in A16 for live reaction evidence. |\n\n## 5. Plan integrity statement\n\nNo approved-plan element was changed, reinterpreted, or supplemented; repairs only align the worksheet and slide outline to the approved plan.",
+  "word_count": 957,
+  "deterministic_checks": [
+    {
+      "id": "T6-LEN",
+      "pass": true,
+      "actual": 957,
+      "expected_max": 1200
+    },
+    {
+      "id": "T6-SECTIONS",
+      "pass": true,
+      "missing": []
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 9,
+    "response.output_item.done": 9,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1517,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

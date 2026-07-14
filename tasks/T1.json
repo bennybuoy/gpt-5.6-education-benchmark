@@ -1,0 +1,71 @@
+{
+  "task_id": "T1",
+  "title": "NSW Year 8 Science Unit Sequence Planning under Constraints",
+  "candidate_prompt": "You are planning an 8–10 lesson unit sequence for a NSW Year 8 Science class. Use ONLY the supplied synthetic requirements below. Do not introduce outside syllabus content, textbook references, or external standards.\n\nSUPPLIED CLASS AND TIMETABLE CONSTRAINTS\n- Class: Year 8 Science, 28 students, mixed ability, 2 students with documented adjustments requiring printed instructions and extra processing time.\n- Room: Shared lab L4. Available Monday Period 2, Tuesday Period 4, Wednesday Period 1, Thursday Period 3, Friday Period 5. Each period is 50 minutes.\n- Lab L4 has: 6 fixed bench stations, 1 fume cupboard, 1 data projector, no mobile device trolley, no dedicated technician after 1:00pm.\n- Practical lessons require a minimum of 40 minutes usable bench time after setup and pack-up.\n- No more than 2 practical lessons per week.\n- No practical lesson may be scheduled on Friday Period 5 because of early dismissal risk.\n- Equipment limits per practical: 8 sets of basic glassware, 6 power supplies, 4 digital multimeters, 12 hand lenses, 1 class set of 30 safety goggles.\n\nSUPPLIED AUTHORITATIVE CONTENT STATEMENTS (compact, must be taught in this order as a prerequisite chain)\nC1: A model is a representation that simplifies a system to explain or predict behaviour.\nC2: Energy can be transferred between systems as heat, light, motion, or electric current.\nC3: An electric circuit requires a continuous path, a source, and a load.\nC4: Current is the flow of charge through a circuit and is measured in amperes.\nC5: Voltage is the energy transferred per unit charge and is measured in volts.\nC6: Resistance opposes current and depends on material, length, thickness, and temperature.\nC7: Series circuits have one path; parallel circuits have multiple paths.\nC8: Energy transfer in circuits can be modelled quantitatively using V = IR for simple resistive circuits.\nC9: Models have limits and can fail when assumptions break down.\n\nSUPPLIED ASSESSMENT CONSTRAINTS\n- One formative checkpoint must occur after C3 is taught.\n- One formative checkpoint must occur after C6 is taught.\n- A final summative task must assess C7, C8, and C9 together.\n- Formative checkpoints must be low-stakes, completable in 15 minutes, and return feedback within the same lesson.\n- The summative task must not require more than 30 minutes of in-class time.\n\nPRACTICAL MINIMUM\n- At least 2 practical lessons are required.\n- At least one practical must directly support C3 or C4.\n- At least one practical must directly support C7 or C8.\n- Each practical must be completable with the listed equipment limits and within 6 bench groups of up to 5 students.\n\nYOUR TASK\nProduce a unit plan that includes:\n1. A lesson-by-lesson table for 8–10 lessons, with: lesson number, scheduled day/period, content statement addressed, lesson type (theory/practical/formative/summative), and brief activity description (one sentence).\n2. A prerequisite chain diagram in text form showing C1 through C9 with arrows indicating dependency.\n3. Practical placement justification: for each practical, explain why it is placed where it is, how it respects equipment limits, and how it provides at least 40 minutes usable bench time.\n4. Formative cadence: list each formative checkpoint, the lesson it occurs in, the content it checks, and how feedback is returned within the same lesson.\n5. Deferrals and risks: identify any content that must be deferred if a practical is unavailable, any timetable conflicts, and at least three named risks with mitigation.\n6. Adjustments: state how the two students with documented adjustments are supported in each practical and each formative checkpoint.\n\nDo not reveal any hidden scoring criteria. Do not include reflection or justification beyond what is requested. Keep the whole response under 1500 words.",
+  "hidden_key": "The plan must place a practical supporting C3/C4 no later than lesson 4, place a practical supporting C7/C8 no earlier than lesson 6, schedule no practical on Friday Period 5, keep formative checkpoints after C3 and after C6, and explicitly defer C8 quantitative modelling if the second practical is unavailable.",
+  "rubric": {
+    "total": 100,
+    "critical_cap": 40,
+    "major_cap": 30,
+    "criteria": [
+      {
+        "name": "Lesson table completeness and feasibility",
+        "max": 20,
+        "critical": true,
+        "description": "8–10 lessons, each with day/period from the allowed set, type, content statement, and one-sentence activity."
+      },
+      {
+        "name": "Prerequisite chain correctness",
+        "max": 15,
+        "critical": true,
+        "description": "C1→C2→C3→C4→C5→C6→C7→C8→C9 shown with explicit dependency arrows and no skipped prerequisites."
+      },
+      {
+        "name": "Practical placement and equipment feasibility",
+        "max": 20,
+        "critical": true,
+        "description": "At least one practical supports C3/C4 by lesson 4; at least one supports C7/C8 from lesson 6 onward; no practical on Friday P5; each practical fits 6 bench groups and listed equipment; 40 minutes usable bench time justified."
+      },
+      {
+        "name": "Formative cadence",
+        "max": 15,
+        "major": true,
+        "description": "Checkpoints after C3 and after C6, each 15 minutes, same-lesson feedback described."
+      },
+      {
+        "name": "Summative alignment",
+        "max": 10,
+        "major": true,
+        "description": "Final summative assesses C7, C8, C9 together and is ≤30 minutes in class."
+      },
+      {
+        "name": "Deferrals and risks",
+        "max": 12,
+        "major": true,
+        "description": "Explicit deferral of C8 if second practical unavailable; at least three named risks with mitigations."
+      },
+      {
+        "name": "Adjustments for documented students",
+        "max": 8,
+        "description": "Printed instructions and extra processing time addressed for each practical and each formative checkpoint."
+      }
+    ]
+  },
+  "deterministic_checks": [
+    "Lesson count is between 8 and 10 inclusive.",
+    "Every lesson row has non-empty day/period, content code from C1–C9, type, and activity.",
+    "All day/period values are within {Mon P2, Tue P4, Wed P1, Thu P3, Fri P5}.",
+    "No practical lesson is scheduled on Friday Period 5.",
+    "At least one practical lesson references C3 or C4 and occurs at lesson number ≤4.",
+    "At least one practical lesson references C7 or C8 and occurs at lesson number ≥6.",
+    "Number of practical lessons per week does not exceed 2 across the whole sequence.",
+    "At least two formative checkpoints exist; one references C3, one references C6.",
+    "Each formative checkpoint states a duration of 15 minutes or less.",
+    "A summative task references C7, C8, and C9 and states in-class time ≤30 minutes.",
+    "Prerequisite chain text contains arrows or explicit dependencies from C1 through C9 in order.",
+    "At least three distinct named risks are present, each with a mitigation.",
+    "Response mentions deferral of C8 if the second practical is unavailable.",
+    "Response mentions printed instructions and extra processing time for the two documented students in practical and formative contexts."
+  ],
+  "source_notes": "Synthetic NSW Year 8 Science planning scenario. All content statements, constraints, equipment limits, and assessment rules are supplied in the prompt; no external syllabus document is required."
+}

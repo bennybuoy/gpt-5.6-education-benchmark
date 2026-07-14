@@ -1,0 +1,582 @@
+{
+  "T1": {
+    "T1-Full-07": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T1-Full-11": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T1-Full-05": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T1-Full-13": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T1-Full-04": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T1-Full-12": {
+      "model": "gpt-5.6-luna",
+      "effort": "max"
+    },
+    "T1-Full-09": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T1-Full-03": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T1-Full-06": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T1-Full-10": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T1-Full-08": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T1-Full-01": {
+      "model": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "T1-Full-15": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T1-Full-14": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T1-Full-18": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T1-Full-02": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T1-Full-17": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    },
+    "T1-Full-16": {
+      "model": "gpt-5.6-terra",
+      "effort": "max"
+    }
+  },
+  "T2": {
+    "T2-Full-09": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T2-Full-12": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T2-Full-02": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T2-Full-08": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T2-Full-05": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T2-Full-15": {
+      "model": "gpt-5.6-luna",
+      "effort": "max"
+    },
+    "T2-Full-03": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T2-Full-11": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T2-Full-14": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T2-Full-07": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T2-Full-16": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T2-Full-13": {
+      "model": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "T2-Full-01": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T2-Full-04": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T2-Full-17": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T2-Full-18": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T2-Full-10": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    },
+    "T2-Full-06": {
+      "model": "gpt-5.6-terra",
+      "effort": "max"
+    }
+  },
+  "T3": {
+    "T3-Full-15": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T3-Full-01": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T3-Full-11": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T3-Full-18": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T3-Full-05": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T3-Full-06": {
+      "model": "gpt-5.6-luna",
+      "effort": "max"
+    },
+    "T3-Full-02": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T3-Full-14": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T3-Full-12": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T3-Full-07": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T3-Full-08": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T3-Full-04": {
+      "model": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "T3-Full-16": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T3-Full-03": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T3-Full-13": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T3-Full-10": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T3-Full-09": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    },
+    "T3-Full-17": {
+      "model": "gpt-5.6-terra",
+      "effort": "max"
+    }
+  },
+  "T4": {
+    "T4-Full-08": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T4-Full-06": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T4-Full-04": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T4-Full-11": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T4-Full-17": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T4-Full-09": {
+      "model": "gpt-5.6-luna",
+      "effort": "max"
+    },
+    "T4-Full-10": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T4-Full-14": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T4-Full-13": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T4-Full-15": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T4-Full-12": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T4-Full-01": {
+      "model": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "T4-Full-02": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T4-Full-05": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T4-Full-07": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T4-Full-18": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T4-Full-03": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    },
+    "T4-Full-16": {
+      "model": "gpt-5.6-terra",
+      "effort": "max"
+    }
+  },
+  "T5": {
+    "T5-Full-14": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T5-Full-05": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T5-Full-03": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T5-Full-11": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T5-Full-12": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T5-Full-15": {
+      "model": "gpt-5.6-luna",
+      "effort": "max"
+    },
+    "T5-Full-02": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T5-Full-13": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T5-Full-09": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T5-Full-07": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T5-Full-10": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T5-Full-17": {
+      "model": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "T5-Full-08": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T5-Full-04": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T5-Full-06": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T5-Full-01": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T5-Full-18": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    },
+    "T5-Full-16": {
+      "model": "gpt-5.6-terra",
+      "effort": "max"
+    }
+  },
+  "T6": {
+    "T6-Full-07": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T6-Full-16": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T6-Full-01": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T6-Full-18": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T6-Full-06": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T6-Full-15": {
+      "model": "gpt-5.6-luna",
+      "effort": "max"
+    },
+    "T6-Full-10": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T6-Full-14": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T6-Full-12": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T6-Full-11": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T6-Full-04": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T6-Full-17": {
+      "model": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "T6-Full-03": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T6-Full-09": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T6-Full-08": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T6-Full-05": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T6-Full-02": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    },
+    "T6-Full-13": {
+      "model": "gpt-5.6-terra",
+      "effort": "max"
+    }
+  },
+  "T7": {
+    "T7-Full-13": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T7-Full-09": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T7-Full-17": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T7-Full-01": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T7-Full-08": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T7-Full-02": {
+      "model": "gpt-5.6-luna",
+      "effort": "max"
+    },
+    "T7-Full-10": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T7-Full-03": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T7-Full-12": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T7-Full-18": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T7-Full-14": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T7-Full-06": {
+      "model": "gpt-5.6-sol",
+      "effort": "max"
+    },
+    "T7-Full-15": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T7-Full-16": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T7-Full-11": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T7-Full-07": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T7-Full-04": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    },
+    "T7-Full-05": {
+      "model": "gpt-5.6-terra",
+      "effort": "max"
+    }
+  },
+  "T8": {
+    "T8-Full-08": {
+      "model": "gpt-5.6-luna",
+      "effort": "none"
+    },
+    "T8-Full-06": {
+      "model": "gpt-5.6-luna",
+      "effort": "low"
+    },
+    "T8-Full-11": {
+      "model": "gpt-5.6-luna",
+      "effort": "medium"
+    },
+    "T8-Full-10": {
+      "model": "gpt-5.6-luna",
+      "effort": "high"
+    },
+    "T8-Full-15": {
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh"
+    },
+    "T8-Full-14": {
+      "model": "gpt-5.6-sol",
+      "effort": "none"
+    },
+    "T8-Full-07": {
+      "model": "gpt-5.6-sol",
+      "effort": "low"
+    },
+    "T8-Full-02": {
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    "T8-Full-04": {
+      "model": "gpt-5.6-sol",
+      "effort": "high"
+    },
+    "T8-Full-13": {
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh"
+    },
+    "T8-Full-12": {
+      "model": "gpt-5.6-terra",
+      "effort": "none"
+    },
+    "T8-Full-01": {
+      "model": "gpt-5.6-terra",
+      "effort": "low"
+    },
+    "T8-Full-03": {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    "T8-Full-09": {
+      "model": "gpt-5.6-terra",
+      "effort": "high"
+    },
+    "T8-Full-05": {
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh"
+    }
+  }
+}

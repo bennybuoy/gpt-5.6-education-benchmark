@@ -1,0 +1,120 @@
+{
+  "task_id": "T3",
+  "task_sha256": "f2224f1b167a8e060ae628e07c3f612c1bf3fa774477f0c7062a875cb48b74a9",
+  "model_requested": "gpt-5.6-luna",
+  "model_returned": "gpt-5.6-luna",
+  "effort": "low",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:48:42.258209+00:00",
+  "elapsed_seconds": 36.57789374305867,
+  "time_to_first_visible_text_seconds": 3.831104014068842,
+  "usage": {
+    "input_tokens": 740,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1974,
+    "output_tokens_details": {
+      "reasoning_tokens": 157
+    },
+    "total_tokens": 2714
+  },
+  "input_tokens": 740,
+  "output_tokens": 1974,
+  "reasoning_tokens": 157,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.012584,
+  "output_text": "# Year 8 Depth-Study Portfolio Architecture  \n**Topic:** Energy transfer in simple electric circuits  \n**Duration:** 3 school weeks  \n**Cohort:** 120 students across 4 classes  \n**Total:** 30 marks\n\n## 1. Criterion table\n\n| Criterion | Component | Marks | Emerging | Developing | Proficient | Exemplary |\n|---|---|---:|---|---|---|---|\n| **G1: Practical design and method** | Group practical report | 4 | Identifies a circuit investigation with an incomplete or unclear method. | Provides a workable method with some relevant equipment and steps, but limited control of variables. | Provides a clear, logical method using appropriate equipment and identifies relevant variables and safety considerations. | Provides a precise, well-justified method with clearly controlled variables, accurate sequencing and thorough safety considerations. |\n| **G2: Results and evidence** | Group practical report | 4 | Presents limited, unclear or incomplete results. | Presents some results in a usable form, with minor gaps or inconsistencies. | Presents complete, organised results using suitable tables or representations and identifies patterns in the evidence. | Presents accurate, highly organised results with effective representations and insightful identification of patterns, limitations or anomalies. |\n| **G3: Group conclusion and communication** | Group practical report | 4 | Gives a brief or unsupported conclusion; report structure is unclear. | Gives a partly supported conclusion and communicates the investigation with some organisation. | Gives a conclusion supported by the group’s evidence and communicates the report clearly and logically. | Gives a precise, well-supported conclusion that explains the energy transfer evidence and communicates it fluently and coherently. |\n| **A1: Analysis of data** | Individual analysis task | 4 | Describes little relevant data or makes unsupported statements. | Identifies some trends or relationships, with limited use of data. | Accurately analyses relevant data, identifies trends and supports claims with evidence. | Provides detailed, accurate analysis, including meaningful comparisons, anomalies or limitations, and supports all major claims with evidence. |\n| **A2: Scientific explanation** | Individual analysis task | 4 | Gives a limited explanation of energy transfer in the circuit, with substantial inaccuracies. | Gives a partly accurate explanation using some relevant scientific ideas. | Clearly explains energy transfer in a simple electric circuit using accurate scientific ideas and evidence. | Gives a detailed, precise explanation linking circuit observations, energy transfer and evidence, while recognising relevant limitations. |\n| **A3: Evaluation and communication** | Individual analysis task | 4 | Offers little evaluation and communicates ideas unclearly. | Identifies a limitation or improvement, but explanation is basic or incomplete. | Evaluates the investigation and proposes relevant improvements, communicating reasoning clearly. | Critically evaluates reliability and limitations, proposes well-justified improvements and communicates reasoning with precision. |\n| **R1: Individual contribution reflection** | Individual reflection | 3 | Gives a minimal account of participation with little specific evidence. | Describes participation and learning with some specific examples. | Clearly explains personal contribution, learning and challenges using relevant examples. | Thoughtfully evaluates contribution, learning and challenges, using specific evidence and identifying meaningful next steps. |\n| **R2: Reflection on collaboration and scientific practice** | Individual reflection | 3 | Gives limited comment on collaboration or scientific practice. | Describes some collaboration or scientific practices, with limited evaluation. | Explains how collaboration and scientific practices supported the investigation. | Insightfully evaluates collaboration and scientific practices, explaining how they influenced the quality of the investigation and future practice. |\n\n## 2. Mark allocation check\n\n| Component | Criteria | Total |\n|---|---|---:|\n| Group practical report | G1 4 + G2 4 + G3 4 | **12** |\n| Individual analysis task | A1 4 + A2 4 + A3 4 | **12** |\n| Individual reflection | R1 3 + R2 3 | **6** |\n| **Overall** |  | **30** |\n\n- Overall total: **30 marks**\n- No criterion exceeds **4 marks**, which is below the 8-mark maximum.\n- Group practical / individual analysis / individual reflection split: **12 / 12 / 6**.\n\n## 3. Checkpoint schedule\n\n| Time | Submission | Who checks it | Consequence of missing checkpoint |\n|---|---|---|---|\n| **Week 1, Day 5** | Group practical plan and individual analysis outline | Class teacher checks completeness, feasibility and alignment with the task | The student/group receives feedback but the corresponding criterion cannot receive full marks if the draft was missing. |\n| **Week 2, Day 5** | Group practical draft results and individual analysis draft | Class teacher checks evidence, progress, data ownership and direction of analysis | The corresponding criterion cannot receive full marks if the draft was missing. Any data-ownership issue must be resolved before final submission. |\n| **Week 3, Day 5** | Full portfolio: shared report, individual analysis and individual reflection | Class teacher conducts final assessment; moderation follows | Work submitted after the agreed deadline is handled under teacher instructions. Missing required components are assessed as unavailable evidence and may activate blocking decisions. |\n\nEach group practical report must include a contribution statement signed by all three members, identifying who completed each section.\n\n## 4. Absence pathway\n\n| Absence circumstance | Required pathway |\n|---|---|\n| **Absent for the practical session** | The student does not use group data they did not collect unless the teacher expressly authorises it. Their individual analysis and reflection are based on supplied secondary data. The student completes an individual contribution statement explaining their non-practical role, if applicable. |\n| **Absent for 1 week** | The student receives missed materials and teacher support. If they missed the practical session, the supplied-secondary-data pathway applies. They submit the relevant checkpoint work individually where necessary. |\n| **Absent for 2 weeks** | The student is offered supplied secondary data and an adjusted individual route for the analysis and reflection. Any group-report contribution must be genuine and documented; the student must not claim work they did not complete. |\n| **Absent for more than 2 weeks** | The student must be offered an alternative **individual-only task worth 30 marks**, based on supplied secondary data. The alternative replaces the portfolio assessment. |\n\n## 5. Authenticity protocol\n\n1. **Contribution statements:** Every group report includes a statement signed by all members. It lists responsibility for planning, method, results, conclusion and report assembly. Teachers compare the statement with checkpoint submissions, observed participation, questioning and the final report.\n2. **Secondary-data authorisation:** The teacher supplies or approves the secondary dataset and records which students are authorised to use it and why. Authorised students identify the dataset in their analysis and do not present it as personally collected group data.\n3. **Data ownership:** Students state whether evidence was personally collected, group-collected while they were present, or supplied as secondary data. Unauthorised use of data is referred to the teacher before marking.\n4. **Plagiarism detection and handling:** Teachers compare submissions with one another, checkpoint drafts and supplied materials, and investigate unusually identical wording, results or analysis. Suspected plagiarism is discussed with the student and checked against drafts and contribution evidence. Confirmed plagiarised work is not accepted as authentic evidence and may trigger the blocking decision; the teacher records the decision and provides the required next step.\n\n## 6. Moderation procedure\n\n- Two teachers independently mark at least **20% of portfolios** across the four classes, using the same criteria and descriptors.\n- Marks are compared criterion by criterion.\n- A discrepancy of **more than 3 marks on any criterion** triggers remoderation of that criterion and review of the relevant evidence and descriptor interpretation.\n- The teachers discuss the evidence, record the reason for the discrepancy, and agree a moderated mark. If agreement cannot be reached, the designated assessment coordinator or supervising teacher makes the final decision using the criterion descriptors and available evidence.\n- Moderation also checks that absence, authenticity and blocking decisions have been applied consistently.\n\n## 7. Blocking decisions\n\nA portfolio cannot be awarded **Proficient or Exemplary overall** if:\n\n- the **individual analysis task is missing**;  \n- the individual analysis is **plagiarised**;  \n- the individual analysis is based on **group data the student did not personally collect and was not authorised to use**.\n\nThe rationale is that the overall judgement must include authentic individual evidence of analysis. A student absent for the practical session may use supplied secondary data when that use is authorised; this does not itself trigger a block. The alternative individual-only task for a student absent more than two weeks provides the required authentic individual evidence for a separate 30-mark assessment.",
+  "word_count": 1400,
+  "deterministic_checks": [
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "A criterion table exists with at least one criterion per component (group practical, individual analysis, individual reflection)."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Sum of criterion marks equals 30."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "No criterion mark value exceeds 8."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Group practical criteria sum to 12, individual analysis criteria sum to 12, individual reflection criteria sum to 6."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Each criterion has four band descriptors labelled Emerging, Developing, Proficient, Exemplary."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Checkpoint schedule includes Checkpoint 1 at end of week 1, Checkpoint 2 at end of week 2, and final submission at end of week 3."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Each checkpoint entry specifies a submission item, a checker, and a consequence for missing it."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Absence pathway table includes entries for: absent for practical session, absent for 1 week, absent for 2 weeks, absent for more than 2 weeks."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "The >2 weeks absence pathway routes to an individual-only task worth 30 marks using supplied secondary data."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Authenticity protocol mentions contribution statements signed by all group members."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Authenticity protocol mentions secondary-data authorisation for absent students."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Authenticity protocol mentions plagiarism detection and a handling consequence."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Moderation procedure states at least 20% sampling and two independent teachers."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Moderation procedure states a discrepancy threshold of 3 marks and a remoderation step."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Blocking decisions list includes missing individual analysis, plagiarised individual analysis, and unauthorised-data individual analysis as blocking conditions for Proficient/Exemplary overall."
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.output_item.done": 2,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1811,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

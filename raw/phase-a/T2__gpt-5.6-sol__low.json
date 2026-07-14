@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "low",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T10:37:39.802388+00:00",
+  "elapsed_seconds": 44.29206436697859,
+  "time_to_first_visible_text_seconds": 13.273054197081365,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1551,
+    "output_tokens_details": {
+      "reasoning_tokens": 330
+    },
+    "total_tokens": 2142
+  },
+  "input_tokens": 591,
+  "output_tokens": 1551,
+  "reasoning_tokens": 330,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.049485,
+  "output_text": "## 1. Central decision\n\nStudents decide: **Does the available evidence support the inference that a new substance formed?** They must classify the change as physical, chemical, or **insufficient evidence**, then justify their confidence. Observable signs are clues, not definitions; reversibility alone is not decisive.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use observations to classify and justify physical and chemical changes while recognising limits in the evidence.\n\nStudents can:\n\n1. Separate a directly observed event from an inference about new substances.\n2. Apply the criterion “new substance formed” rather than relying on one sign or reversibility.\n3. Produce a justified classification and identify what further evidence would strengthen it.\n\n## 3. Lesson sequence\n\n- **0–5 minutes — Entry decision:** Display two silent image sequences: an ice cube melting and a metal object developing a reddish-brown coating. Students independently choose physical, chemical, or uncertain and write one reason. No whole-class calling out.\n- **5–13 minutes — Model observation versus inference:** Teacher compares the two sequences using the structure in Section 5. Students challenge any statement incorrectly presented as an observation.\n- **13–20 minutes — Build the tool:** In groups of three, students receive a blank A3 decision-tool template and criterion cards. They arrange and annotate the criteria to create a usable classification pathway.\n- **20–34 minutes — Test with evidence cases:** Groups apply their tool to six dry scenario cards: cutting foil; dissolving salt with later recovery of crystals; air inflating a balloon; wax changing state; two materials producing gas and a temperature change; formation of an insoluble solid when two described solutions are combined. They record classification, evidence, inference and uncertainty. These are descriptions only; no substances are handled.\n- **34–44 minutes — Adversarial swap:** Groups exchange tools and test them with two “trap” cards: an irreversible physical change such as shattered glass, and a colour change with no information about substance identity. Reviewers mark where the tool could generate an unjustified conclusion.\n- **44–52 minutes — Revise and debate:** Groups revise their tool, then one spokesperson defends a disputed classification. Classmates may challenge only by asking, “What was observed?”, “What are you inferring?” or “What evidence is missing?”\n- **52–59 minutes — Individual exam-style check:** Students complete the written task in Section 6 without group assistance.\n- **59–60 minutes — A16 handoff:** Students place their final tool in the class practical folder; teacher previews its required use in the next lesson.\n\n**Total: 60 minutes.**\n\n## 4. Student-built artifact\n\nEach group produces a one-page **Evidence-to-Classification Tool** containing:\n\n1. A box for observations only.\n2. A check: “Is there evidence that one or more new substances formed?”\n3. Outcomes: physical change, chemical change, or insufficient evidence.\n4. A warning that colour, gas, temperature, precipitate, light and odour are clues but not automatic proof.\n5. Warnings that dissolving may be physical and reversibility is not a definition.\n6. A confidence statement and a prompt for further evidence.\n\nIt must be quick enough to use beside an experiment in A16.\n\n## 5. Teacher explanation\n\nModel:\n\n- **Melting ice observation:** “The solid becomes liquid while remaining colourless.”  \n- **Inference:** “No new substance appears to have formed; this supports a physical change.”  \n- **Limit:** “Appearance alone does not identify substances with certainty.”\n\nCompare:\n\n- **Metal coating observation:** “A reddish-brown solid appears on the metal over time.”  \n- **Inference:** “Formation of material with different observable properties supports the formation of a new substance and therefore a chemical change.”  \n- **Limit:** “Colour change alone would not prove this; stronger evidence would compare properties or composition.”\n\nEmphasise: observations are what is detected; classifications are reasoned inferences.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** A student crushes a white solid, then adds it to water. It disappears and the mixture becomes colder. The student states, “This is definitely a chemical change because temperature changed and it cannot be reversed.” Evaluate the conclusion and justify the best classification using the available evidence. State one limitation or useful further observation.\n\n**Marking points, 4 marks:**\n\n- Identifies crushing as a physical change: no evidence of a new substance. **(1)**\n- States that dissolving and temperature change do not automatically prove chemical change. **(1)**\n- Concludes that the dissolving stage is uncertain from the evidence, or provisionally physical with qualification. **(1)**\n- Identifies a limitation or useful evidence, such as recovering the original solid or testing whether products have different properties. **(1)**\n\n## 7. ADHD-supportive access and deep extension\n\nShort, visible timed phases create frequent task resets; fixed roles—reader, evidence recorder, sceptic—reduce waiting and give each student an immediate action. Pre-cut cards and one A3 workspace minimise materials and transitions. Silent first decisions prevent impulsive voices from controlling discussion.\n\nDepth is preserved through ambiguous cases, the “insufficient evidence” category, adversarial testing and demands for confidence limits. Extension students redesign a trap case in which a common chemical-change sign results from a physical process, then explain why the sign misleads.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the artifact before, during and after each practical observation to classify and justify changes, separating observations from inferences and noting uncertainty.\n\nAH17 risks are limited to crowding, thrown cards and off-task movement: use seated groups, numbered card packs, pre-cut materials and teacher-controlled distribution. Do not bring substances, glassware, flames, heaters or tasting activities into AH17.",
+  "word_count": 888,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 888,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.output_item.done": 2,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1215,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

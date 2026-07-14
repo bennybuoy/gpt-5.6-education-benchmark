@@ -1,0 +1,104 @@
+## Marking criteria sheet — 8 marks
+
+### Required calculations
+
+Population estimate: \(N=\frac{M \times C}{R}\)
+
+| Lake | Year 1 | Year 2 | Year 3 | Year 4 | Change from Year 1 to Year 4 |
+|---|---:|---:|---:|---:|---:|
+| **Lake A (control)** | \((100 \times 120)/12 = 1000\) | \((110 \times 130)/13 = 1100\) | \((120 \times 140)/14 = 1200\) | \((125 \times 150)/15 = 1250\) | \(\frac{1250-1000}{1000}\times100=+25\%\) |
+| **Lake B (cichlid introduced)** | \((100 \times 120)/12 = 1000\) | \((90 \times 110)/11 = 900\) | \((70 \times 100)/14 = 500\) | \((50 \times 80)/16 = 250\) | \(\frac{250-1000}{1000}\times100=-75\%\) |
+
+### Expected overall judgement
+
+The data **partially support** the hypothesis that the introduced speckled peacock cichlid contributed to the decline in eastern rainbowfish in Lake B.
+
+Evidence includes:
+
+- Lake B rainbowfish estimates fell from **1000 to 250 fish**, a **75% decline**, after the cichlid was introduced.
+- Lake A, which had no cichlids, increased from **1000 to 1250 fish**, a **25% increase**.
+- Dissolved oxygen, temperature and pH remained broadly similar across years and between lakes, so these measured abiotic variables do not provide a strong alternative explanation.
+- The cichlid is a fish-eating visual predator of small-bodied littoral fish, providing a plausible top-down mechanism.
+
+However, the study cannot prove that cichlids caused the decline because there was only one treatment lake, other unmeasured factors may differ between lakes or years, and mark-recapture assumptions may not have been met.
+
+---
+
+## Performance descriptors
+
+| Mark range | Performance descriptor |
+|---|---|
+| **7–8** | **Analyses** the data comprehensively by accurately calculating all or nearly all population estimates and percentage changes, then breaking the evidence into relevant components: changes over time within each lake, comparison between the control and treatment lake, timing of cichlid introduction, abiotic patterns and the likely predator–prey relationship. Clearly identifies that Lake B declined by 75% while Lake A increased by 25%. **Evaluates** the hypothesis by making a clear, justified judgement—most appropriately that the data *partially support* the hypothesis—using explicit criteria such as the strength of the control comparison, consistency with the predicted top-down effect, stability of measured abiotic variables, and limitations of the design. Discusses at least two valid limitations, including lack of replicate treatment lakes and/or limitations of the Schnabel method. |
+| **5–6** | Correctly calculates most population estimates and percentage changes, with at most minor arithmetic or presentation errors. **Analyses** the main relationship: rainbowfish decline in Lake B after predator introduction compared with stable or increasing numbers in Lake A. Refers to abiotic data and/or predator feeding behaviour. **Evaluates** by reaching a generally appropriate conclusion that the evidence supports or partially supports the hypothesis, with some justification and at least two limitations. Compared with the high band, the response is less integrated, less precise, or gives a less developed judgement about alternative explanations and study design. |
+| **3–4** | Provides some correct calculations or identifies the general trend that Lake B declines while Lake A increases. Gives a basic comparison between lakes but analysis may be descriptive rather than showing relationships between the predator introduction, population pattern and environmental data. Makes a simple conclusion about the hypothesis, but justification is limited, may be one-sided, or may not clearly distinguish association from causation. Identifies one or two limitations with limited explanation. |
+| **1–2** | Gives limited or substantially incorrect calculations and/or a minimal statement about population trends. May state that Lake B decreased after cichlid introduction but provides little comparison with Lake A or use of abiotic evidence. Provides an unsupported conclusion, such as claiming the data prove causation, or no meaningful evaluation. Limitations are absent, invalid or poorly explained. |
+| **0** | No relevant response or no evidence of understanding of mark-recapture data, population trends or the hypothesis. |
+
+---
+
+## Distinguishing **analyse** from **evaluate**
+
+### Analyse
+To **analyse**, students should break the data into components and identify relationships. For this task, this includes:
+
+- calculating each annual population estimate
+- calculating percentage change from Year 1 to Year 4
+- comparing the trend in Lake B with the trend in Lake A
+- relating the decline in Lake B to the timing of cichlid introduction
+- considering whether dissolved oxygen, temperature and pH changed sufficiently to explain the decline
+- linking cichlid predation on small fish to a possible top-down effect on rainbowfish.
+
+A mid-band response may describe that “Lake B decreased and Lake A increased.” A high-band response explains the relationship: Lake B declined by 75% after the predator was introduced, whereas the control lake increased by 25%, while measured abiotic conditions were similar.
+
+### Evaluate
+To **evaluate**, students should make a judgement based on criteria and justify that judgement with evidence. Relevant criteria include:
+
+- whether the predicted population decline occurred after cichlid introduction
+- whether the control lake showed the same pattern
+- whether measured abiotic factors provide an alternative explanation
+- whether the cichlid’s known feeding ecology makes the explanation biologically plausible
+- whether the experimental design and mark-recapture method allow a causal conclusion.
+
+A mid-band response may conclude that the cichlid “probably caused” the decline with some evidence. A high-band response judges that the evidence **partially supports** causation because the pattern is consistent with cichlid predation and is not matched in the control lake, but causation remains uncertain due to lack of replication, possible unmeasured variables and potential violations of mark-recapture assumptions.
+
+---
+
+## Common-error diagnosis
+
+### 1. Numerical error: applying the Schnabel formula incorrectly
+
+**Common error:** Calculating Year 4 Lake B as \(50 \times 80 \times 16\), dividing by \(M\) or \(C\), or interpreting a larger number of recaptures as automatically meaning a larger population.
+
+**Correct calculation:**
+
+\[
+N=\frac{M \times C}{R}=\frac{50 \times 80}{16}=250
+\]
+
+A larger recapture number, when \(M\) and \(C\) are considered, indicates that marked fish make up a greater proportion of the catch and therefore suggests a smaller estimated population.
+
+**Why it reduces response quality:** Incorrect estimates undermine all subsequent trend analysis and the conclusion about the hypothesis.
+
+**How to avoid it:** Write the formula before substituting values, check that \(M\) is multiplied by \(C\), and divide the result by \(R\). Check whether the answer is biologically sensible: more recaptures relative to the total catch should generally produce a lower estimate.
+
+---
+
+### 2. Conceptual error: confusing top-down and bottom-up control
+
+**Common error:** Stating that the cichlid caused a “bottom-up” effect, or identifying the cichlid as a primary consumer.
+
+**Correct concept:** The speckled peacock cichlid is a predatory fish that consumes smaller fish. It is a consumer at a higher trophic level than rainbowfish prey and can exert **top-down control** through predation.
+
+**Why it reduces response quality:** It misrepresents the ecological mechanism being tested. The hypothesis is that a predator reduced a prey population, not that changes in nutrients, plants or primary production affected the population from the bottom of the food web.
+
+**How to avoid it:** Identify the direction of the effect. A predator affecting prey is top-down; resource availability, such as food or primary production, affecting consumers is bottom-up.
+
+---
+
+### 3. Overclaiming causation from field data
+
+**Common error:** Writing that the data “prove” that cichlids caused the rainbowfish decline, or ignoring the absence of replicate treatment lakes.
+
+**Why it reduces response quality:** The predator introduction and subsequent decline show a strong association, and the control comparison strengthens the inference. However, one treatment lake cannot rule out all other explanations. Unmeasured factors—such as habitat structure, disease, food availability, fishing, other predators or differences in recruitment—could have affected Lake B. In addition, the Schnabel estimate depends on assumptions such as equal catchability, mark retention and population closure during sampling.
+
+**How to avoid it:** Use qualified scientific language: “the data support” or “partially support the hypothesis,” “are consistent with predation contributing to the decline,” or “suggest a likely top-down effect.” Then state why certainty is limited, particularly the lack of replicated predator-introduction lakes and possible unmeasured confounding variables.

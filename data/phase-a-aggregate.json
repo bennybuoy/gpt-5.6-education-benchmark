@@ -1,0 +1,1282 @@
+{
+  "overall": [
+    {
+      "condition": "gpt-5.6-sol/high",
+      "mean_score": 92.72,
+      "mean_task_rank": 2.12,
+      "pairwise_wins_total": 30,
+      "task_firsts": 4,
+      "mean_seconds": 166.2,
+      "total_cost": 1.64122,
+      "mean_rank_spread": 1.25
+    },
+    {
+      "condition": "gpt-5.6-sol/low",
+      "mean_score": 90.81,
+      "mean_task_rank": 2.25,
+      "pairwise_wins_total": 28,
+      "task_firsts": 3,
+      "mean_seconds": 66.4,
+      "total_cost": 0.69493,
+      "mean_rank_spread": 2.25
+    },
+    {
+      "condition": "gpt-5.6-terra/xhigh",
+      "mean_score": 89.82,
+      "mean_task_rank": 3.5,
+      "pairwise_wins_total": 18,
+      "task_firsts": 0,
+      "mean_seconds": 197.2,
+      "total_cost": 1.32167,
+      "mean_rank_spread": 2.38
+    },
+    {
+      "condition": "gpt-5.6-terra/high",
+      "mean_score": 89.12,
+      "mean_task_rank": 3.88,
+      "pairwise_wins_total": 15,
+      "task_firsts": 1,
+      "mean_seconds": 96.9,
+      "total_cost": 0.6518,
+      "mean_rank_spread": 1.88
+    },
+    {
+      "condition": "gpt-5.6-luna/high",
+      "mean_score": 88.01,
+      "mean_task_rank": 3.75,
+      "pairwise_wins_total": 13,
+      "task_firsts": 0,
+      "mean_seconds": 136.4,
+      "total_cost": 0.365102,
+      "mean_rank_spread": 1.5
+    },
+    {
+      "condition": "gpt-5.6-luna/none",
+      "mean_score": 81.39,
+      "mean_task_rank": 5.5,
+      "pairwise_wins_total": 4,
+      "task_firsts": 0,
+      "mean_seconds": 32.9,
+      "total_cost": 0.091598,
+      "mean_rank_spread": 1.88
+    }
+  ],
+  "tasks": {
+    "T1": [
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 92.5,
+        "mean_rank": 1.25,
+        "median_rank": 1.0,
+        "rank_spread": 1,
+        "pairwise_wins": 5,
+        "pairwise_losses": 0,
+        "pairwise_ties": 0,
+        "seconds": 168.53209183202125,
+        "cost": 0.21629,
+        "words": 1317,
+        "ranks": {
+          "gpt-5.6-sol": 1,
+          "claude-opus-4.8": 2,
+          "glm-5.2": 1,
+          "grok-4.5": 1
+        },
+        "scores": {
+          "gpt-5.6-sol": 100.0,
+          "claude-opus-4.8": 74.0,
+          "glm-5.2": 96.0,
+          "grok-4.5": 100.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 81.5,
+        "mean_rank": 2.5,
+        "median_rank": 2.0,
+        "rank_spread": 2,
+        "pairwise_wins": 4,
+        "pairwise_losses": 1,
+        "pairwise_ties": 0,
+        "seconds": 179.1656285909703,
+        "cost": 0.15049,
+        "words": 1183,
+        "ranks": {
+          "gpt-5.6-sol": 2,
+          "claude-opus-4.8": 4,
+          "glm-5.2": 2,
+          "grok-4.5": 2
+        },
+        "scores": {
+          "gpt-5.6-sol": 99.0,
+          "claude-opus-4.8": 40.0,
+          "glm-5.2": 93.0,
+          "grok-4.5": 94.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 79.0,
+        "mean_rank": 3,
+        "median_rank": 3.0,
+        "rank_spread": 0,
+        "pairwise_wins": 3,
+        "pairwise_losses": 2,
+        "pairwise_ties": 0,
+        "seconds": 113.64377882506233,
+        "cost": 0.095155,
+        "words": 1281,
+        "ranks": {
+          "gpt-5.6-sol": 3,
+          "claude-opus-4.8": 3,
+          "glm-5.2": 3,
+          "grok-4.5": 3
+        },
+        "scores": {
+          "gpt-5.6-sol": 98.0,
+          "claude-opus-4.8": 40.0,
+          "glm-5.2": 92.0,
+          "grok-4.5": 86.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 63.0,
+        "mean_rank": 4.75,
+        "median_rank": 4.5,
+        "rank_spread": 2,
+        "pairwise_wins": 1,
+        "pairwise_losses": 3,
+        "pairwise_ties": 1,
+        "seconds": 152.71270156803075,
+        "cost": 0.050482,
+        "words": 1137,
+        "ranks": {
+          "gpt-5.6-sol": 4,
+          "claude-opus-4.8": 6,
+          "glm-5.2": 4,
+          "grok-4.5": 5
+        },
+        "scores": {
+          "gpt-5.6-sol": 96.0,
+          "claude-opus-4.8": 40.0,
+          "glm-5.2": 86.0,
+          "grok-4.5": 30.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 55.75,
+        "mean_rank": 3.75,
+        "median_rank": 4.5,
+        "rank_spread": 4,
+        "pairwise_wins": 1,
+        "pairwise_losses": 3,
+        "pairwise_ties": 1,
+        "seconds": 81.26414738991298,
+        "cost": 0.09257,
+        "words": 1485,
+        "ranks": {
+          "gpt-5.6-sol": 5,
+          "claude-opus-4.8": 1,
+          "glm-5.2": 5,
+          "grok-4.5": 4
+        },
+        "scores": {
+          "gpt-5.6-sol": 30.0,
+          "claude-opus-4.8": 78.0,
+          "glm-5.2": 85.0,
+          "grok-4.5": 30.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 44.0,
+        "mean_rank": 5.75,
+        "median_rank": 6.0,
+        "rank_spread": 1,
+        "pairwise_wins": 0,
+        "pairwise_losses": 5,
+        "pairwise_ties": 0,
+        "seconds": 27.519860528991558,
+        "cost": 0.009754,
+        "words": 1113,
+        "ranks": {
+          "gpt-5.6-sol": 6,
+          "claude-opus-4.8": 5,
+          "glm-5.2": 6,
+          "grok-4.5": 6
+        },
+        "scores": {
+          "gpt-5.6-sol": 30.0,
+          "claude-opus-4.8": 40.0,
+          "glm-5.2": 76.0,
+          "grok-4.5": 30.0
+        }
+      }
+    ],
+    "T2": [
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 95.0,
+        "mean_rank": 1.25,
+        "median_rank": 1.0,
+        "rank_spread": 1,
+        "pairwise_wins": 5,
+        "pairwise_losses": 0,
+        "pairwise_ties": 0,
+        "seconds": 44.29206436697859,
+        "cost": 0.049485,
+        "words": 888,
+        "ranks": {
+          "gpt-5.6-sol": 1,
+          "claude-opus-4.8": 1,
+          "grok-4.5": 2,
+          "glm-5.2": 1
+        },
+        "scores": {
+          "gpt-5.6-sol": 97.0,
+          "claude-opus-4.8": 90.0,
+          "grok-4.5": 95.0,
+          "glm-5.2": 98.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 93.25,
+        "mean_rank": 2.5,
+        "median_rank": 2.0,
+        "rank_spread": 4,
+        "pairwise_wins": 4,
+        "pairwise_losses": 1,
+        "pairwise_ties": 0,
+        "seconds": 110.24907366000116,
+        "cost": 0.0925575,
+        "words": 840,
+        "ranks": {
+          "gpt-5.6-sol": 2,
+          "claude-opus-4.8": 5,
+          "grok-4.5": 1,
+          "glm-5.2": 2
+        },
+        "scores": {
+          "gpt-5.6-sol": 96.0,
+          "claude-opus-4.8": 84.0,
+          "grok-4.5": 96.0,
+          "glm-5.2": 97.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 92.75,
+        "mean_rank": 3,
+        "median_rank": 3.0,
+        "rank_spread": 2,
+        "pairwise_wins": 3,
+        "pairwise_losses": 2,
+        "pairwise_ties": 0,
+        "seconds": 79.57243058294989,
+        "cost": 0.088755,
+        "words": 845,
+        "ranks": {
+          "gpt-5.6-sol": 3,
+          "claude-opus-4.8": 2,
+          "grok-4.5": 4,
+          "glm-5.2": 3
+        },
+        "scores": {
+          "gpt-5.6-sol": 94.0,
+          "claude-opus-4.8": 88.0,
+          "grok-4.5": 93.0,
+          "glm-5.2": 96.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 91.0,
+        "mean_rank": 4.25,
+        "median_rank": 4.0,
+        "rank_spread": 3,
+        "pairwise_wins": 1,
+        "pairwise_losses": 3,
+        "pairwise_ties": 1,
+        "seconds": 58.83524382102769,
+        "cost": 0.019743,
+        "words": 910,
+        "ranks": {
+          "gpt-5.6-sol": 6,
+          "claude-opus-4.8": 3,
+          "grok-4.5": 3,
+          "glm-5.2": 5
+        },
+        "scores": {
+          "gpt-5.6-sol": 90.0,
+          "claude-opus-4.8": 86.0,
+          "grok-4.5": 94.0,
+          "glm-5.2": 94.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 90.0,
+        "mean_rank": 4.75,
+        "median_rank": 4.5,
+        "rank_spread": 2,
+        "pairwise_wins": 1,
+        "pairwise_losses": 3,
+        "pairwise_ties": 1,
+        "seconds": 21.47083861392457,
+        "cost": 0.007491,
+        "words": 841,
+        "ranks": {
+          "gpt-5.6-sol": 4,
+          "claude-opus-4.8": 6,
+          "grok-4.5": 5,
+          "glm-5.2": 4
+        },
+        "scores": {
+          "gpt-5.6-sol": 93.0,
+          "claude-opus-4.8": 80.0,
+          "grok-4.5": 92.0,
+          "glm-5.2": 95.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 90.25,
+        "mean_rank": 5.25,
+        "median_rank": 5.5,
+        "rank_spread": 2,
+        "pairwise_wins": 0,
+        "pairwise_losses": 5,
+        "pairwise_ties": 0,
+        "seconds": 67.46914754796308,
+        "cost": 0.0567375,
+        "words": 920,
+        "ranks": {
+          "gpt-5.6-sol": 5,
+          "claude-opus-4.8": 4,
+          "grok-4.5": 6,
+          "glm-5.2": 6
+        },
+        "scores": {
+          "gpt-5.6-sol": 92.0,
+          "claude-opus-4.8": 85.0,
+          "grok-4.5": 91.0,
+          "glm-5.2": 93.0
+        }
+      }
+    ],
+    "T3": [
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 97.5,
+        "mean_rank": 2,
+        "median_rank": 1.5,
+        "rank_spread": 3,
+        "pairwise_wins": 5,
+        "pairwise_losses": 0,
+        "pairwise_ties": 0,
+        "seconds": 117.9239000219386,
+        "cost": 0.13879,
+        "words": 1358,
+        "ranks": {
+          "gpt-5.6-sol": 2,
+          "glm-5.2": 1,
+          "claude-opus-4.8": 4,
+          "grok-4.5": 1
+        },
+        "scores": {
+          "gpt-5.6-sol": 100.0,
+          "glm-5.2": 100.0,
+          "claude-opus-4.8": 90.0,
+          "grok-4.5": 100.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 97.0,
+        "mean_rank": 2.5,
+        "median_rank": 2.0,
+        "rank_spread": 4,
+        "pairwise_wins": 4,
+        "pairwise_losses": 1,
+        "pairwise_ties": 0,
+        "seconds": 211.5839003729634,
+        "cost": 0.17477,
+        "words": 1473,
+        "ranks": {
+          "gpt-5.6-sol": 1,
+          "glm-5.2": 2,
+          "claude-opus-4.8": 5,
+          "grok-4.5": 2
+        },
+        "scores": {
+          "gpt-5.6-sol": 100.0,
+          "glm-5.2": 100.0,
+          "claude-opus-4.8": 89.0,
+          "grok-4.5": 99.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 96.5,
+        "mean_rank": 3.25,
+        "median_rank": 3.0,
+        "rank_spread": 1,
+        "pairwise_wins": 2,
+        "pairwise_losses": 2,
+        "pairwise_ties": 1,
+        "seconds": 131.4497902910225,
+        "cost": 0.044228,
+        "words": 1496,
+        "ranks": {
+          "gpt-5.6-sol": 3,
+          "glm-5.2": 3,
+          "claude-opus-4.8": 3,
+          "grok-4.5": 4
+        },
+        "scores": {
+          "gpt-5.6-sol": 99.0,
+          "glm-5.2": 100.0,
+          "claude-opus-4.8": 92.0,
+          "grok-4.5": 95.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 96.5,
+        "mean_rank": 3.75,
+        "median_rank": 4.0,
+        "rank_spread": 5,
+        "pairwise_wins": 1,
+        "pairwise_losses": 2,
+        "pairwise_ties": 2,
+        "seconds": 62.79823437007144,
+        "cost": 0.08035,
+        "words": 1565,
+        "ranks": {
+          "gpt-5.6-sol": 5,
+          "glm-5.2": 6,
+          "claude-opus-4.8": 1,
+          "grok-4.5": 3
+        },
+        "scores": {
+          "gpt-5.6-sol": 96.0,
+          "glm-5.2": 100.0,
+          "claude-opus-4.8": 94.0,
+          "grok-4.5": 96.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 95.25,
+        "mean_rank": 4,
+        "median_rank": 4.5,
+        "rank_spread": 3,
+        "pairwise_wins": 1,
+        "pairwise_losses": 3,
+        "pairwise_ties": 1,
+        "seconds": 75.16970059101004,
+        "cost": 0.06368,
+        "words": 1499,
+        "ranks": {
+          "gpt-5.6-sol": 4,
+          "glm-5.2": 5,
+          "claude-opus-4.8": 2,
+          "grok-4.5": 5
+        },
+        "scores": {
+          "gpt-5.6-sol": 98.0,
+          "glm-5.2": 100.0,
+          "claude-opus-4.8": 93.0,
+          "grok-4.5": 90.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 92.25,
+        "mean_rank": 5.5,
+        "median_rank": 6.0,
+        "rank_spread": 2,
+        "pairwise_wins": 0,
+        "pairwise_losses": 5,
+        "pairwise_ties": 0,
+        "seconds": 33.93810216302518,
+        "cost": 0.011744,
+        "words": 1409,
+        "ranks": {
+          "gpt-5.6-sol": 6,
+          "glm-5.2": 4,
+          "claude-opus-4.8": 6,
+          "grok-4.5": 6
+        },
+        "scores": {
+          "gpt-5.6-sol": 94.0,
+          "glm-5.2": 100.0,
+          "claude-opus-4.8": 87.0,
+          "grok-4.5": 88.0
+        }
+      }
+    ],
+    "T4": [
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 92.0,
+        "mean_rank": 1.75,
+        "median_rank": 2.0,
+        "rank_spread": 1,
+        "pairwise_wins": 4,
+        "pairwise_losses": 0,
+        "pairwise_ties": 1,
+        "seconds": 105.19310532102827,
+        "cost": 0.0887925,
+        "words": 1576,
+        "ranks": {
+          "gpt-5.6-sol": 1,
+          "claude-opus-4.8": 2,
+          "glm-5.2": 2,
+          "grok-4.5": 2
+        },
+        "scores": {
+          "gpt-5.6-sol": 97.0,
+          "claude-opus-4.8": 80.0,
+          "glm-5.2": 94.0,
+          "grok-4.5": 97.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 91.75,
+        "mean_rank": 1.75,
+        "median_rank": 1.5,
+        "rank_spread": 2,
+        "pairwise_wins": 4,
+        "pairwise_losses": 0,
+        "pairwise_ties": 1,
+        "seconds": 75.81680716294795,
+        "cost": 0.098835,
+        "words": 1959,
+        "ranks": {
+          "gpt-5.6-sol": 2,
+          "claude-opus-4.8": 3,
+          "glm-5.2": 1,
+          "grok-4.5": 1
+        },
+        "scores": {
+          "gpt-5.6-sol": 97.0,
+          "claude-opus-4.8": 78.0,
+          "glm-5.2": 95.0,
+          "grok-4.5": 97.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 87.08,
+        "mean_rank": 3.75,
+        "median_rank": 3.0,
+        "rank_spread": 3,
+        "pairwise_wins": 3,
+        "pairwise_losses": 2,
+        "pairwise_ties": 0,
+        "seconds": 31.712798447930254,
+        "cost": 0.011193,
+        "words": 1281,
+        "ranks": {
+          "gpt-5.6-sol": 3,
+          "claude-opus-4.8": 6,
+          "glm-5.2": 3,
+          "grok-4.5": 3
+        },
+        "scores": {
+          "gpt-5.6-sol": 96.3,
+          "claude-opus-4.8": 62.0,
+          "glm-5.2": 93.0,
+          "grok-4.5": 97.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 88.83,
+        "mean_rank": 4,
+        "median_rank": 4.0,
+        "rank_spread": 0,
+        "pairwise_wins": 2,
+        "pairwise_losses": 3,
+        "pairwise_ties": 0,
+        "seconds": 188.45613293896895,
+        "cost": 0.063393,
+        "words": 1578,
+        "ranks": {
+          "gpt-5.6-sol": 4,
+          "claude-opus-4.8": 4,
+          "glm-5.2": 4,
+          "grok-4.5": 4
+        },
+        "scores": {
+          "gpt-5.6-sol": 95.3,
+          "claude-opus-4.8": 73.0,
+          "glm-5.2": 92.0,
+          "grok-4.5": 95.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 86.58,
+        "mean_rank": 4,
+        "median_rank": 5.0,
+        "rank_spread": 4,
+        "pairwise_wins": 1,
+        "pairwise_losses": 4,
+        "pairwise_ties": 0,
+        "seconds": 202.36528103996534,
+        "cost": 0.1700775,
+        "words": 1600,
+        "ranks": {
+          "gpt-5.6-sol": 5,
+          "claude-opus-4.8": 1,
+          "glm-5.2": 5,
+          "grok-4.5": 5
+        },
+        "scores": {
+          "gpt-5.6-sol": 90.3,
+          "claude-opus-4.8": 81.0,
+          "glm-5.2": 86.0,
+          "grok-4.5": 89.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 79.97,
+        "mean_rank": 5.75,
+        "median_rank": 6.0,
+        "rank_spread": 1,
+        "pairwise_wins": 0,
+        "pairwise_losses": 5,
+        "pairwise_ties": 0,
+        "seconds": 251.62524799408857,
+        "cost": 0.314145,
+        "words": 1983,
+        "ranks": {
+          "gpt-5.6-sol": 6,
+          "claude-opus-4.8": 5,
+          "glm-5.2": 6,
+          "grok-4.5": 6
+        },
+        "scores": {
+          "gpt-5.6-sol": 86.9,
+          "claude-opus-4.8": 66.0,
+          "glm-5.2": 83.0,
+          "grok-4.5": 84.0
+        }
+      }
+    ],
+    "T5": [
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 99.0,
+        "mean_rank": 1,
+        "median_rank": 1.0,
+        "rank_spread": 0,
+        "pairwise_wins": 5,
+        "pairwise_losses": 0,
+        "pairwise_ties": 0,
+        "seconds": 96.77691911300644,
+        "cost": 0.146425,
+        "words": 1680,
+        "ranks": {
+          "gpt-5.6-sol": 1,
+          "claude-opus-4.8": 1,
+          "grok-4.5": 1,
+          "glm-5.2": 1
+        },
+        "scores": {
+          "gpt-5.6-sol": 100.0,
+          "claude-opus-4.8": 97.0,
+          "grok-4.5": 100.0,
+          "glm-5.2": 99.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 98.0,
+        "mean_rank": 2,
+        "median_rank": 2.0,
+        "rank_spread": 0,
+        "pairwise_wins": 4,
+        "pairwise_losses": 1,
+        "pairwise_ties": 0,
+        "seconds": 55.51968695106916,
+        "cost": 0.084565,
+        "words": 1524,
+        "ranks": {
+          "gpt-5.6-sol": 2,
+          "claude-opus-4.8": 2,
+          "grok-4.5": 2,
+          "glm-5.2": 2
+        },
+        "scores": {
+          "gpt-5.6-sol": 100.0,
+          "claude-opus-4.8": 96.0,
+          "grok-4.5": 98.0,
+          "glm-5.2": 98.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 96.75,
+        "mean_rank": 3,
+        "median_rank": 3.0,
+        "rank_spread": 0,
+        "pairwise_wins": 3,
+        "pairwise_losses": 2,
+        "pairwise_ties": 0,
+        "seconds": 89.18586162896827,
+        "cost": 0.030191,
+        "words": 1293,
+        "ranks": {
+          "gpt-5.6-sol": 3,
+          "claude-opus-4.8": 3,
+          "grok-4.5": 3,
+          "glm-5.2": 3
+        },
+        "scores": {
+          "gpt-5.6-sol": 99.0,
+          "claude-opus-4.8": 95.0,
+          "grok-4.5": 96.0,
+          "glm-5.2": 97.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 94.0,
+        "mean_rank": 4.75,
+        "median_rank": 5.0,
+        "rank_spread": 1,
+        "pairwise_wins": 1,
+        "pairwise_losses": 3,
+        "pairwise_ties": 1,
+        "seconds": 105.49842565204017,
+        "cost": 0.0897125,
+        "words": 1155,
+        "ranks": {
+          "gpt-5.6-sol": 5,
+          "claude-opus-4.8": 4,
+          "grok-4.5": 5,
+          "glm-5.2": 5
+        },
+        "scores": {
+          "gpt-5.6-sol": 96.0,
+          "claude-opus-4.8": 93.0,
+          "grok-4.5": 92.0,
+          "glm-5.2": 95.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 93.5,
+        "mean_rank": 5,
+        "median_rank": 5.0,
+        "rank_spread": 2,
+        "pairwise_wins": 0,
+        "pairwise_losses": 3,
+        "pairwise_ties": 2,
+        "seconds": 41.00835219898727,
+        "cost": 0.0356675,
+        "words": 1158,
+        "ranks": {
+          "gpt-5.6-sol": 6,
+          "claude-opus-4.8": 6,
+          "grok-4.5": 4,
+          "glm-5.2": 4
+        },
+        "scores": {
+          "gpt-5.6-sol": 93.0,
+          "claude-opus-4.8": 91.0,
+          "grok-4.5": 94.0,
+          "glm-5.2": 96.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 93.0,
+        "mean_rank": 5.25,
+        "median_rank": 5.5,
+        "rank_spread": 2,
+        "pairwise_wins": 0,
+        "pairwise_losses": 4,
+        "pairwise_ties": 1,
+        "seconds": 25.110267580021173,
+        "cost": 0.009071,
+        "words": 881,
+        "ranks": {
+          "gpt-5.6-sol": 4,
+          "claude-opus-4.8": 5,
+          "grok-4.5": 6,
+          "glm-5.2": 6
+        },
+        "scores": {
+          "gpt-5.6-sol": 99.0,
+          "claude-opus-4.8": 92.0,
+          "grok-4.5": 88.0,
+          "glm-5.2": 93.0
+        }
+      }
+    ],
+    "T6": [
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 96.25,
+        "mean_rank": 1.75,
+        "median_rank": 1.5,
+        "rank_spread": 2,
+        "pairwise_wins": 4,
+        "pairwise_losses": 0,
+        "pairwise_ties": 1,
+        "seconds": 33.68017324595712,
+        "cost": 0.057925,
+        "words": 1135,
+        "ranks": {
+          "claude-opus-4.8": 1,
+          "gpt-5.6-sol": 3,
+          "grok-4.5": 1,
+          "glm-5.2": 2
+        },
+        "scores": {
+          "claude-opus-4.8": 95.0,
+          "gpt-5.6-sol": 97.0,
+          "grok-4.5": 97.0,
+          "glm-5.2": 96.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 95.5,
+        "mean_rank": 1.75,
+        "median_rank": 2.0,
+        "rank_spread": 1,
+        "pairwise_wins": 4,
+        "pairwise_losses": 0,
+        "pairwise_ties": 1,
+        "seconds": 57.98371540091466,
+        "cost": 0.096205,
+        "words": 1016,
+        "ranks": {
+          "claude-opus-4.8": 2,
+          "gpt-5.6-sol": 2,
+          "grok-4.5": 2,
+          "glm-5.2": 1
+        },
+        "scores": {
+          "claude-opus-4.8": 92.0,
+          "gpt-5.6-sol": 98.0,
+          "grok-4.5": 95.0,
+          "glm-5.2": 97.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 91.5,
+        "mean_rank": 3,
+        "median_rank": 3.0,
+        "rank_spread": 4,
+        "pairwise_wins": 3,
+        "pairwise_losses": 2,
+        "pairwise_ties": 0,
+        "seconds": 55.68052831699606,
+        "cost": 0.0473675,
+        "words": 1127,
+        "ranks": {
+          "claude-opus-4.8": 3,
+          "gpt-5.6-sol": 1,
+          "grok-4.5": 3,
+          "glm-5.2": 5
+        },
+        "scores": {
+          "claude-opus-4.8": 88.0,
+          "gpt-5.6-sol": 99.0,
+          "grok-4.5": 91.0,
+          "glm-5.2": 88.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 87.75,
+        "mean_rank": 4.5,
+        "median_rank": 4.5,
+        "rank_spread": 1,
+        "pairwise_wins": 1,
+        "pairwise_losses": 3,
+        "pairwise_ties": 1,
+        "seconds": 82.36491280898917,
+        "cost": 0.027869,
+        "words": 1304,
+        "ranks": {
+          "claude-opus-4.8": 5,
+          "gpt-5.6-sol": 5,
+          "grok-4.5": 4,
+          "glm-5.2": 4
+        },
+        "scores": {
+          "claude-opus-4.8": 84.0,
+          "gpt-5.6-sol": 93.0,
+          "grok-4.5": 84.0,
+          "glm-5.2": 90.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 86.75,
+        "mean_rank": 5,
+        "median_rank": 5.0,
+        "rank_spread": 2,
+        "pairwise_wins": 0,
+        "pairwise_losses": 3,
+        "pairwise_ties": 2,
+        "seconds": 150.57321655994747,
+        "cost": 0.1265225,
+        "words": 1075,
+        "ranks": {
+          "claude-opus-4.8": 4,
+          "gpt-5.6-sol": 4,
+          "grok-4.5": 6,
+          "glm-5.2": 6
+        },
+        "scores": {
+          "claude-opus-4.8": 86.0,
+          "gpt-5.6-sol": 95.0,
+          "grok-4.5": 80.0,
+          "glm-5.2": 86.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 85.25,
+        "mean_rank": 5,
+        "median_rank": 5.5,
+        "rank_spread": 3,
+        "pairwise_wins": 0,
+        "pairwise_losses": 4,
+        "pairwise_ties": 1,
+        "seconds": 28.89659841102548,
+        "cost": 0.010049,
+        "words": 1082,
+        "ranks": {
+          "claude-opus-4.8": 6,
+          "gpt-5.6-sol": 6,
+          "grok-4.5": 5,
+          "glm-5.2": 3
+        },
+        "scores": {
+          "claude-opus-4.8": 83.0,
+          "gpt-5.6-sol": 89.0,
+          "grok-4.5": 77.0,
+          "glm-5.2": 92.0
+        }
+      }
+    ],
+    "T7": [
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 99.5,
+        "mean_rank": 1.5,
+        "median_rank": 1.5,
+        "rank_spread": 1,
+        "pairwise_wins": 4,
+        "pairwise_losses": 0,
+        "pairwise_ties": 1,
+        "seconds": 233.9917099159211,
+        "cost": 0.28957,
+        "words": 3032,
+        "ranks": {
+          "gpt-5.6-sol": 1,
+          "grok-4.5": 2,
+          "claude-opus-4.8": 2,
+          "glm-5.2": 1
+        },
+        "scores": {
+          "gpt-5.6-sol": 100.0,
+          "grok-4.5": 100.0,
+          "claude-opus-4.8": 98.0,
+          "glm-5.2": 100.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 99.5,
+        "mean_rank": 2.25,
+        "median_rank": 1.5,
+        "rank_spread": 4,
+        "pairwise_wins": 4,
+        "pairwise_losses": 0,
+        "pairwise_ties": 1,
+        "seconds": 73.9686489350861,
+        "cost": 0.10135,
+        "words": 2151,
+        "ranks": {
+          "gpt-5.6-sol": 5,
+          "grok-4.5": 1,
+          "claude-opus-4.8": 1,
+          "glm-5.2": 2
+        },
+        "scores": {
+          "gpt-5.6-sol": 98.0,
+          "grok-4.5": 100.0,
+          "claude-opus-4.8": 100.0,
+          "glm-5.2": 100.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 98.5,
+        "mean_rank": 2.75,
+        "median_rank": 3.0,
+        "rank_spread": 1,
+        "pairwise_wins": 3,
+        "pairwise_losses": 2,
+        "pairwise_ties": 0,
+        "seconds": 101.18320401094388,
+        "cost": 0.08561,
+        "words": 2942,
+        "ranks": {
+          "gpt-5.6-sol": 2,
+          "grok-4.5": 3,
+          "claude-opus-4.8": 3,
+          "glm-5.2": 3
+        },
+        "scores": {
+          "gpt-5.6-sol": 99.0,
+          "grok-4.5": 100.0,
+          "claude-opus-4.8": 95.0,
+          "glm-5.2": 100.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 98.0,
+        "mean_rank": 3.75,
+        "median_rank": 4.0,
+        "rank_spread": 1,
+        "pairwise_wins": 2,
+        "pairwise_losses": 3,
+        "pairwise_ties": 0,
+        "seconds": 222.52716882596724,
+        "cost": 0.186905,
+        "words": 2551,
+        "ranks": {
+          "gpt-5.6-sol": 3,
+          "grok-4.5": 4,
+          "claude-opus-4.8": 4,
+          "glm-5.2": 4
+        },
+        "scores": {
+          "gpt-5.6-sol": 99.0,
+          "grok-4.5": 100.0,
+          "claude-opus-4.8": 93.0,
+          "glm-5.2": 100.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 96.75,
+        "mean_rank": 5.25,
+        "median_rank": 5.5,
+        "rank_spread": 2,
+        "pairwise_wins": 0,
+        "pairwise_losses": 4,
+        "pairwise_ties": 1,
+        "seconds": 121.8623161020223,
+        "cost": 0.040136,
+        "words": 2300,
+        "ranks": {
+          "gpt-5.6-sol": 4,
+          "grok-4.5": 5,
+          "claude-opus-4.8": 6,
+          "glm-5.2": 6
+        },
+        "scores": {
+          "gpt-5.6-sol": 98.0,
+          "grok-4.5": 100.0,
+          "claude-opus-4.8": 89.0,
+          "glm-5.2": 100.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 95.25,
+        "mean_rank": 5.5,
+        "median_rank": 5.5,
+        "rank_spread": 1,
+        "pairwise_wins": 0,
+        "pairwise_losses": 4,
+        "pairwise_ties": 1,
+        "seconds": 51.16616726992652,
+        "cost": 0.017672,
+        "words": 2002,
+        "ranks": {
+          "gpt-5.6-sol": 6,
+          "grok-4.5": 6,
+          "claude-opus-4.8": 5,
+          "glm-5.2": 5
+        },
+        "scores": {
+          "gpt-5.6-sol": 93.0,
+          "grok-4.5": 98.0,
+          "claude-opus-4.8": 90.0,
+          "glm-5.2": 100.0
+        }
+      }
+    ],
+    "T8": [
+      {
+        "condition": "gpt-5.6-sol/low",
+        "mean_score": 93.75,
+        "mean_rank": 1,
+        "median_rank": 1.0,
+        "rank_spread": 0,
+        "pairwise_wins": 5,
+        "pairwise_losses": 0,
+        "pairwise_ties": 0,
+        "seconds": 103.77887050807476,
+        "cost": 0.12985,
+        "words": 2520,
+        "ranks": {
+          "gpt-5.6-sol": 1,
+          "claude-opus-4.8": 1,
+          "grok-4.5": 1,
+          "glm-5.2": 1
+        },
+        "scores": {
+          "gpt-5.6-sol": 90.0,
+          "claude-opus-4.8": 95.0,
+          "grok-4.5": 100.0,
+          "glm-5.2": 90.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-sol/high",
+        "mean_score": 85.0,
+        "mean_rank": 2.25,
+        "median_rank": 2.0,
+        "rank_spread": 1,
+        "pairwise_wins": 4,
+        "pairwise_losses": 1,
+        "pairwise_ties": 0,
+        "seconds": 323.42712755000684,
+        "cost": 0.35104,
+        "words": 2579,
+        "ranks": {
+          "gpt-5.6-sol": 3,
+          "claude-opus-4.8": 2,
+          "grok-4.5": 2,
+          "glm-5.2": 2
+        },
+        "scores": {
+          "gpt-5.6-sol": 72.0,
+          "claude-opus-4.8": 83.0,
+          "grok-4.5": 96.0,
+          "glm-5.2": 89.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/high",
+        "mean_score": 83.5,
+        "mean_rank": 3.25,
+        "median_rank": 3.0,
+        "rank_spread": 3,
+        "pairwise_wins": 3,
+        "pairwise_losses": 2,
+        "pairwise_ties": 0,
+        "seconds": 266.4527047419688,
+        "cost": 0.08906,
+        "words": 2227,
+        "ranks": {
+          "gpt-5.6-sol": 2,
+          "claude-opus-4.8": 5,
+          "grok-4.5": 3,
+          "glm-5.2": 3
+        },
+        "scores": {
+          "gpt-5.6-sol": 82.0,
+          "claude-opus-4.8": 70.0,
+          "grok-4.5": 94.0,
+          "glm-5.2": 88.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/xhigh",
+        "mean_score": 81.5,
+        "mean_rank": 3.75,
+        "median_rank": 4.0,
+        "rank_spread": 1,
+        "pairwise_wins": 2,
+        "pairwise_losses": 3,
+        "pairwise_ties": 0,
+        "seconds": 395.8846451799618,
+        "cost": 0.330635,
+        "words": 2175,
+        "ranks": {
+          "gpt-5.6-sol": 4,
+          "claude-opus-4.8": 3,
+          "grok-4.5": 4,
+          "glm-5.2": 4
+        },
+        "scores": {
+          "gpt-5.6-sol": 71.0,
+          "claude-opus-4.8": 80.0,
+          "grok-4.5": 88.0,
+          "glm-5.2": 87.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-terra/high",
+        "mean_score": 73.0,
+        "mean_rank": 5,
+        "median_rank": 5.0,
+        "rank_spread": 2,
+        "pairwise_wins": 1,
+        "pairwise_losses": 4,
+        "pairwise_ties": 0,
+        "seconds": 215.70701299002394,
+        "cost": 0.17879,
+        "words": 1984,
+        "ranks": {
+          "gpt-5.6-sol": 6,
+          "claude-opus-4.8": 4,
+          "grok-4.5": 5,
+          "glm-5.2": 5
+        },
+        "scores": {
+          "gpt-5.6-sol": 63.0,
+          "claude-opus-4.8": 72.0,
+          "grok-4.5": 72.0,
+          "glm-5.2": 85.0
+        }
+      },
+      {
+        "condition": "gpt-5.6-luna/none",
+        "mean_score": 64.25,
+        "mean_rank": 5.75,
+        "median_rank": 6.0,
+        "rank_spread": 1,
+        "pairwise_wins": 0,
+        "pairwise_losses": 5,
+        "pairwise_ties": 0,
+        "seconds": 43.145293980953284,
+        "cost": 0.014624,
+        "words": 1871,
+        "ranks": {
+          "gpt-5.6-sol": 5,
+          "claude-opus-4.8": 6,
+          "grok-4.5": 6,
+          "glm-5.2": 6
+        },
+        "scores": {
+          "gpt-5.6-sol": 65.0,
+          "claude-opus-4.8": 58.0,
+          "grok-4.5": 58.0,
+          "glm-5.2": 76.0
+        }
+      }
+    ]
+  }
+}

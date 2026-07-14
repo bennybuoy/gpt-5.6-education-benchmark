@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": "gpt-5.6-terra",
+  "effort": "xhigh",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T10:39:43.671083+00:00",
+  "elapsed_seconds": 110.24907366000116,
+  "time_to_first_visible_text_seconds": 89.6484594240319,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 6072,
+    "output_tokens_details": {
+      "reasoning_tokens": 4929
+    },
+    "total_tokens": 6663
+  },
+  "input_tokens": 591,
+  "output_tokens": 6072,
+  "reasoning_tokens": 4929,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.0925575,
+  "output_text": "1. Central decision\n\nStudents build, test and revise an “evidence-to-claim” card rather than memorise a list of signs. Its central question is: *Does the available evidence support that a new substance formed?* The card must also state a limit when evidence is incomplete.\n\n2. Learning intention and three success criteria\n\nLearning intention: Use observations and evidence to make a justified, appropriately limited classification of a change.\n\n1. Classify a well-supported change as physical or chemical using whether a new substance forms.  \n2. Label statements as observations or inferences.  \n3. Explain why dissolving, reversibility and one visible sign alone cannot settle every classification.\n\n3. Lesson sequence\n\n- **0–4 min:** Individually hold up P, C or ? cards for brief written scenarios: bent metal, a solid “disappearing” in water, and bubbles appearing. Students commit before discussion.\n- **4–12 min:** Teacher-modelled comparison (detailed below). Students annotate which statements are observations and which are inferences.\n- **12–24 min:** Teams of four construct a first version of an evidence-to-claim card on blank A3 paper. Roles are evidence-reader, recorder, challenger and reporter.\n- **24–37 min:** Teams test their card against five printed evidence records, not real substances: bending, melting, dissolving, colour change, and a record that establishes a substance was absent initially but present afterwards. They must make a claim, cite evidence and state a limit for each.\n- **37–46 min:** Structured “stress test”: teams exchange cards and apply them to an ambiguous record containing bubbles and a temperature change. Visiting teams identify any step that wrongly turns a sign into proof; original teams revise their card.\n- **46–51 min:** Each student makes a compact personal version of the revised card to take to A16. They rehearse its use: record observations first, then make a claim and limit.\n- **51–60 min:** Individual exam-style written check, collected before exit.\n\nTotal: **60 minutes**.\n\n4. Student-built artifact\n\nThe reusable card has four student-designed sections:\n\n1. **Observations:** directly seen or measured changes.  \n2. **Substance question:** what evidence bears on whether a new substance formed?  \n3. **Claim:** physical—evidence supports no new substance and a change in state, shape, size or arrangement; chemical—evidence supports one or more new substances; or not yet decidable.  \n4. **Limit/next evidence:** what is inferred rather than observed, and what evidence is still needed.\n\nIts reverse lists guardrails: colour, gas, temperature, precipitate, light and odour are clues, not automatic proof; dissolving can be physical; reversibility is not a definition.\n\n5. Teacher explanation\n\nDisplay two records side by side.\n\nFor a bent metal strip: “The strip changes from straight to U-shaped; the measured mass is unchanged.” Observations are the shape and mass records. “No new substance formed” is an inference. The best-supported classification is physical because the evidence supports a shape change and gives no evidence of a new substance; the limit is that these observations do not independently identify the substance.\n\nFor two materials producing bubbles and a temperature rise: bubbles and thermometer readings are observations. “A new substance formed” is an inference. These observations are consistent with chemical change, but neither is automatic proof. The warranted conclusion is that chemical change is plausible but not yet established without evidence that a new substance formed.\n\n6. Individual exam-style check and marking points\n\n**Question:**  \nA. A metal strip is bent into a U-shape. The record reports only a shape change and no new material. Classify the change and justify it.  \nB. Two clear liquids are combined. The mixture becomes cloudy, a solid appears and the container becomes warmer. No evidence identifies substances before or after. What conclusion is warranted? Justify using observation, inference and a limit.\n\n**Marking points (6):**\n- A is classified as physical.  \n- Explains that shape changed and no new substance is supported by the record.  \n- Identifies cloudiness/solid appearance and warming as observations in B.  \n- Identifies “new substance formed” as an inference.  \n- States these signs are consistent with chemical change but not proof alone.  \n- Concludes B is not definitively classifiable from the available evidence and needs evidence of a new substance.\n\n7. ADHD-supportive access and deep extension\n\nShort, visible timed phases reduce extended listening and provide frequent restart points. Private P/C/? commitments occur before discussion, reducing impulsive call-outs and making every student accountable. Defined team roles give movement and challenge a task-bound purpose. The card externalises the reasoning sequence, reducing working-memory load without reducing scientific precision.\n\nDeep extension students receive the ambiguous signs-only record first. They must defend why it remains undecidable, identify the inference leap, and specify the minimum additional evidence needed to support a chemical claim.\n\n8. Forward link and operational risks\n\nIn A16, students will use the same card during the practical: record before/during/after observations, then classify and justify physical or chemical changes while stating evidence limits. The personal cards are collected or stored for the next lesson.\n\nAH17 uses only printed records, cards and board work: no wet chemistry, heating, flames, tasting or substances. Main risks are “sign equals proof” thinking and group copying; the mandatory limit section, ambiguous stress-test case and individual exit check directly expose both.",
+  "word_count": 840,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 840,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 11,
+    "response.output_item.done": 11,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1137,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

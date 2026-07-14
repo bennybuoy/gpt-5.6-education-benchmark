@@ -1,0 +1,62 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "none",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:24.696109+00:00",
+  "elapsed_seconds": 39.311342886066996,
+  "time_to_first_visible_text_seconds": 6.898479514988139,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1286,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1877
+  },
+  "input_tokens": 591,
+  "output_tokens": 1286,
+  "reasoning_tokens": 0,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.041535,
+  "output_text": "## 1. Central decision\n\nStudents will build and stress-test an **Evidence-to-Claim decision tool** for classifying changes. The tool requires them to separate what was observed from what is inferred, decide whether the evidence supports formation of a new substance, and acknowledge uncertainty. All AH17 cases use images, written scenarios or teacher-demonstrated manipulation of dry, ordinary objects—no wet chemistry.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Distinguish physical and chemical changes by reasoning from evidence rather than relying on a single sign.\n\n**Success criteria:** Students can:\n\n1. record observations without embedding an inference;\n2. classify a change by explaining whether a new substance formed;\n3. identify limitations in the evidence and avoid treating signs or reversibility as automatic proof.\n\n## 3. Lesson sequence\n\n**0–5 minutes — Entry decision (5 min)**  \nDisplay three silent image sequences: crushed chalk, ice melting, and a metal object before/after rusting. Students independently hold up **physical, chemical or uncertain** cards, then write one observed feature. Teacher samples contrasting answers without resolving them.\n\n**5–13 minutes — Model observation versus inference (8 min)**  \nTeacher compares two dry scenarios:\n\n- Paper is cut: **observation**—pieces are smaller and differently shaped; **inference**—no new substance appears to have formed, so this supports a physical change.\n- Photographs show an iron nail initially grey and later coated reddish-brown: **observation**—colour and surface appearance changed; **inference**—a new substance may have formed, supporting chemical change. The photograph alone does not identify the substance, so the conclusion has a limit.\n\nTeacher explicitly contrasts “It bubbled” with “A gas formed”: bubbling is observable; gas formation is an inference that may need contextual evidence.\n\n**13–23 minutes — Construct the tool (10 min)**  \nTeams of three receive scenario cards and create a one-page decision tool. It must include:  \n**Observation → possible interpretation → did a new substance form? → classification → evidence limitation.**  \nThey must add warnings: “one sign is not automatic proof,” “dissolving can be physical,” and “reversibility alone does not define the type.”\n\n**23–35 minutes — First test (12 min)**  \nTeams test their tool on four dry/card-based cases: modelling clay reshaped; sugar described as dissolving and later recovered by water removal; a glow stick image sequence showing light and colour change; a fizzy drink opened with bubbles appearing. For each, they classify or state “insufficient evidence” and justify why. Each student records one case before team discussion.\n\n**35–45 minutes — Evidence challenge debate (10 min)**  \nPairs exchange tools and attempt to “break” them using counterexample cards: irreversible paper tearing; reversible-looking but chemically described change; colour change caused by mixing coloured objects; bubbles from previously dissolved gas. Reviewers identify any shortcut that produces an unreliable classification.\n\n**45–51 minutes — Revise and publish (6 min)**  \nTeams revise their tool, adding at least one conditional statement such as: “If gas production is inferred, ask whether the gas could already have been present.” One copy is displayed for use next lesson.\n\n**51–58 minutes — Individual exam-style check (7 min)**  \nStudents answer independently.\n\n**58–60 minutes — Exit bridge (2 min)**  \nStudents write the first two things they will record in A16: **observations before interpretation**, then a **claim justified by evidence**.\n\n## 4. Student-built artifact\n\nA reusable **Evidence-to-Claim decision tool** with:\n\n- a place for neutral observations;\n- prompts for alternative explanations;\n- the defining question: “Does the evidence support formation of one or more new substances?”;\n- outcomes of physical, chemical or insufficient evidence;\n- an evidence-limit statement;\n- warnings against single-sign and reversibility shortcuts.\n\nIts quality is tested by counterexamples and improved before A16.\n\n## 5. Teacher explanation\n\nA physical change alters state, shape, size or arrangement without forming a new substance. A chemical change forms one or more new substances. Colour, gas, temperature, precipitate, light or odour may support a chemical-change inference, but each can have alternative explanations. Dissolving may be physical. Easy or difficult reversal is not the definition. Therefore, scientific classification should follow: **observe precisely, infer cautiously, compare explanations, then qualify the claim.**\n\n## 6. Individual exam-style check and marking points\n\n**Question:** A sealed transparent container is shown before and after a change. Afterwards, bubbles and a colour change are visible. A student states, “It is definitely chemical because bubbles prove a new gas formed.” Classify the change as chemical, physical or uncertain, and justify your answer using observation, inference and a limitation of the evidence.\n\n**Marking points (4):**\n\n- identifies bubbles and colour change as observations;\n- explains that new-substance formation is the basis for chemical classification;\n- states these signs are consistent with, but do not automatically prove, chemical change;\n- concludes “uncertain” from the given evidence, or gives a conditional chemical claim with a valid limitation/alternative explanation.\n\n## 7. ADHD-supportive access and deep extension\n\nShort timed phases, visible countdowns, fixed three-person roles (reader, evidence recorder, challenger), response cards and card movement create frequent, bounded actions and reduce waiting. One-case-at-a-time envelopes limit visual load; written individual thinking before talk prevents fast peers dominating.\n\nDepth is preserved because students must generate alternative explanations, distinguish certainty levels, expose flaws in peers’ tools, and formulate conditional rules. Extension students rank evidence strength and specify what additional observation would discriminate between competing explanations.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the published tool to classify and justify practical changes, recording observations before discussing inferences. Bring team tools and individual checks to identify students needing prompting.\n\nAH17 risks are managed by using only printed/media scenarios and dry object manipulation: no liquids, uncontrolled substances, heating, flames or tasting. Movement is limited to exchanging card packs; roles, clear pathways, labelled materials and a stop signal reduce congestion and off-task handling.",
+  "word_count": 933,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 933,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 1,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1282,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.output_item.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

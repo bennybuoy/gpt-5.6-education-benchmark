@@ -1,0 +1,271 @@
+{
+  "task_id": "T5",
+  "title": "Introduced Predator Effects on Native Fish Populations in Two Freshwater Lakes (Module 4: Ecosystem Dynamics)",
+  "candidate_prompt": "Researchers investigated the impact of an introduced predatory fish, the speckled peacock cichlid (Cichla sp.), on a native freshwater fish species, the eastern rainbowfish (Melanotaenia splendida), in two ecologically similar lakes in northern New South Wales.\n\nLake A served as a control lake with no introduced predator. Lake B had a small population of speckled peacock cichlids illegally introduced at the end of Year 1 of the study. The cichlid is a visual pursuit predator that feeds predominantly on small-bodied fish in the littoral zone.\n\nOver four consecutive years, researchers estimated the eastern rainbowfish population in each lake using the Schnabel mark-recapture method, where the population estimate N = (M x C) / R, with M = number of previously marked fish, C = total captured in a sampling event, and R = number of recaptured marked fish. The method assumes a closed population (no births, deaths, immigration or emigration during the sampling window), equal catchability of marked and unmarked fish, that marks are not lost, and that marking does not affect survival or behaviour. Three abiotic variables (dissolved oxygen, surface water temperature, pH) were also recorded annually at three littoral sites per lake to assess whether abiotic changes could account for any population trends.\n\nTable 1. Mark-recapture data and abiotic measurements for Lake A and Lake B (Years 1-4).\n\nLake A (control, no predator):\nYear 1: M=100, C=120, R=12, DO=8.1 mg/L, Temp=22.4 C, pH=7.2\nYear 2: M=110, C=130, R=13, DO=8.0, Temp=22.6, pH=7.3\nYear 3: M=120, C=140, R=14, DO=7.9, Temp=22.5, pH=7.2\nYear 4: M=125, C=150, R=15, DO=8.0, Temp=22.7, pH=7.3\n\nLake B (predator introduced end of Year 1):\nYear 1: M=100, C=120, R=12, DO=8.0, Temp=22.5, pH=7.2\nYear 2: M=90, C=110, R=11, DO=7.9, Temp=22.6, pH=7.2\nYear 3: M=70, C=100, R=14, DO=7.8, Temp=22.5, pH=7.3\nYear 4: M=50, C=80, R=16, DO=7.9, Temp=22.7, pH=7.2\n\nTask (8 marks): 'Analyse the data to evaluate the hypothesis that the introduced speckled peacock cichlid caused the decline of the eastern rainbowfish population in Lake B. In your answer, calculate population estimates for both lakes for all four years, determine the percentage change in each population from Year 1 to Year 4, discuss at least two limitations of the study, and justify whether the data support, partially support, or do not support the hypothesis.'\n\nMarking-criteria task: Using the NSW NESA glossary, draft a marking criteria sheet for the 8-mark task above. Your sheet must include at least four banded performance descriptors (e.g., 7-8, 5-6, 3-4, 1-2) and explicitly identify what distinguishes a high-band response from a mid-band response with reference to the command verbs 'analyse' and 'evaluate'. Your descriptors should make clear that 'analyse' requires breaking the data into components and identifying relationships, while 'evaluate' requires making a judgement based on criteria and justifying it with evidence.\n\nCommon-error diagnosis: Identify and explain three common errors a student might make when answering this task. Your three errors must include at least one numerical error (e.g., incorrect application of the mark-recapture formula, or calculating percentage change relative to the wrong baseline), at least one conceptual error (e.g., confusing top-down and bottom-up control, or misidentifying the trophic level of the cichlid), and at least one error related to overclaiming causation from correlational field data (e.g., stating that the data 'prove' the predator caused the decline, or ignoring the lack of replicate treatment lakes). For each error, state why it reduces the quality of the response and how a student could avoid it.",
+  "hidden_key": {
+    "exact_trends_and_calculations": {
+      "lake_A_population_estimates": {
+        "Year_1": 1000,
+        "Year_2": 1100,
+        "Year_3": 1200,
+        "Year_4": 1250
+      },
+      "lake_B_population_estimates": {
+        "Year_1": 1000,
+        "Year_2": 900,
+        "Year_3": 500,
+        "Year_4": 250
+      },
+      "lake_A_percentage_change_Y1_to_Y4": "+25% increase",
+      "lake_B_percentage_change_Y1_to_Y4": "-75% decline",
+      "formula": "N = (M x C) / R",
+      "abiotic_summary": "DO 7.8-8.1 mg/L, Temp 22.4-22.7 C, pH 7.2-7.3; stable and near-identical between lakes, so abiotic confounding is unlikely but not excluded."
+    },
+    "causal_pathway": "Illegal introduction of speckled peacock cichlid into Lake B at end of Year 1 -> new trophic interaction established (cichlid = predator, eastern rainbowfish = prey) -> increased predation pressure on small-bodied littoral rainbowfish -> reduced prey survivorship -> progressive decline in prey population (1000 -> 900 -> 500 -> 250). Top-down control is the primary mechanism. Lake A (no predator) shows a moderate increase consistent with stable/growing population, supporting the contrast. Trophic cascade possible but not measured.",
+    "limitations_and_confounders": [
+      "Correlational field design: predator introduction was not a controlled manipulation by researchers, so causation cannot be proven, only inferred.",
+      "No replicate treatment lakes: only one lake received the predator, so lake-specific factors (disease, spawning habitat degradation, water level) cannot be separated from predator effect.",
+      "Mark-recapture assumptions may be violated: population may not be closed (immigration/emigration possible); marked fish may have different catchability; marks may be lost; marking may affect survival.",
+      "Small number of recaptures (R as low as 11) produces wide confidence intervals; estimates are approximate.",
+      "Only adult/littoral fish sampled; recruitment (juvenile survival) not directly measured.",
+      "Disease, parasitism, and interspecific competition with other native fish not measured.",
+      "Algal biomass / trophic cascade not measured, so cascade claims are speculative."
+    ],
+    "command_verb_requirements": {
+      "analyse": "Must break data into components: compute all eight N values, compute both percentage changes, compare trends between lakes, link trends to the predator introduction timing. Listing numbers without comparison is insufficient.",
+      "evaluate": "Must make an explicit judgement (support / partially support / do not support) and justify it with criteria (e.g., temporal coincidence, between-lake contrast, abiotic stability, limitations). A response that only describes data without a justified judgement does not satisfy 'evaluate'."
+    },
+    "overclaiming_traps": [
+      "Do NOT state the data 'prove' or 'definitively show' causation; use 'support', 'are consistent with', 'suggest'.",
+      "Do NOT claim abiotic factors are fully ruled out; they are stable but not measured comprehensively.",
+      "Do NOT extrapolate to all lakes or all prey species from a single treatment lake.",
+      "Do NOT claim a trophic cascade occurred; algal biomass was not measured.",
+      "Do NOT confuse correlation with causation; the temporal coincidence supports but does not prove the hypothesis.",
+      "Do NOT calculate percentage change using Year 4 as the denominator; baseline is Year 1."
+    ]
+  },
+  "rubric": {
+    "total": 100,
+    "critical_cap": 40,
+    "major_cap": 30,
+    "minor_cap": 30,
+    "criteria": [
+      {
+        "id": "C1",
+        "description": "All eight population estimates correctly calculated (Lake A: 1000,1100,1200,1250; Lake B: 1000,900,500,250)",
+        "marks": 10,
+        "category": "critical"
+      },
+      {
+        "id": "C2",
+        "description": "Correct percentage changes: Lake A +25%, Lake B -75%, with Year 1 as baseline",
+        "marks": 10,
+        "category": "critical"
+      },
+      {
+        "id": "C3",
+        "description": "Causal pathway correctly stated using top-down control / predation pressure linking cichlid introduction to rainbowfish decline",
+        "marks": 10,
+        "category": "critical"
+      },
+      {
+        "id": "C4",
+        "description": "Explicit evaluation judgement (support/partially support/do not support) justified with criteria and cautious language",
+        "marks": 10,
+        "category": "critical"
+      },
+      {
+        "id": "C5",
+        "description": "At least two valid limitations discussed (e.g., no replication, correlational design, mark-recapture assumptions)",
+        "marks": 10,
+        "category": "major"
+      },
+      {
+        "id": "C6",
+        "description": "Mark-recapture assumptions identified and linked to estimate reliability",
+        "marks": 8,
+        "category": "major"
+      },
+      {
+        "id": "C7",
+        "description": "Command verb 'analyse' demonstrated through data breakdown and between-lake comparison, not mere listing",
+        "marks": 7,
+        "category": "major"
+      },
+      {
+        "id": "C8",
+        "description": "Command verb 'evaluate' demonstrated through justified judgement, not description only",
+        "marks": 5,
+        "category": "major"
+      },
+      {
+        "id": "C9",
+        "description": "Marking criteria sheet with at least four banded descriptors aligned to NESA glossary",
+        "marks": 10,
+        "category": "minor"
+      },
+      {
+        "id": "C10",
+        "description": "Clear distinction between high-band and mid-band descriptors referencing 'analyse' and 'evaluate'",
+        "marks": 8,
+        "category": "minor"
+      },
+      {
+        "id": "C11",
+        "description": "Three common errors identified covering numerical, conceptual, and overclaiming types with correct explanations",
+        "marks": 8,
+        "category": "minor"
+      },
+      {
+        "id": "C12",
+        "description": "Accurate scientific terminology and correct trophic-level identification throughout",
+        "marks": 4,
+        "category": "minor"
+      }
+    ]
+  },
+  "deterministic_checks": [
+    {
+      "id": "D1",
+      "type": "substring_all",
+      "description": "Response contains all eight population estimates",
+      "values": [
+        "1000",
+        "1100",
+        "1200",
+        "1250",
+        "900",
+        "500",
+        "250"
+      ],
+      "implementation": "all(v in response for v in values) noting 1000 appears for both lakes"
+    },
+    {
+      "id": "D2",
+      "type": "regex",
+      "description": "Response contains 75% decline and 25% increase",
+      "pattern": "(75\\s*%|75 percent).*(decline|decrease|reduction).*(25\\s*%|25 percent).*(increase|rise|growth)",
+      "flags": "IGNORECASE|DOTALL",
+      "implementation": "re.search(pattern, response, re.I|re.S) is not None"
+    },
+    {
+      "id": "D3",
+      "type": "substring_any",
+      "description": "Mark-recapture formula present",
+      "values": [
+        "(M x C) / R",
+        "(M*C)/R",
+        "(M × C) / R",
+        "M*C/R",
+        "MC/R"
+      ],
+      "implementation": "any(v in response for v in values)"
+    },
+    {
+      "id": "D4",
+      "type": "keyword_count",
+      "description": "At least two limitation keywords present",
+      "keywords": [
+        "closed population",
+        "catchability",
+        "mark retention",
+        "replication",
+        "replicate",
+        "emigration",
+        "immigration",
+        "sampling error",
+        "correlational",
+        "confound",
+        "disease",
+        "confidence interval"
+      ],
+      "min_count": 2,
+      "implementation": "sum(k.lower() in response.lower() for k in keywords) >= 2"
+    },
+    {
+      "id": "D5",
+      "type": "substring_any",
+      "description": "Top-down control / predation mechanism present",
+      "values": [
+        "top-down",
+        "top down",
+        "predation pressure",
+        "predator-prey",
+        "trophic"
+      ],
+      "implementation": "any(v.lower() in response.lower() for v in values)"
+    },
+    {
+      "id": "D6",
+      "type": "cautious_language",
+      "description": "Cautious language present and no definitive causal overclaim",
+      "cautious_terms": [
+        "support",
+        "consistent with",
+        "suggest",
+        "likely",
+        "indicate"
+      ],
+      "overclaim_terms": [
+        "prove",
+        "proven",
+        "definitively caused",
+        "definitely caused",
+        "conclusively show"
+      ],
+      "implementation": "any(t.lower() in response.lower() for t in cautious_terms) and not any(o.lower() in response.lower() for o in overclaim_terms)"
+    },
+    {
+      "id": "D7",
+      "type": "band_count",
+      "description": "Marking criteria sheet contains at least four banded descriptors",
+      "bands": [
+        "7-8",
+        "5-6",
+        "3-4",
+        "1-2"
+      ],
+      "min_matches": 3,
+      "implementation": "sum(b in response for b in bands) >= 3"
+    },
+    {
+      "id": "D8",
+      "type": "keyword_count",
+      "description": "Three common-error types addressed (numerical, conceptual, overclaiming)",
+      "keywords": [
+        "formula",
+        "percentage",
+        "calculation",
+        "top-down",
+        "bottom-up",
+        "trophic level",
+        "overclaim",
+        "causation",
+        "correlation",
+        "prove"
+      ],
+      "implementation": "numerical = any(k in response.lower() for k in ['formula','percentage','calculation']); conceptual = any(k in response.lower() for k in ['top-down','bottom-up','trophic level']); overclaim = any(k in response.lower() for k in ['overclaim','causation','correlation','prove']); all([numerical, conceptual, overclaim])"
+    },
+    {
+      "id": "D9",
+      "type": "judgement_present",
+      "description": "Explicit evaluation judgement present",
+      "values": [
+        "support",
+        "partially support",
+        "do not support",
+        "supports",
+        "partially supports"
+      ],
+      "implementation": "any(v.lower() in response.lower() for v in values)"
+    },
+    {
+      "id": "D10",
+      "type": "length",
+      "description": "Response is substantive (>= 400 words)",
+      "min_words": 400,
+      "implementation": "len(response.split()) >= 400"
+    }
+  ],
+  "source_notes": "Synthetic task constructed for NSW Stage 6 Biology Module 4 (Ecosystem Dynamics), covering population sampling (mark-recapture), trophic interactions, top-down control, introduced species impacts, and field-study limitations. All data, species names, lake identifiers and numerical values are fabricated for assessment purposes and do not represent real field data. Mark-recapture formula and assumptions follow standard NESA-aligned content. Command verbs 'analyse' and 'evaluate' aligned to NSW NESA glossary definitions."
+}

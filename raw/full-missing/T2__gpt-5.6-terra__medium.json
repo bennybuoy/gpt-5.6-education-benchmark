@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": "gpt-5.6-terra",
+  "effort": "medium",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:32.246315+00:00",
+  "elapsed_seconds": 40.428616558085196,
+  "time_to_first_visible_text_seconds": 19.620126227033325,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 2187,
+    "output_tokens_details": {
+      "reasoning_tokens": 1018
+    },
+    "total_tokens": 2778
+  },
+  "input_tokens": 591,
+  "output_tokens": 2187,
+  "reasoning_tokens": 1018,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.0342825,
+  "output_text": "## 1. Central decision\n\nStudents decide: **Does the available evidence support “no new substance formed” (physical change), “new substance(s) formed” (chemical change), or “not enough evidence yet”?** They must not classify from a single clue alone.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use observations and cautious inferences to classify changes and justify a conclusion.\n\nStudents can:\n\n1. Separate what was observed from an inference about substances.\n2. Use “new substance formed” as the deciding idea, rather than reversibility or one visible sign.\n3. Give a classification, evidence and a limit on the conclusion.\n\n## 3. Lesson sequence\n\n**0–5 min — Entry decision.** Display: “A solid disappears when stirred into water.” Students hold up a card: physical, chemical, or need more evidence. No answer is confirmed yet; students must state one reason.\n\n**5–13 min — Teacher model: observation versus inference.** Project a written/photo sequence: “Two clear liquids are mixed. The container becomes warmer, bubbles appear and the mixture becomes yellow.” Model a two-column comparison:\n\n- **Observations:** bubbles appeared; temperature increased; colour changed.\n- **Inferences:** a gas may have formed; new substance(s) may have formed; it may be a chemical change.\n\nThink aloud: these observations are consistent with a chemical change, but none alone proves it. The conclusion is: “Chemical change is supported, but the evidence shown does not directly prove which new substances formed.”\n\n**13–20 min — Build version 1 of a reasoning tool.** Groups of four construct an “Evidence-to-Decision Route” on A3 paper using movable statement cards. Required route:\n\n1. Record observations only.  \n2. Identify whether state, shape, size or arrangement changed.  \n3. Ask: is there evidence that new substance(s) formed?  \n4. Classify: physical / chemical / evidence insufficient.  \n5. State a limitation or further evidence needed.\n\n**20–35 min — Test the tool with case cards.** Groups apply their route to six illustrated/text-only cases, such as ice melting, paper being cut, a solid dissolving in water, a substance giving off bubbles, a solid appearing when liquids are combined, and a colour change. Each group must place cards under **observation**, **inference**, and **decision**, then write a one-sentence justification. They must include at least one “evidence insufficient” decision.\n\n**35–45 min — Challenge and revise.** Pairs rotate to another group’s model and challenge one conclusion: “Which observation supports this?” or “Could this sign occur without proving a new substance?” Groups revise their route by adding one caution statement, for example: “A visible sign is evidence to investigate, not automatic proof.”\n\n**45–53 min — Whole-class evidence debate.** Select two contrasting cases. Groups defend either a physical/chemical classification or an insufficient-evidence conclusion using their route. Teacher presses for the distinction between an observation and an inference.\n\n**53–60 min — Individual exam-style check.** Students complete the written check silently and hand it in.\n\n## 4. Student-built artifact\n\nEach group produces a reusable **Evidence-to-Decision Route**: an A3 decision map with movable evidence cards and a final “claim frame”:\n\n> “I classify this as ___ / cannot classify it conclusively because ___.  \n> My observations are ___. These suggest ___.  \n> A limit of this evidence is ___.”\n\nStudents photograph or copy the route for use in A16.\n\n## 5. Teacher explanation\n\nA physical change forms no new substance; only state, shape, size or arrangement may change. A chemical change forms one or more new substances. Bubbles, colour, temperature, precipitate, light and odour are observations that can be consistent with chemical change, but they are not automatic proof. Dissolving can be physical. Whether a change can be reversed is not a reliable definition.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** Two clear liquids are combined. A solid appears and the container feels warmer. Amir writes, “This is definitely a chemical change because a solid formed.” Evaluate Amir’s conclusion. Classify the change as far as the evidence allows and justify your answer.\n\n**Marking points (4):**\n\n- Identifies solid formation and warming as observations.  \n- States that these observations are consistent with a chemical change.  \n- Explains that a chemical change requires new substance(s) to form.  \n- States that the signs alone do not prove this; a cautious conclusion is chemical change is supported, but not certain from this evidence alone.\n\n## 7. ADHD-supportive access and deep extension\n\nThe lesson uses short timed phases, visible countdowns and concrete card movement. Roles—reader, evidence sorter, challenger and recorder—give each student a necessary action, reducing unstructured waiting that can trigger off-task behaviour. The repeated claim frame reduces working-memory demand while requiring reasoning, not recall.\n\nDeep extension: students identify what additional evidence could strengthen a claim of new substances, and explain why “no obvious sign” also does not automatically prove a physical change.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use this route before, during and after each practical observation: record observations first, infer cautiously, then classify and justify. Their A3 route becomes the group’s practical reasoning guide.\n\nAH17 uses only projected/images and paper cards: no wet chemistry, heating, flames, tasting or substances. Manage noise and card loss through assigned roles, table envelopes and a displayed voice-level expectation.",
+  "word_count": 844,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 844,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 3,
+    "response.output_item.done": 3,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1163,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

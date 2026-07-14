@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:24.699096+00:00",
+  "elapsed_seconds": 107.31763695296831,
+  "time_to_first_visible_text_seconds": 85.04695541295223,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 3651,
+    "output_tokens_details": {
+      "reasoning_tokens": 2588
+    },
+    "total_tokens": 4242
+  },
+  "input_tokens": 591,
+  "output_tokens": 3651,
+  "reasoning_tokens": 2588,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.112485,
+  "output_text": "1. Central decision\n\nWhat conclusion does the available evidence justify: physical change, chemical change, or not yet enough evidence—and how certain should we be? Students must base decisions on whether a new substance formed, not on a checklist of dramatic signs.\n\n2. Learning intention and three success criteria\n\n**Learning intention:** Use observations to classify changes and justify conclusions while recognising limits in the evidence.\n\n1. I separate what was observed from what was inferred.\n2. I classify a change by considering whether a new substance formed, including dissolving and reversibility traps.\n3. I justify my conclusion, give its confidence level and identify missing evidence where necessary.\n\n3. Lesson sequence\n\n- **0–4 minutes — Individual entry sort:** Students sort three projected statements as observation or inference, then briefly compare with a partner.\n- **4–12 minutes — Teacher-modelled comparison:** Compare two printed evidence records.  \n  - A sealed sample changes from a rigid solid to a flowing liquid; testing identifies the same substance before and after.  \n  - Two samples are combined; bubbles appear and the container becomes warmer, but products are not identified.  \n  Teacher annotates “observation” and “inference” separately. The first supports physical change. In the second, gas and temperature change are consistent with chemical change, but “a new substance formed” is an inference and remains provisional.\n- **12–17 minutes — Explicit explanation:** Establish the new-substance test and limitations of common signs.\n- **17–31 minutes — Build:** Groups of five construct an A3 decision tool for classifying evidence records.\n- **31–42 minutes — Test:** Groups apply their tool to four cards released one at a time: identified same substance after a state change; gas escaping when a container opens; a solid dissolving and later being recovered unchanged; and an unknown change showing colour and temperature changes without product identification.\n- **42–49 minutes — Debate and revise:** Groups exchange one disputed classification. A nominated “skeptic” challenges any unsupported inference. Groups revise their tool in a different colour.\n- **49–57 minutes — Individual exam-style check:** Silent written response, collected for marking.\n- **57–60 minutes — A16 link:** Students copy the final tool’s short decision sequence into their science books and rehearse how it will be used at practical stations.\n\n**Total: 60 minutes.**\n\n4. Student-built artifact\n\nEach group produces a usable decision pathway, not a completed worksheet. It must require users to:\n\n1. record observations without explanatory language;\n2. ask whether evidence indicates a new substance;\n3. consider a physical alternative for each apparent chemical sign;\n4. classify as physical, chemical or not yet justified;\n5. state confidence, evidence limits and what further evidence would help.\n\nThe revised pathway is retained for the A16 practical.\n\n5. Teacher explanation\n\nA physical change forms no new substance; state, shape, size or arrangement may change. A chemical change forms one or more new substances. Colour, gas, temperature, precipitate, light or odour may support a chemical interpretation, but none automatically proves it. Dissolving can be physical. Reversibility and irreversibility may contribute evidence but are not definitions. “Bubbles appeared” is an observation; “a new gas was produced” is an inference unless the evidence establishes that claim.\n\n6. Individual exam-style check and marking points\n\n**Question:** An unknown white solid is stirred into water and disappears from view. Later, the same unchanged solid is recovered after the water is removed. No other observations are recorded. Classify the change, justify your answer from the evidence, and state one limitation.\n\n**Marking points — 5 marks:**\n\n- Physical change: 1\n- Uses relevant observations, including disappearance and recovery: 1\n- Explains that dissolving can be physical: 1\n- Links recovery of the same substance to no evidence of a new substance: 1\n- States a valid limitation, such as absence of signs not proving that no chemical change occurred: 1\n\n7. ADHD-supportive access and deep extension\n\nDisplay only “now” and “next” steps with a visible countdown, reducing working-memory load. Release one case at a time to limit visual competition. Assign rotating roles—reader, evidence sorter, designer, skeptic and reporter—so movement and talk have defined purposes and waiting time is reduced. One card-runner per group provides controlled movement; a standing workspace and quiet seat remain available.\n\nAll students use the same scientific decision. Extension comes through depth: students rank confidence, construct two cases with the same sign but different conclusions, or specify evidence that could overturn their classification.\n\n8. Forward link and operational risks\n\nIn A16, students will use the pathway to record observations first, then infer, classify and justify each practical change. They must also note uncertainty before comparing conclusions.\n\nAH17 contains only printed cards, paper and markers: no substances, wet chemistry, heating or flames. Likely risks are noisy card collection, role domination and treating signs as an automatic checklist; these are controlled through one runner, rotating roles, timed releases and teacher challenges requiring an explicit new-substance link.",
+  "word_count": 801,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 801,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 6,
+    "response.output_item.done": 6,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1057,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

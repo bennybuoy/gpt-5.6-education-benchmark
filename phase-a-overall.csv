@@ -1,0 +1,7 @@
+condition,mean_score,mean_task_rank,pairwise_wins_total,task_firsts,mean_seconds,total_cost,mean_rank_spread
+gpt-5.6-sol/high,92.72,2.12,30,4,166.2,1.64122,1.25
+gpt-5.6-sol/low,90.81,2.25,28,3,66.4,0.69493,2.25
+gpt-5.6-terra/xhigh,89.82,3.5,18,0,197.2,1.32167,2.38
+gpt-5.6-terra/high,89.12,3.88,15,1,96.9,0.6518,1.88
+gpt-5.6-luna/high,88.01,3.75,13,0,136.4,0.365102,1.5
+gpt-5.6-luna/none,81.39,5.5,4,0,32.9,0.091598,1.88

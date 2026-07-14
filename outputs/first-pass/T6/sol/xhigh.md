@@ -1,0 +1,81 @@
+## 1. Mismatch ledger
+
+| ID | document/location | mismatch | exact approved-plan evidence | severity |
+|---|---|---|---|---|
+| W1 | Worksheet title and learning intention | Frames isolated signs as proof instead of distinguishing observations, inferences and evidence-based decisions. | “Lesson: Year 8 — Evidence for chemical change”; “Distinguish observations from inferences and use multiple observations to decide whether evidence supports formation of a new substance.” | High |
+| W2 | Worksheet success criteria | Requires recall of a fixed list rather than the three approved criteria. | “1. Label statements as observation or inference. 2. Use at least two relevant observations before claiming a chemical change. 3. State when evidence is insufficient.” | High |
+| W3 | Worksheet worked example | Claims fizzing always proves a reaction and omits the approved observation–inference–decision model. | “Fizzing tablet in water. Observation: bubbles and temperature decrease. Inference: gas may have formed. Decision: observations alone do not identify the gas or prove a new substance; more evidence is needed.” | High |
+| W4 | Worksheet group task | Selecting one sign from six cards replaces building a tool, testing two cases and revising one rule. | “18–33 groups build an Evidence–Inference–Decision tool; 33–43 groups test it against two cases and revise one rule.” | High |
+| W5 | Worksheet individual check | Three-mark recall task does not match the approved five-mark check. | “Individual check: five marks—two observations (2), observation/inference distinction (1), evidence-based decision (1), limitation or further evidence (1).” | High |
+| W6 | Worksheet exit and teacher note | Treats single signs as proof and supplies a fixed answer key; omits inference, decision and evidence still needed. | “One observation is ___; one inference is ___; my decision is ___ because ___; evidence still needed is ___.” | High |
+| S1 | Slides S1–S5 | Retrieval is missing; learning intention, success criteria and teaching focus are incorrect; 12 minutes exceeds the 7–18 block. | “0–7 retrieval; 7–18 explicit teaching and teacher model.” | High |
+| S2 | Slide S6 | Adds an unapproved practical in a dry classroom and displaces group tool-building. | “AH17 dry classroom”; “18–33 groups build an Evidence–Inference–Decision tool.” | Critical |
+| S3 | Slides S7 and S9 | Individual worksheet work and answer reveal replace the approved group phases. | “18–33 groups build an Evidence–Inference–Decision tool; 33–43 groups test it against two cases and revise one rule.” | High |
+| S4 | Slide S8 | Uses an unapproved wax example instead of the approved fizzing-tablet model. | “Worked example: fizzing tablet in water.” | High |
+| S5 | Slide S10 | Four-mark list quiz replaces the five-mark individual check and wrongly occupies the exit slide. | “43–54 individual five-mark check; 54–60 exit ticket and A16 handoff.” | High |
+| S6 | Slide S11 | Copying definitions does not match the A16 handoff. | “Next lesson: students use the revised tool in A16 to record live reaction evidence.” | High |
+
+## 2. Worksheet repairs
+
+**Title**  
+Evidence for chemical change
+
+**Learning intention**  
+Distinguish observations from inferences and use multiple observations to decide whether evidence supports formation of a new substance.
+
+**Success criteria**
+1. Label statements as observation or inference.
+2. Use at least two relevant observations before claiming a chemical change.
+3. State when evidence is insufficient.
+
+**Worked example**  
+Fizzing tablet in water.  
+Observation: bubbles and temperature decrease.  
+Inference: gas may have formed.  
+Decision: observations alone do not identify the gas or prove a new substance; more evidence is needed.
+
+**Group task**  
+18–33: In groups, build an Evidence–Inference–Decision tool.  
+33–43: Test it against two cases and revise one rule.
+
+**Individual check (5 marks)**
+1. Record two observations. (2)
+2. Distinguish an observation from an inference. (1)
+3. Give an evidence-based decision. (1)
+4. State a limitation or further evidence needed. (1)
+
+**Exit ticket**  
+“One observation is ___; one inference is ___; my decision is ___ because ___; evidence still needed is ___.”
+
+**Teacher note**  
+Mark the individual check using the five-mark allocation above.
+
+## 3. Slide repairs
+
+- **S1 (0–7):** Title: **Year 8 — Evidence for chemical change**. Run retrieval. Remove practical-specific safety content; this is an AH17 dry-classroom lesson.
+- **S2 (7–18):** Learning intention: **Distinguish observations from inferences and use multiple observations to decide whether evidence supports formation of a new substance.**
+- **S3 (7–18):** Display the three approved success criteria exactly as printed on the repaired worksheet.
+- **S4 (7–18):** Explicit teaching: distinguish observations from inferences; use multiple observations; state when evidence is insufficient.
+- **S5 (7–18):** Teacher model: display the approved fizzing-tablet worked example exactly as printed on the repaired worksheet.
+- **S6 (18–33):** Delete the vinegar-and-bicarbonate demonstration. Groups begin building an Evidence–Inference–Decision tool.
+- **S7 (18–33):** Groups continue and complete their Evidence–Inference–Decision tool.
+- **S8 (33–43):** Groups test their tool against two cases. Delete the melting-wax example.
+- **S9 (33–43):** Groups revise one rule in their tool. Delete the group answer reveal.
+- **S10 (43–54):** Individual five-mark check: two observations (2), observation/inference distinction (1), evidence-based decision (1), limitation or further evidence (1).
+- **S11 (54–60):** Display the approved exit-ticket sentence exactly. Handoff: **Next lesson, students use the revised tool in A16 to record live reaction evidence.**
+
+## 4. Verification
+
+| element | repaired location | approved-plan match |
+|---|---|---|
+| Learning intention | Worksheet; S2 | Reproduces the approved learning intention exactly. |
+| Success criteria | Worksheet; S3 | Reproduces all three approved criteria exactly. |
+| Worked example | Worksheet; S5 | Uses the approved fizzing-tablet observations, inference and limited decision. |
+| Timings | S1–S11 | 0–7 retrieval; 7–18 teaching/model; 18–33 tool-building; 33–43 testing and revision; 43–54 individual check; 54–60 exit and handoff. |
+| Individual check | Worksheet; S10 | Five marks with the approved 2+1+1+1 allocation. |
+| Exit ticket | Worksheet; S11 | Reproduces the approved sentence exactly. |
+| A16 handoff | S11 | States that students will use the revised tool in A16 to record live reaction evidence. |
+
+## 5. Plan integrity statement
+
+No approved-plan element was changed, reinterpreted, reordered or extended. Repairs were limited to replacing conflicting worksheet and slide-outline content; no practical work or scientific content was added.

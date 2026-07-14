@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-luna",
+  "model_returned": "gpt-5.6-luna",
+  "effort": "low",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:51.217878+00:00",
+  "elapsed_seconds": 37.78195757500362,
+  "time_to_first_visible_text_seconds": 14.290972874965519,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1506,
+    "output_tokens_details": {
+      "reasoning_tokens": 315
+    },
+    "total_tokens": 2097
+  },
+  "input_tokens": 591,
+  "output_tokens": 1506,
+  "reasoning_tokens": 315,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.009627,
+  "output_text": "## 1. Central decision\n\nStudents will use an **evidence-based decision tool**, not a checklist of automatic signs:\n\n1. What was observed?\n2. Does the evidence suggest a new substance formed?\n3. What alternative explanations remain?\n4. How certain can the classification be?\n\nThe decision is **physical change, chemical change, or insufficient evidence**, with a justification.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Distinguish physical and chemical changes by separating observations from inferences and evaluating evidence.\n\n**Success criteria:**\n\n1. I can record observations without adding explanations.\n2. I can classify a change and justify whether evidence supports formation of a new substance.\n3. I can state uncertainty or an alternative explanation when the evidence is limited.\n\n## 3. Lesson sequence\n\n**0–5 min — Silent visual launch and commitment**  \nDisplay four change cards: ice melting, paper torn, powder apparently dissolving, and a substance producing bubbles when mixed. Students individually place each under “likely physical,” “likely chemical,” or “not enough evidence,” then write one reason. This creates an individual starting point without requiring practical materials.\n\n**5–13 min — Teacher modelling: observation versus inference**  \nModel two card-based comparisons.\n\n- “A solid becomes a liquid” is an **observation**; “it melted” is an interpretation; “no new substance formed” is an inference supported by the change in state.\n- “Bubbles appeared when two substances were mixed” is an **observation**; “a gas was produced by a chemical reaction” is an inference. Bubbles could have another explanation, so this evidence is suggestive rather than automatic proof.\n\nThink aloud while labelling each statement **O** (observation), **I** (inference), or **L** (limitation).\n\n**13–25 min — Build**  \nIn pairs, students construct a reusable “Change Investigator” decision strip from cards and arrows. It must include the four questions in the central decision and sentence stems such as: “I observed…”, “This suggests…”, “However…”, and “Therefore, the best-supported classification is…”\n\n**25–35 min — Test the tool**  \nPairs apply their tool to four new scenario cards, including dissolving, a state change, colour change, and gas production. They must place each card on a classification board and attach evidence and limitation cards. Partners challenge one decision by asking, “What else could explain this observation?”\n\n**35–43 min — Revise**  \nPairs inspect whether their tool wrongly treats reversibility, colour, or bubbles as automatic proof. They revise at least one rule or arrow and annotate the change with the reason.\n\n**43–50 min — Structured evidence debate**  \nGroups compare one disputed scenario. Each speaker has 30 seconds: observation, inference, limitation, decision. The class votes on the strongest justification, not merely the classification.\n\n**50–57 min — Individual written check**  \nStudents complete the check below independently.\n\n**57–60 min — Forward link and exit response**  \nStudents write one rule they will use in A16 and one observation they will record before making an inference.\n\n## 4. Student-built artifact\n\nEach pair produces a laminated-style **Change Investigator decision strip**:\n\n**Observation → Possible new substance? → Supporting evidence → Alternative explanation/limitation → Best-supported classification.**\n\nIt includes physical-change reminders—state, shape, size, or arrangement may change without a new substance—and a warning: “No single sign proves chemical change in every context.” The tool is tested, challenged, and revised rather than completed as a worksheet.\n\n## 5. Teacher explanation\n\nA physical change forms no new substance, even if state, shape, size, or arrangement changes. A chemical change forms one or more new substances. Colour, gas, temperature, precipitate, light, or odour may support a chemical-change inference, but students must distinguish what they saw from what they conclude. Dissolving may be physical, and reversibility or irreversibility alone is not decisive. Evidence may remain insufficient.\n\n## 6. Individual exam-style check and marking points\n\n**Prompt:** A student stirs a white solid into water. The solid is no longer visible and the liquid is clear. Later, the water is removed and the same white solid is recovered. Classify the change and justify your answer using observations. State one limitation of the evidence.\n\n**Marking points (4):**\n\n- 1: Identifies it as a likely physical change.\n- 1: Uses the recovery of the same solid as evidence that no new substance is indicated.\n- 1: Accurately distinguishes an observation, such as “the solid was no longer visible,” from an inference.\n- 1: States a reasonable limitation, such as appearance alone cannot prove that no chemical change occurred.\n\n## 7. ADHD-supportive access and deep extension\n\nShort timed phases, visible countdowns, movement to collect and place cards, assigned pair roles, and repeated speaking/writing frames reduce working-memory and waiting demands. Every student must make an individual initial decision and final written check, preventing passive participation. Extension students compare competing explanations, rank evidence strength, and rewrite a weak justification without treating a chemical-change sign as proof.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the same decision strip during the practical to classify and justify physical and chemical changes. They will record observations first, then infer and identify limitations.\n\nNo substances or wet chemistry are used in AH17. Prepare scenario cards, classification boards, timers, and coloured O/I/L cards. Pre-assign pairs and roles; keep spare simplified cards available. Monitor noise during debate and stop students treating “bubbles,” colour, or irreversibility as automatic proof.",
+  "word_count": 857,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 857,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.output_item.done": 2,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1185,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

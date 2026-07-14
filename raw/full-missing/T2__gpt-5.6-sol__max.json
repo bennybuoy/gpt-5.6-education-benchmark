@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "max",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T12:46:27.666617+00:00",
+  "elapsed_seconds": 519.1875918710139,
+  "time_to_first_visible_text_seconds": 506.3469844069332,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 22476,
+    "output_tokens_details": {
+      "reasoning_tokens": 21396
+    },
+    "total_tokens": 23067
+  },
+  "input_tokens": 591,
+  "output_tokens": 22476,
+  "reasoning_tokens": 21396,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.677235,
+  "output_text": "## 1. Central decision\n\nClassify each event as physical, chemical or **insufficient evidence** by asking whether available evidence supports the formation of a new substance. Signs are clues, not a tally. A defensible decision links observations to that criterion, considers an alternative explanation and states an evidence limit.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use evidence to distinguish physical and chemical changes while separating observations from inferences.\n\nStudents can:\n\n1. Separate directly seen, measured or supplied results from interpretations.\n2. Apply “new substance formed”, rather than one sign or reversibility, as the deciding rule.\n3. Give a claim supported by specific evidence, plus a limit or useful next test.\n\n## 3. Lesson sequence\n\n**60 minutes total**\n\n- **0–5:** Show three printed mystery records. Students display P, C or ? cards and 1–3 confidence fingers; collect reasons but withhold answers.\n- **5–13:** Model the comparison in section 5; students identify one statement that confuses observation with inference.\n- **13–21:** Ten mixed triads use blank A3 card, sticky notes and arrows to build a first decision map; no template is supplied.\n- **21–34:** Run six printed cases: irreversible cutting; state change with same-identity data; dissolving with unchanged-substance data; colour alone; gas/temperature alone; and a solid appearing with product-identification data. Triads annotate verdicts and confidence.\n- **34–43:** Maps pass to an adjacent triad. Its skeptic uses challenge cards to expose a false branch; teams hold a timed evidence debate and return one precise critique.\n- **43–49:** Revise in a second colour, adding an insufficient-evidence route and deleting automatic sign or reversibility rules.\n- **49–57:** Students independently answer the written check in section 6; teacher collects it.\n- **57–60:** Preview the A16 observe-before-infer routine and collect packs/maps for next lesson.\n\n## 4. Student-built artifact\n\nEach triad authors a reusable **new-substance decision map**. It routes observations/data to evidence for the same substance(s), a substance absent before, or uncertainty, then to physical, chemical or insufficient evidence. An indicator branch asks, “Could this occur without a new substance?” Its output is claim–evidence–reasoning plus a limit or useful next evidence. Students choose wording and layout; second-colour revisions show how testing changed the model.\n\n## 5. Teacher explanation\n\nDraw three columns: **Observation | Inference | Limit**. For torn paper, “one sheet is now four smaller pieces” is observation; “only size/shape changed, so evidence supports a physical change” is inference; appearance alone limits certainty. Compare a printed case: “a solid appeared and tests identified a substance absent initially” is supplied evidence; “a new substance formed, so the change is chemical” is inference.\n\nA physical change forms no new substance, although state, shape, size or arrangement may change; a chemical change forms one or more new substances. Colour change, gas production, temperature change, precipitate formation, light or odour are clues, never automatic proof. Dissolving can be physical. Reversibility or irreversibility alone does not define either category.\n\n## 6. Individual exam-style check and marking points\n\n**Individual prompt (6 marks):**  \n“Recorded case: After solid X is stirred into water, X is not visible and temperature falls 3°C. Tests find only water and unchanged X. Classify and justify; label an observation and inference, explain the temperature sign, and give an evidence limit.”\n\nMarking points, one each:\n\n- Physical classification.\n- One valid observation from the record.\n- “X dissolved” or “no new substance formed” identified as an inference.\n- Unchanged identities linked to no new substance; dissolving can be physical.\n- Temperature change recognised as a clue, not proof.\n- Test scope or reliability stated as a limit.\n\n## 7. ADHD-supportive access and deep extension\n\nUse ten mixed triads with rotating reader, mapper and skeptic/material-manager roles. A visible agenda/countdown and one envelope at a time externalise sequence, reduce working-memory load and remove unstructured waiting. Verdict cards and the bounded collection role provide controlled movement; maps move, not students. Short case resets allow re-entry after distraction. For depth, skeptics construct a physical rival explanation for a sign, rank evidence strength and name additional evidence that would discriminate between rival claims—not complete extra repetitive cases.\n\n## 8. Forward link and operational risks\n\nMaps are placed in A16 group trays. For each next-lesson practical change, students will first record only procedure-approved observations, then use the map to infer P/C/?, justify, state a limit and debate a rival classification before finalising.\n\nAH17 uses only printed cards, paper and markers: no wet chemistry, liquids or foods, uncontrolled substances, flames, heating, tasting or smelling; odour appears only as supplied data. Number packs, appoint one collector and prohibit miming cases. Before A16, the teacher applies that practical’s separate safety controls, including no deliberate smelling or tasting.",
+  "word_count": 769,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 769,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 43,
+    "response.output_item.done": 43,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1074,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

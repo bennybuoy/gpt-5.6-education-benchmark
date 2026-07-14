@@ -1,0 +1,62 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": "gpt-5.6-terra",
+  "effort": "none",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:24.702645+00:00",
+  "elapsed_seconds": 27.255391043028794,
+  "time_to_first_visible_text_seconds": 6.900075330981053,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1421,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2012
+  },
+  "input_tokens": 591,
+  "output_tokens": 1421,
+  "reasoning_tokens": 0,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.0227925,
+  "output_text": "## 1. Central decision\n\nStudents will build and stress-test an **Evidence-to-Claim Decision Tool** rather than memorise a list of “signs of a chemical reaction”. They will use short, safe scenario cards and image/description evidence to decide whether a change is best classified as physical, chemical, or **not enough evidence**, then justify the decision and identify evidence limits.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use observations and evidence to distinguish physical and chemical changes.\n\nBy the end of the lesson, students can:\n\n1. Separate an **observation** (what was noticed) from an **inference** (what they think it means).\n2. Classify a change as physical, chemical, or uncertain using the new-substance criterion.\n3. Justify a classification using evidence, while explaining why a single sign or reversibility is not enough on its own.\n\n## 3. Lesson sequence\n\n**0–5 min — Retrieval decision burst**  \nDisplay four changes: ice melting, paper tearing, sugar dissolving in water, a glow stick producing light. Students show P/C/? on mini-whiteboards, then briefly defend one choice. Teacher records competing ideas without resolving all of them.\n\n**5–12 min — Teacher-modelled comparison**  \nShow two descriptions:\n\n- “A tablet in water produced bubbles; the container felt cooler.”\n- “Ice cubes became liquid water.”\n\nModel a two-column think-aloud:\n\n| Observation | Inference |\n|---|---|\n| Bubbles appeared; container felt cooler. | A gas may have formed; a chemical change may have occurred. |\n| Solid ice became liquid water. | This is a state change; no evidence of a new substance. |\n\nState explicitly: bubbles, colour, temperature, light, odour and precipitate can be evidence consistent with chemical change, but none automatically proves it. The deciding question is: **Is there sufficient evidence that a new substance formed?**\n\n**12–18 min — Build tool, version 1**  \nPairs receive card strips containing possible questions/statements. They arrange them into a usable decision tool:\n\n1. What did I observe?  \n2. What inferences am I making?  \n3. Is there evidence for a new substance?  \n4. Could the evidence also fit a physical change?  \n5. Claim: physical / chemical / insufficient evidence.  \n6. Explain the limit of the evidence.\n\nThey must include “dissolving may be physical” and reject “irreversible = chemical” as a rule.\n\n**18–32 min — Test the tool: evidence carousel**  \nPairs rotate through four desk stations with photographs or written scenarios only: melting wax, salt dissolving, metal rusting, and a crushed can. At each station they use their tool to produce a claim, two observations, an inference, and an evidence-limit statement. Roles alternate: Reader, Evidence Recorder, Challenger. The Challenger must ask, “What would make your claim stronger?”\n\n**32–42 min — Debate and revision**  \nPresent two deliberately ambiguous cases, such as a colour change after mixing coloured liquids and an unknown solid disappearing in water. Teams hold up their tool’s outcome and defend it. Teacher presses for distinction between “I saw…” and “therefore…”. Pairs revise their tool in a different colour, adding a caution where their first version failed.\n\n**42–50 min — Shared calibration**  \nClass co-constructs a concise anchor version. Teacher confirms:\n- Physical: no new substance; state, shape, size or arrangement may change.\n- Chemical: one or more new substances form.\n- Evidence may support, but not conclusively prove, a claim.\n- Reversibility alone is unreliable.\n\n**50–58 min — Individual exam-style check**  \nStudents complete the written check independently and hand it in.\n\n**58–60 min — Exit set-up**  \nStudents circle one practical behaviour needed in A16: observe carefully, record only what happened before interpreting it, and justify classifications from evidence.\n\n## 4. Student-built artifact\n\nEach pair produces a one-page **Evidence-to-Claim Decision Tool**, revised after testing. It must contain: observation/inference separation; the new-substance criterion; a physical/chemical/insufficient-evidence outcome; at least two cautions about unreliable shortcuts; and a prompt asking what further evidence would strengthen a claim. It is retained for use at A16 lab benches.\n\n## 5. Teacher explanation\n\nA physical change can alter state, shape, size or arrangement without forming a new substance. A chemical change forms one or more new substances. We cannot always directly “see” new substances, so scientists use observations as evidence and make cautious inferences. For example, gas production may support a chemical-change claim, but bubbles can also result from physical processes. Good classification therefore requires a justified claim, not a checklist response.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** A student adds an unknown white powder to water. The powder disappears and the liquid remains colourless. No bubbles, precipitate, light, temperature change or odour are observed.\n\nClassify the change as physical, chemical, or insufficient evidence. Use the observations to justify your answer, distinguish one observation from one inference, and state one limitation.\n\n**Marking points (5):**\n- Identifies “powder disappeared/colourless liquid” as observations (1).\n- States an appropriate inference: the substance may have dissolved (1).\n- Classifies as likely physical **or** insufficient evidence, with defensible reasoning (1).\n- Notes no evidence that a new substance formed (1).\n- States a limitation: absence of listed signs does not prove no chemical change; more evidence may be needed (1).\n\n## 7. ADHD-supportive access and deep extension\n\nShort timed phases, visible countdowns, standing rotations and rotating roles reduce sustained passive listening and create frequent re-entry points after distraction. Mini-whiteboards make every student commit before discussion. The Challenger role channels movement and talk into evidence testing rather than interruption.\n\nDepth is preserved because high-readiness students must identify alternative explanations, critique overconfident claims, and specify what additional evidence would discriminate between physical and chemical interpretations. They may redesign the tool to handle ambiguous evidence without treating uncertainty as failure.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use their decision tool while observing practical changes, recording observations before classifying and justifying whether a new substance formed. They will compare stronger and weaker evidence from real practical observations.\n\nAH17 uses only cards, images, descriptions, paper tools and classroom equipment: no wet chemistry, heating, flames, tasting or uncontrolled substances. Prepare station packs in numbered trays, set movement routes, and use a visible noise threshold. Collect individual checks before students leave so misconceptions—especially “dissolving is always chemical” and “irreversible means chemical”—can guide A16 grouping and teacher questioning.",
+  "word_count": 1019,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 1019,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 1,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1417,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.output_item.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

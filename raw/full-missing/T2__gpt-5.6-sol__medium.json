@@ -1,0 +1,63 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-sol",
+  "model_returned": "gpt-5.6-sol",
+  "effort": "medium",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:24.697956+00:00",
+  "elapsed_seconds": 63.5113977920264,
+  "time_to_first_visible_text_seconds": 31.941962652024813,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 1894,
+    "output_tokens_details": {
+      "reasoning_tokens": 750
+    },
+    "total_tokens": 2485
+  },
+  "input_tokens": 591,
+  "output_tokens": 1894,
+  "reasoning_tokens": 750,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.059775,
+  "output_text": "## 1. Central decision\n\nFor each change, students decide: **Does the evidence support a physical change, a chemical change, or is there insufficient evidence?** They must separate what was observed from what is inferred, consider alternative explanations, and avoid treating any single sign or reversibility as automatic proof.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Use evidence to classify changes and justify how strongly the evidence supports the formation—or non-formation—of a new substance.\n\nStudents can:\n\n1. distinguish an observation from an inference;\n2. classify a change as physical, chemical or insufficient evidence, using the “new substance” criterion;\n3. explain a limitation or plausible alternative interpretation of the evidence.\n\n## 3. Lesson sequence\n\n- **0–5 minutes — Entry decision:** Display three silent picture/evidence records: crushed chalk, melting ice, and a material changing colour. Students stand or point to “physical,” “chemical,” or “not enough evidence,” then give one reason to a partner. Teacher records disagreements without resolving them.\n- **5–13 minutes — Teacher-modelled comparison:** Model the two supplied evidence records described in Section 5, explicitly sorting observations from inferences and comparing the strength of the evidence.\n- **13–23 minutes — Build the tool:** In groups of three, students construct an “Evidence-to-Claim” reasoning tool from heading and question cards. They must choose the order, add at least one warning, and draw decision pathways.\n- **23–38 minutes — Test on cases:** Groups apply their tool to four printed, dry scenario cards: cutting foil; dissolving with later recovery of the original solid; gas bubbles with no further testing; and formation of a solid with different recorded properties. Each student has a rotating role: reader, evidence sorter or challenger.\n- **38–48 minutes — Evidence debate:** Two groups present conflicting classifications. The class may challenge only by identifying an observation, an unsupported inference, an alternative explanation or missing evidence.\n- **48–56 minutes — Revise and transfer:** Groups revise their tool in a different colour and annotate which change prevents a likely reasoning error in the A16 practical.\n- **56–60 minutes — Individual exam-style check:** Students complete and submit the written response in Section 6.\n\n**Total: 60 minutes.**\n\n## 4. Student-built artifact\n\nEach group produces a reusable **Evidence-to-Claim map**, not a response sheet. It must include:\n\n- What changed that was directly observed?\n- Is new-substance formation supported, or did only state, shape, size or arrangement change?\n- Could the sign have another explanation?\n- What further evidence would strengthen the decision?\n- Final claim: physical, chemical or insufficient evidence.\n- Confidence and evidence limitation.\n\nStudents test and revise the map; copies travel to A16.\n\n## 5. Teacher explanation\n\nCompare two printed records without conducting either change.\n\n**Record A:** “Clear crystals were added to water and became invisible. After the water was removed elsewhere, crystals with the original recorded properties were recovered.”\n\n- Observations: crystals became invisible; crystals were later recovered.\n- Inference: the substance dispersed through the water rather than becoming a new substance.\n- Best classification: physical change. Dissolving can be physical.\n\n**Record B:** “Two clear liquids were mixed. A solid appeared; the isolated solid had different recorded properties from either starting material.”\n\n- Observations: a solid appeared and had different properties.\n- Inference: a new substance formed.\n- Best classification: chemical change, strongly supported but still based on the available tests.\n\nEmphasise that colour, gas, temperature, precipitate, light or odour may support a chemical-change inference, but none is automatic proof. Reversibility is also not the definition.\n\n## 6. Individual exam-style check and marking points\n\n**Question:** A grey, shiny strip is left in air. Later it is dull reddish-brown and brittle. No composition test is provided. Classify the change and justify your answer using observations, inference and one limitation. **(4 marks)**\n\n**Marking points:**\n\n- identifies the best-supported classification as chemical change: **1**\n- states a relevant observation, such as colour or brittleness changing: **1**\n- infers that the changed properties support formation of a new substance: **1**\n- notes that the signs alone are not conclusive and identifies missing evidence/testing: **1**\n\n## 7. ADHD-supportive access and deep extension\n\nShort timed phases provide frequent reset points; visible countdowns make duration predictable. Fixed three-person roles convert movement and talk into purposeful actions, while card sorting externalises working-memory demands. Students must physically commit to a claim before debate, reducing passive waiting. The challenge protocol limits interruptions to scientifically useful categories.\n\nDepth is preserved through ambiguous cases, confidence judgements, alternative explanations and requests for stronger evidence. Extension students redesign one case so the same observation supports a different inference, then specify the evidence needed to distinguish between them.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the map to record observations, infer whether new substances formed, classify physical and chemical changes, and justify limitations before comparing conclusions.\n\nAH17 uses only printed cards, images and writing materials: no wet chemistry, substances, heating, flames or tasting. Risks include overclaiming from one sign, confusing observation with inference, noisy movement and unfinished tools. Mitigations are fixed roles, seated card sets, explicit challenge language, visible timings and teacher checking of tools before transfer to A16.",
+  "word_count": 847,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 847,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "Individual check",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 3,
+    "response.output_item.done": 3,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1138,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

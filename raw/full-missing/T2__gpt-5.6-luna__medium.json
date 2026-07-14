@@ -1,0 +1,62 @@
+{
+  "task_id": "T2",
+  "task_sha256": "616fcdbd410b54ceebff53909ec06ecdabc46b30625b721b76b9a85ae35f1cb8",
+  "model_requested": "gpt-5.6-luna",
+  "model_returned": "gpt-5.6-luna",
+  "effort": "medium",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:47:51.960327+00:00",
+  "elapsed_seconds": 41.11633245705161,
+  "time_to_first_visible_text_seconds": 18.82642440102063,
+  "usage": {
+    "input_tokens": 591,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 2177,
+    "output_tokens_details": {
+      "reasoning_tokens": 940
+    },
+    "total_tokens": 2768
+  },
+  "input_tokens": 591,
+  "output_tokens": 2177,
+  "reasoning_tokens": 940,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.013653,
+  "output_text": "## 1. Central decision\n\nStudents will decide: **What does the evidence justify claiming—physical change, chemical change, or insufficient evidence?** They must not treat reversibility or one sign, such as colour change, as automatic proof. The central reasoning is whether the evidence supports formation of a new substance.\n\n## 2. Learning intention and three success criteria\n\n**Learning intention:** Distinguish physical and chemical changes by separating observations from inferences and judging the strength and limits of evidence.\n\n**Success criteria:**\n1. I can record observations without adding explanations.\n2. I can classify a change and justify whether new substance formation is supported.\n3. I can identify an alternative explanation or state what further evidence is needed.\n\n## 3. Lesson sequence\n\n**0–5 min — Commit to a decision.**  \nDisplay two brief scenarios: an ice cube becomes liquid; two substances are combined, producing bubbles and a cloudy solid. Students silently choose “physical,” “chemical,” or “not enough evidence,” then show a response card. They must give one reason, not merely a label.\n\n**5–13 min — Teacher model and think-aloud.**  \nModel the ice scenario in a two-column format:\n\n- **Observation:** “The ice is now liquid.”\n- **Inference:** “Its state changed.”\n- **Evidence judgment:** “There is no evidence here that a new substance formed, so physical change is the strongest conclusion.”\n\nModel the second scenario:\n\n- **Observations:** bubbles, a cloudy solid, and a temperature change.\n- **Inference:** a new substance may have formed.\n- **Judgment:** these observations support a chemical-change claim, but no single sign automatically proves it; alternative explanations and further evidence must be considered.\n\n**13–25 min — Construct the reasoning tool.**  \nGroups of three receive card strips and an A3 sheet. They build a “Change Evidence Ladder” with spaces for: observations, inferred explanation, evidence for/against new substance, alternative explanation, classification, confidence, and next evidence needed. Roles rotate: reader, evidence-checker, builder.\n\n**25–38 min — Test the tool.**  \nGroups apply their ladder to six prepared, non-practical scenario cards: melting, tearing, dissolving, colour change, gas production, and precipitate formation. They must place each card, write at least two observations, and mark whether the conclusion is physical, chemical-supported, or inconclusive. Cards include enough context to expose that dissolving can be physical and that a sign is not automatic proof.\n\n**38–48 min — Challenge and revise.**  \nGroups exchange one case and attempt to challenge the other group’s conclusion by proposing an alternative explanation or missing evidence. They revise their ladder in a different colour and defend one revision in a 30-second report.\n\n**48–57 min — Individual exam-style check.**  \nStudents complete the written response below independently.\n\n**57–60 min — Forward link.**  \nStudents photograph or retain the ladder. Each writes one rule to use in A16: “I will record ___ as an observation before claiming ___.”\n\n## 4. Student-built artifact\n\nThe **Change Evidence Ladder** is a portable decision tool with this pathway:\n\n**What was observed? → What is inferred? → Does the evidence support a new substance? → What alternative explanation exists? → Classification and confidence → What further evidence would improve the claim?**\n\nIt is tested on multiple cases and revised after peer challenge, so it becomes a usable laboratory reasoning model rather than a completed worksheet.\n\n## 5. Teacher explanation\n\nA physical change alters state, shape, size, or arrangement without forming a new substance. A chemical change forms one or more new substances. Dissolving may be physical. Colour change, gas, temperature change, precipitate, light, or odour are observations consistent with chemical change, but each can have other explanations in some contexts. Reversibility alone does not define either category. Students should therefore make the strongest claim supported by available evidence and identify uncertainty rather than force a classification.\n\n## 6. Individual exam-style check and marking points\n\n**Prompt:** “A student combines two liquids. The mixture becomes blue and cloudy, bubbles appear, and the container feels warmer. The student writes, ‘It is chemical because colour change proves it.’ Classify the change and justify your answer. Identify two observations, one inference, and one limitation of the evidence.”\n\n**Marking points (5):**\n- 1: Correctly identifies chemical change as supported, not absolutely proved.\n- 1: States that formation of a new substance is the defining basis.\n- 1: Gives two accurate observations.\n- 1: Separates an inference from an observation.\n- 1: States that colour change or another sign is not automatic proof, or proposes further evidence/alternative explanation.\n\n## 7. ADHD-supportive access and deep extension\n\nShort timed phases, visible countdowns, rotating roles, manipulable cards, response cards, and purposeful movement reduce waiting and off-task transitions. Each movement requires an evidence decision, so activity does not replace thinking. Instructions are given one step at a time, with cases read aloud and key terms displayed.\n\nAll students use the same reasoning ladder. Extension students compare competing explanations, rank evidence strength, and design the most useful next observation; they are not given extra repetitive cases. Students needing access may use sentence stems such as “I observed…” and “This supports…, but it does not prove…”.\n\n## 8. Forward link and operational risks\n\nIn A16, students will use the ladder while observing the practical: record observations first, classify physical or chemical change, justify the claim, and note evidence limits. AH17 uses only printed cards, paper, markers, and response cards—no substances, heating, flames, tasting, or wet chemistry. Pre-sort card sets, display the timer, and reserve the final minutes for the individual check. Watch for groups treating “irreversible” or one visible sign as proof; interrupt with the ladder’s alternative-explanation question.",
+  "word_count": 905,
+  "deterministic_checks": [
+    {
+      "id": "T2-LEN",
+      "pass": false,
+      "actual": 905,
+      "expected_max": 750
+    },
+    {
+      "id": "T2-HEADINGS",
+      "pass": false,
+      "missing": [
+        "Core learning problem",
+        "60-minute sequence",
+        "Student-built decision tool",
+        "ADHD-supportive structures",
+        "AH17-to-A16 forward link"
+      ]
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 3,
+    "response.output_item.done": 3,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 1231,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}

@@ -1,0 +1,75 @@
+{
+  "task_id": "T8",
+  "task_sha256": "10727e0e6382172898d4aceec124a3734e41b18cf230d952dc95ef7f539828bd",
+  "model_requested": "gpt-5.6-terra",
+  "model_returned": "gpt-5.6-terra",
+  "effort": "high",
+  "status": "completed",
+  "response_id": null,
+  "started_utc": "2026-07-13T11:03:04.151357+00:00",
+  "elapsed_seconds": 215.70701299002394,
+  "time_to_first_visible_text_seconds": 170.11274343100376,
+  "usage": {
+    "input_tokens": 938,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 11763,
+    "output_tokens_details": {
+      "reasoning_tokens": 9267
+    },
+    "total_tokens": 12701
+  },
+  "input_tokens": 938,
+  "output_tokens": 11763,
+  "reasoning_tokens": 9267,
+  "actual_route_charge_usd": null,
+  "public_api_equivalent_usd_uncached": 0.17879,
+  "output_text": "Each option below is a standalone 35-minute main block; it is not intended that all three occur in one lesson. Each leaves the required 5 minutes for introduction and 10 minutes for synthesis.\n\n## 1. Card-removal inertia trial\n\n### 1. Mechanism name\n**Card-removal inertia trial**\n\n### 2. Physical student action\nStudents work in seven groups of four.\n\nEach group receives a plastic cup, a 15 cm cardboard rectangle with a tape pull-tab, a marble, tape, and a ruler.\n\n1. Place the cup upright on the bench and lay the cardboard across its opening.\n2. Put the marble at the centre of the cardboard, directly above the cup.\n3. Predict what will happen if the card is pulled **slowly** sideways.\n4. Pull the card slowly about 15 cm. Observe where the marble lands.\n5. Reset. Predict what will happen if the card is removed with one fast horizontal flick.\n6. Flick the card sideways, keeping the hand low and directed away from people. Observe whether the marble lands in the cup.\n7. Repeat each condition three times, swapping roles: puller, observer, recorder and safety/reset manager.\n8. Students draw two labelled sketches: slow removal and rapid removal. They add horizontal force arrows acting on the marble in each case.\n\nSuggested timing: 4 minutes for prediction and setup, 15 minutes for trials, 10 minutes for sketches and discussion within groups, 6 minutes for a written claim.\n\n### 3. Science payoff\nStudents arrive at this specific idea:\n\n> A resting object does not begin moving sideways by itself. It needs an unbalanced horizontal force to change its motion. When the card is removed very quickly, the marble has very little time to receive a sideways force through friction, so it remains almost above its original position.\n\nThe falling marble also supports an important clarification:\n\n> Once the card no longer supports the marble, gravity is an unbalanced downward force, so the marble’s vertical motion changes and it falls.\n\nThis prevents the common misconception that inertia means an object “stays floating” or that gravity disappears.\n\n### 4. Evidence\nStudents record a table such as:\n\n| Trial | Card removal | Did marble land in cup? | Estimated sideways movement of marble | Sketch of horizontal forces |\n|---|---|---:|---:|---|\n| 1 | Slow pull | No/usually no | ___ cm | friction arrow sideways |\n| 2 | Fast flick | Yes/usually yes | ___ cm | very small sideways effect |\n\nThe key evidence is the observable difference between a slow pull, which gives the marble time to be moved sideways by friction, and a rapid flick, which does not.\n\n### 5. Feasibility\nThis requires only seven cups, seven marbles, cardboard strips and tape. The teacher can prepare the cardboard cards with tape tabs before class. Each group stays at its own bench, so no student movement around the room is required. Marbles are caught by the cups, reducing retrieval and cleanup. Cleanup is simply returning the marble, cup and card to a tray.\n\nThe teacher’s management task is mainly to model one safe low sideways flick before groups begin and ensure students do not flick cards towards others.\n\n### 6. Failure risk\n**Likely failure:** Students conclude, “The marble stays still because it is heavy,” or “It falls because the force runs out.”\n\n**Mitigation:** Require students to draw separate horizontal and vertical arrows. State explicitly during the activity: the important observation is the marble’s lack of sideways movement during the fast flick; gravity then changes its vertical motion. Use the slow-pull comparison to show that a sideways force can move the marble when it acts for longer.\n\n---\n\n## 2. Opposed-force cart test\n\n### 1. Mechanism name\n**Opposed-force cart test**\n\n### 2. Physical student action\nStudents use a toy car, two spring scales, two strings, tape, a ruler and a cardboard lane.\n\nThe teacher prepares four 70 cm cardboard lanes marked with a centre start line. Groups work in two waves: four groups test first while three groups prepare prediction tables and force diagrams; then they swap.\n\nAt each lane:\n\n1. Tape one string to the front of the toy car and one to the rear.\n2. Attach a spring scale to each string so that the scales pull in opposite horizontal directions.\n3. Two students hold the scales level with the car. A third student reads both scales; a fourth records position and direction.\n4. Set both scales to approximately the same reading, for example 1 N and 1 N. Hold for three seconds and record what the stationary car does.\n5. Repeat using larger equal readings, such as 2 N and 2 N. Record the result.\n6. Set one scale to a clearly larger reading, for example 2 N on the left and 0.5 N on the right. Release the car while maintaining the readings. Record the direction of motion.\n7. Reverse the unequal pulls and repeat.\n8. Students draw force-arrow diagrams for the car in all three conditions, including the downward weight force and upward support force from the bench.\n\nSuggested timing: 4 minutes for setup and role allocation, 16 minutes for trials, 9 minutes for diagrams and data interpretation, 6 minutes for a written conclusion.\n\n### 3. Science payoff\nStudents arrive at these specific ideas:\n\n> Balanced forces do not mean that there are no forces. Equal and opposite forces give a net force of zero, so a resting object remains at rest.\n\n> When one horizontal pull is larger than the opposing pull, the forces are unbalanced. The cart changes its motion in the direction of the larger force.\n\nThis directly addresses the misconception that “any force makes an object move.” The car can have two measurable forces acting on it and still not change motion.\n\n### 4. Evidence\nStudents record numerical spring-scale readings and observed cart motion:\n\n| Left pull | Right pull | Are horizontal forces balanced? | Cart response after release | Net-force arrow |\n|---:|---:|---|---|---|\n| 1 N | 1 N | Yes | Stays at start | None |\n| 2 N | 2 N | Yes | Stays at start | None |\n| 2 N | 0.5 N | No | Moves left | Left |\n| 0.5 N | 2 N | No | Moves right | Right |\n\nThey also produce force diagrams showing equal-sized opposite arrows for balanced cases and unequal arrows for unbalanced cases.\n\n### 5. Feasibility\nThis uses four toy cars and eight spring scales if both sides use a scale; however, it can be reduced to four scales by anchoring one string to a taped ruler mark and using one scale on the actively pulled side. The two-scale version is clearer because students can read both forces directly.\n\nFour prepared lanes allow the teacher to supervise the only potentially difficult part: students keeping strings horizontal and readings steady. The two-wave arrangement means all seven groups can complete trials in the 35-minute block. The setup consists of pre-taped cardboard lanes, strings and cars in four trays. Cleanup is removal of tape and return of scales and cars.\n\n### 6. Failure risk\n**Likely failure:** Static friction prevents the cart from moving when students create only a very small difference between the scale readings. Students may then wrongly conclude that unequal forces do not change motion.\n\n**Mitigation:** Use a deliberately large difference in the unbalanced trials, such as about 1.5 N or more. Check that the cardboard lane is flat and that strings are horizontal. Explain that friction is also a force opposing the cart’s motion; the pull difference must be large enough to overcome it.\n\n---\n\n## 3. Same-net-force, different-mass cart comparison\n\n### 1. Mechanism name\n**Same-net-force mass comparison**\n\n### 2. Physical student action\nStudents compare an unloaded toy car with the same car carrying a taped-on 200 g mass. The mass is secured low on the car using tape and a small folded-cardboard tray.\n\nGroups use a cardboard lane marked every 10 cm, a spring scale, string, stopwatch, ruler and two labelled mass configurations:\n\n- **Light configuration:** toy car only  \n- **Heavy configuration:** same toy car plus 200 g mass\n\nThe teacher pre-tests the lanes before class and selects a small, workable force value for the cars and surface.\n\nStudents complete the following:\n\n1. Pull the light car slowly across the lane with the spring scale. Adjust until it moves at roughly steady slow speed rather than speeding up. Record that scale reading as the approximate rolling-resistance baseline.\n2. Repeat for the heavy car. Record its baseline reading.\n3. For each configuration, choose a pulling-force reading slightly above its own baseline. The extra amount above baseline is kept the same for both cars. For example, if the chosen extra unbalanced force is 0.2 N, students pull the heavy car at its baseline reading plus 0.2 N.\n4. Start each car from rest at the zero line. Pull at the target reading for one second. At the one-second call, the observer notes the nearest 10 cm mark reached.\n5. Repeat twice for each mass configuration and calculate an average distance.\n6. Students make a small bar graph: average distance in one second for light car versus heavier car.\n\nGroups again work in two waves over four lanes. While waiting for their lane, groups calculate the needed target pull and make their prediction.\n\n### 3. Science payoff\nStudents arrive at this specific idea:\n\n> Mass is a measure of inertia. When two objects experience approximately the same unbalanced force for the same time, the object with greater mass changes its motion less.\n\nFor this activity, “changes its motion less” is represented by the heavier car travelling a shorter distance from rest during the same timed pull.\n\nThe activity also reinforces:\n\n> A force that only balances friction produces no substantial change in the car’s motion. A pull above that baseline is an unbalanced force and makes the car speed up.\n\nNo formula for Newton’s Second Law is needed. The conclusion remains at the Year 7 level: more mass means greater resistance to a change in motion.\n\n### 4. Evidence\nStudents collect both force and motion evidence:\n\n| Car configuration | Baseline pull for steady slow motion | Target pull | Extra pull above baseline | Distance after 1 s: trial 1 | trial 2 | Average |\n|---|---:|---:|---:|---:|---:|---:|\n| Car only | ___ N | ___ N | same chosen extra force | ___ cm | ___ cm | ___ cm |\n| Car + 200 g | ___ N | ___ N | same chosen extra force | ___ cm | ___ cm | ___ cm |\n\nThe expected evidence is that the heavier car has a smaller average distance after the same timed unbalanced pull.\n\n### 5. Feasibility\nFour pre-marked cardboard lanes, four cars, four spring scales, tape, string and labelled masses are sufficient. The teacher can prepare the lanes and cardboard mass trays beforehand without technician support. The four-lane, two-wave structure is manageable for one teacher: only four groups are applying forces at one time.\n\nThe baseline step is important because a heavier cart can have slightly greater rolling resistance. It allows students to compare approximately equal **extra unbalanced forces**, rather than merely pulling both cars with the same scale reading. Cleanup involves removing the taped mass trays and returning cars, scales and masses.\n\n### 6. Failure risk\n**Likely failure:** Students pull at inconsistent scale readings, or infer that the heavy cart moved less only because it had more friction rather than greater inertia.\n\n**Mitigation:** Assign one student solely to call out the scale target, one to pull, one to time and one to read the distance. Use a marked acceptable range around the target force. Include the steady-speed baseline measurement before the timed trials, then compare pulls that are the same amount above each car’s own baseline. Repeat each condition and use the average rather than relying on one run.",
+  "word_count": 1984,
+  "deterministic_checks": [
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Verify that exactly three mechanisms are described, each with a distinct name or label."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Verify that each mechanism contains the required five elements by checking for keywords: 'physical student action' or equivalent, 'science payoff' or equivalent, 'evidence' or equivalent, 'feasibility' or equivalent, 'failure risk' or equivalent."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Check that no mechanism references equipment outside the approved list (search for: 'data logger', 'motion sensor', 'video', 'computer', 'tablet', 'app', 'outdoor', 'playground', 'hall', 'gym')."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Check that each mechanism mentions at least one item from the equipment list (string, tape, rulers, stopwatches, masses, spring scales, toy cars, marbles, cardboard, books, plastic cups, balloons)."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Check that the forbidden buzzwords 'engaging', 'fun', 'hands-on', '21st-century' do not appear (case-insensitive)."
+    },
+    {
+      "id": "fixture-check",
+      "pass": null,
+      "manual_check": "Verify that the three mechanism names are not near-duplicates (check that no two names share more than 50% of their words)."
+    }
+  ],
+  "event_counts": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 19,
+    "response.output_item.done": 19,
+    "response.content_part.added": 1,
+    "response.output_text.delta": 2490,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 1
+  },
+  "error": null
+}
