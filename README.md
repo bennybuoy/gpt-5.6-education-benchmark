@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="GPT-5.6 Education Benchmark" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="GPT-5.6 Education Benchmark" width="100%"></p>
 
 # GPT-5.6 Education Benchmark
 
